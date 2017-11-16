@@ -1,0 +1,1779 @@
+{
+    "Global_GetBot": {
+        "prefix": "GetBot",
+        "body": "GetBot()",
+        "description": "Global\nreturn hUnit \nReturns a handle to the bot on which the script is currently being run (if applicable). "
+    },
+    "Global_GetTeam": {
+        "prefix": "GetTeam",
+        "body": "GetTeam()",
+        "description": "Global\nreturn int \nGets team to which this unit belongs. "
+    },
+    "Global_GetTeamPlayers": {
+        "prefix": "GetTeamPlayers",
+        "body": "GetTeamPlayers(${1:nTeam})",
+        "description": "Global\nreturn {int,...} \nReturns a table of the Player IDs on the specified team "
+    },
+    "Global_GetTeamMember": {
+        "prefix": "GetTeamMember",
+        "body": "GetTeamMember(${1:nPlayerNumberOnTeam})",
+        "description": "Global\nreturn hUnit \nReturns a handle to the Nth player on the team. "
+    },
+    "Global_IsTeamPlayer": {
+        "prefix": "IsTeamPlayer",
+        "body": "IsTeamPlayer(${1:nPlayerID})",
+        "description": "Global\nreturn bool \nReturns whether the player is on Radiant or Dire"
+    },
+    "Global_IsPlayerBot": {
+        "prefix": "IsPlayerBot",
+        "body": "IsPlayerBot(${1:nPlayerID})",
+        "description": "Global\nreturn bool \nReturns whether the specified playerID is a bot."
+    },
+    "Global_GetTeamForPlayer": {
+        "prefix": "GetTeamForPlayer",
+        "body": "GetTeamForPlayer(${1:nPlayerID})",
+        "description": "Global\nreturn int \nReturns the team for the specified playerID"
+    },
+    "Global_GetUnitList": {
+        "prefix": "GetUnitList",
+        "body": "GetUnitList(${1:nUnitType})",
+        "description": "Global\nreturn {hUnit,...} \nReturns a list of units matching the specified unit type. Please keep in mind performance considerations when using GetUnitList. The itself is reasonably fast because it will build the lists on-demand and no more than once per frame,but the lists can be long and performing logic on all units (or even all creeps) can easily get pretty slow."
+    },
+    "Global_DotaTime": {
+        "prefix": "DotaTime",
+        "body": "DotaTime()",
+        "description": "Global\nreturn float \nReturns the game time. Matches game clock. Pauses with game pause."
+    },
+    "Global_GameTime": {
+        "prefix": "GameTime",
+        "body": "GameTime()",
+        "description": "Global\nreturn float \nReturns the time since the hero picking phase started. Pauses with game pause."
+    },
+    "Global_RealTime": {
+        "prefix": "RealTime",
+        "body": "RealTime()",
+        "description": "Global\nreturn float \nReturns the real-world time since the app has started. Does not pause with game pause."
+    },
+    "Global_GetUnitToUnitDistance": {
+        "prefix": "GetUnitToUnitDistance",
+        "body": "GetUnitToUnitDistance(${1:hUnit1},${2:hUnit2})",
+        "description": "Global\nreturn float \nReturns the distance between two units."
+    },
+    "Global_GetUnitToUnitDistanceSqr": {
+        "prefix": "GetUnitToUnitDistanceSqr",
+        "body": "GetUnitToUnitDistanceSqr(${1:hUnit1},${2:hUnit2})",
+        "description": "Global\nreturn float \nReturns the squared distance between two units."
+    },
+    "Global_GetUnitToLocationDistance": {
+        "prefix": "GetUnitToLocationDistance",
+        "body": "GetUnitToLocationDistance(${1:hUnit},${2:vLocation})",
+        "description": "Global\nreturn float \nReturns the distance between a unit and a location."
+    },
+    "Global_GetUnitToLocationDistanceSqr": {
+        "prefix": "GetUnitToLocationDistanceSqr",
+        "body": "GetUnitToLocationDistanceSqr(${1:hUnit},${2:vLocation})",
+        "description": "Global\nreturn float \nReturns the squared distance between a unit and a location."
+    },
+    "Global_PointToLineDistance": {
+        "prefix": "PointToLineDistance",
+        "body": "PointToLineDistance(${1:vStart},${2:v},${3:vPoint})",
+        "description": "Global\nreturn {distance,closest_point,within} \nReturns a table containing the distance to the line segment,the closest point on the line segment,and whether the point is within the line segment (that is,the closest point is not one of the points)."
+    },
+    "Global_GetWorldBounds": {
+        "prefix": "GetWorldBounds",
+        "body": "GetWorldBounds()",
+        "description": "Global\nreturn {float,float,float,float} \nReturns a table containing the min X,min Y,max X,and max Y bounds of the world."
+    },
+    "Global_IsLocationPassable": {
+        "prefix": "IsLocationPassable",
+        "body": "IsLocationPassable(${1:vLocation})",
+        "description": "Global\nreturn bool \nReturns whether the specified location is passable."
+    },
+    "Global_IsRadiusVisible": {
+        "prefix": "IsRadiusVisible",
+        "body": "IsRadiusVisible(${1:vLocation},${2:fRadius})",
+        "description": "Global\nreturn bool \nReturns whether a circle of the specified radius at the specified location is visible."
+    },
+    "Global_IsLocationVisible": {
+        "prefix": "IsLocationVisible",
+        "body": "IsLocationVisible(${1:vLocation})",
+        "description": "Global\nreturn bool \nReturns whether the specified location is visible."
+    },
+    "Global_GetHeightLevel": {
+        "prefix": "GetHeightLevel",
+        "body": "GetHeightLevel(${1:vLocation})",
+        "description": "Global\nreturn int \nReturns the height value (1 through 5) of the specified location."
+    },
+    "Global_GetNeutralSpawners": {
+        "prefix": "GetNeutralSpawners",
+        "body": "GetNeutralSpawners()",
+        "description": "Global\nreturn {{string,vector},...} \nReturns a table containing a list of camp-type and location pairs. Camp types are one of basic_N,ancient_N,basic_enemy_N,ancient_enemy_N,where N counts up from 0."
+    },
+    "Global_GetItemCost": {
+        "prefix": "GetItemCost",
+        "body": "GetItemCost(${1:sItemName})",
+        "description": "Global\nreturn int \nReturns the cost of the specified item."
+    },
+    "Global_IsItemPurchasedFromSecretShop": {
+        "prefix": "IsItemPurchasedFromSecretShop",
+        "body": "IsItemPurchasedFromSecretShop(${1:sItemName})",
+        "description": "Global\nreturn bool \nReturns if the specified item is purchased from the secret shops."
+    },
+    "Global_IsItemPurchasedFromSideShop": {
+        "prefix": "IsItemPurchasedFromSideShop",
+        "body": "IsItemPurchasedFromSideShop(${1:sItemName})",
+        "description": "Global\nreturn bool \nReturns if the specified item can be purchased from the side shops."
+    },
+    "Global_GetItemStockCount": {
+        "prefix": "GetItemStockCount",
+        "body": "GetItemStockCount(${1:sItemName})",
+        "description": "Global\nreturn int \nReturns the current stock count of the specified item."
+    },
+    "Global_GetDroppedItemList": {
+        "prefix": "GetDroppedItemList",
+        "body": "GetDroppedItemList()",
+        "description": "Global\nreturn {{hItem,hOwner,nPlayer,vLocation},...} \nReturns a table of tables that list the item,owner,and location of items that have been dropped on the ground."
+    },
+    "Global_GetPushLaneDesire": {
+        "prefix": "GetPushLaneDesire",
+        "body": "GetPushLaneDesire(${1:nLane})",
+        "description": "Global\nreturn float \nReturns the team's current desire to push the specified lane."
+    },
+    "Global_GetDefLaneDesire": {
+        "prefix": "GetDefLaneDesire",
+        "body": "GetDefLaneDesire(${1:nLane})",
+        "description": "Global\nreturn float \nReturns the team's current desire to def the specified lane."
+    },
+    "Global_GetFarmLaneDesire": {
+        "prefix": "GetFarmLaneDesire",
+        "body": "GetFarmLaneDesire(${1:nLane})",
+        "description": "Global\nreturn float \nReturns the team's current desire to farm the specified lane."
+    },
+    "Global_GetRoamDesire": {
+        "prefix": "GetRoamDesire",
+        "body": "GetRoamDesire()",
+        "description": "Global\nreturn float \nReturns the team's current desire to roam to a target."
+    },
+    "Global_GetRoamTarget": {
+        "prefix": "GetRoamTarget",
+        "body": "GetRoamTarget()",
+        "description": "Global\nreturn hUnit \nReturns the team's current roam target."
+    },
+    "Global_GetRoshanDesire": {
+        "prefix": "GetRoshanDesire",
+        "body": "GetRoshanDesire()",
+        "description": "Global\nreturn float \nReturns the team's current desire to kill Roshan."
+    },
+    "Global_GetGameState": {
+        "prefix": "GetGameState",
+        "body": "GetGameState()",
+        "description": "Global\nreturn int \nReturns the current game state."
+    },
+    "Global_GetGameStateTimeRemaining": {
+        "prefix": "GetGameStateTimeRemaining",
+        "body": "GetGameStateTimeRemaining()",
+        "description": "Global\nreturn float \nReturns how much time is remaining in the current game state,if applicable."
+    },
+    "Global_GetGameMode": {
+        "prefix": "GetGameMode",
+        "body": "GetGameMode()",
+        "description": "Global\nreturn int \nReturns the current game mode."
+    },
+    "Global_GetHeroPickState": {
+        "prefix": "GetHeroPickState",
+        "body": "GetHeroPickState()",
+        "description": "Global\nreturn int \nReturns the current hero pick state."
+    },
+    "Global_IsPlayerInHeroSelectionControl": {
+        "prefix": "IsPlayerInHeroSelectionControl",
+        "body": "IsPlayerInHeroSelectionControl(${1:nPlayerID})",
+        "description": "Global\nreturn bool \nReturns whether the specified player is in selection control when picking a hero."
+    },
+    "Global_SelectHero": {
+        "prefix": "SelectHero",
+        "body": "SelectHero(${1:nPlayerID},${2:sHeroName})",
+        "description": "Global\nreturn nil\nSelects a hero for the specified player."
+    },
+    "Global_GetSelectedHeroName": {
+        "prefix": "GetSelectedHeroName",
+        "body": "GetSelectedHeroName(${1:nPlayerID})",
+        "description": "Global\nreturn string \nReturns the name of the hero the specified player has selected."
+    },
+    "Global_IsInCMBanPhase": {
+        "prefix": "IsInCMBanPhase",
+        "body": "IsInCMBanPhase()",
+        "description": "Global\nreturn bool \nReturns whether we're in a Captains Mode ban phase."
+    },
+    "Global_IsInCMPickPhase": {
+        "prefix": "IsInCMPickPhase",
+        "body": "IsInCMPickPhase()",
+        "description": "Global\nreturn bool \nReturns whether we're in a Captains Mode pick phase."
+    },
+    "Global_GetCMPhaseTimeRemaining": {
+        "prefix": "GetCMPhaseTimeRemaining",
+        "body": "GetCMPhaseTimeRemaining()",
+        "description": "Global\nreturn float \nGets the time remaining in the current Captains Mode phase."
+    },
+    "Global_GetCMCaptain": {
+        "prefix": "GetCMCaptain",
+        "body": "GetCMCaptain()",
+        "description": "Global\nreturn int \nGets the Player ID of the Captains Mode Captain."
+    },
+    "Global_SetCMCaptain": {
+        "prefix": "SetCMCaptain",
+        "body": "SetCMCaptain(${1:nPlayerID})",
+        "description": "Global\nreturn nil\nGets the Captains Mode Captain to the specified Player ID."
+    },
+    "Global_IsCMBannedHero": {
+        "prefix": "IsCMBannedHero",
+        "body": "IsCMBannedHero(${1:sHeroName})",
+        "description": "Global\nreturn bool \nReturns whether the specified hero has been banned in a Captains Mode game."
+    },
+    "Global_IsCMPickedHero": {
+        "prefix": "IsCMPickedHero",
+        "body": "IsCMPickedHero(${1:nTeam},${2:sHeroName})",
+        "description": "Global\nreturn bool \nReturns whether the specified hero has been picked in a Captains Mode game."
+    },
+    "Global_CMBanHero": {
+        "prefix": "CMBanHero",
+        "body": "CMBanHero(${1:sHeroName})",
+        "description": "Global\nreturn nil\nBans the specified hero in a Captains Mode game."
+    },
+    "Global_CMPickHero": {
+        "prefix": "CMPickHero",
+        "body": "CMPickHero(${1:sHeroName})",
+        "description": "Global\nreturn nil\nPicks the specified hero in a Captains Mode game."
+    },
+    "Global_RandomInt": {
+        "prefix": "RandomInt",
+        "body": "RandomInt(${1:nMin},${2:nMax})",
+        "description": "Global\nreturn int \nReturns a random integer between nMin and nMax,inclusive."
+    },
+    "Global_RandomFloat": {
+        "prefix": "RandomFloat",
+        "body": "RandomFloat(${1:fMin},${2:fMax})",
+        "description": "Global\nreturn float \nReturns a random float between nMin and nMax,inclusive."
+    },
+    "Global_RandomVector": {
+        "prefix": "RandomVector",
+        "body": "RandomVector(${1:fLength})",
+        "description": "Global\nreturn vector \nReturns a vector of fLength pointing in a random direction in the X/Y axis."
+    },
+    "Global_RollPercentage": {
+        "prefix": "RollPercentage",
+        "body": "RollPercentage(${1:nChance})",
+        "description": "Global\nreturn bool \nRolls a numbmer from 1 to 100 and returns whether it is less than or equal to the specified number."
+    },
+    "Global_Min": {
+        "prefix": "Min",
+        "body": "Min(${1:fOption1},${2:fOption2})",
+        "description": "Global\nreturn float \nReturns the smaller of fOption1 and fOption2."
+    },
+    "Global_Max": {
+        "prefix": "Max",
+        "body": "Max(${1:fOption1},${2:fOption2})",
+        "description": "Global\nreturn float \nReturns the larger of fOption1 and fOption2."
+    },
+    "Global_Clamp": {
+        "prefix": "Clamp",
+        "body": "Clamp(${1:fValue},${2:fMin},${3:fMax})",
+        "description": "Global\nreturn float \nReturns fValue clamped within the bounds of fMin and fMax."
+    },
+    "Global_RemapVal": {
+        "prefix": "RemapVal",
+        "body": "RemapVal(${1:fValue},${2:fFromMin},${3:fFromMax},${4:fToMin},${5:fToMax},${6:})",
+        "description": "Global\nreturn float \nReturns fValue linearly remapped onto fFrom to fTo."
+    },
+    "Global_RemapValClamped": {
+        "prefix": "RemapValClamped",
+        "body": "RemapValClamped(${1:fValue},${2:fFromMin},${3:fFromMax},${4:fToMin},${5:fToMax},${6:})",
+        "description": "Global\nreturn float \nReturns fValue linearly remapped onto fFrom to fTo,while also clamping within their bounds."
+    },
+    "Global_GetUnitPotentialValue": {
+        "prefix": "GetUnitPotentialValue",
+        "body": "GetUnitPotentialValue(${1:hUnit},${2:vLocation},${3:fRadius})",
+        "description": "Global\nreturn int \nGets the 0-255 potential location value of a hero at the specified location and radius."
+    },
+    "Global_IsCourierAvailable": {
+        "prefix": "IsCourierAvailable",
+        "body": "IsCourierAvailable()",
+        "description": "Global\nreturn bool \nReturns if the courier is available to use."
+    },
+    "Global_GetNumCouriers": {
+        "prefix": "GetNumCouriers",
+        "body": "GetNumCouriers()",
+        "description": "Global\nreturn int \nReturns the number of team couriers"
+    },
+    "Global_GetCourier": {
+        "prefix": "GetCourier",
+        "body": "GetCourier(${1:nCourier})",
+        "description": "Global\nreturn hCourier \nReturns a handle to the specified courier (zero based index)"
+    },
+    "Global_GetCourierState": {
+        "prefix": "GetCourierState",
+        "body": "GetCourierState(${1:hCourier})",
+        "description": "Global\nreturn int \nReturns the current state of the specified courier."
+    },
+    "Global_GetTreeLocation": {
+        "prefix": "GetTreeLocation",
+        "body": "GetTreeLocation(${1:nTree})",
+        "description": "Global\nreturn vector \nReturns the specified tree location."
+    },
+    "Global_GetRuneSpawnLocation": {
+        "prefix": "GetRuneSpawnLocation",
+        "body": "GetRuneSpawnLocation(${1:nRuneLoc})",
+        "description": "Global\nreturn vector \nReturns the location of the specified rune spawner."
+    },
+    "Global_GetShopLocation": {
+        "prefix": "GetShopLocation",
+        "body": "GetShopLocation(${1:nTeam},${2:nShop})",
+        "description": "Global\nreturn vector \nReturns the location of the specified shop."
+    },
+    "Global_GetTimeOfDay": {
+        "prefix": "GetTimeOfDay",
+        "body": "GetTimeOfDay()",
+        "description": "Global\nreturn float \nReturns the time of day \n 0.0 is midnight,0.5 is noon."
+    },
+    "Global_GetTower": {
+        "prefix": "GetTower",
+        "body": "GetTower(${1:nTeam},${2:nTower})",
+        "description": "Global\nreturn hUnit \nReturns the specified tower."
+    },
+    "Global_GetBarracks": {
+        "prefix": "GetBarracks",
+        "body": "GetBarracks(${1:nTeam},${2:nBarracks})",
+        "description": "Global\nreturn hUnit \nReturns the specified barracks."
+    },
+    "Global_GetShrine": {
+        "prefix": "GetShrine",
+        "body": "GetShrine(${1:nTeam},${2:nShrine})",
+        "description": "Global\nreturn hUnit \nReturns the specified shrine."
+    },
+    "Global_GetAncient": {
+        "prefix": "GetAncient",
+        "body": "GetAncient(${1:nTeam})",
+        "description": "Global\nreturn hUnit \nReturns the specified ancient."
+    },
+    "Global_GetGlyphCooldown": {
+        "prefix": "GetGlyphCooldown",
+        "body": "GetGlyphCooldown()",
+        "description": "Global\nreturn float \nGet the current Glyph cooldown in seconds. Will return 0 if it is off cooldown."
+    },
+    "Global_GetRoshanKillTime": {
+        "prefix": "GetRoshanKillTime",
+        "body": "GetRoshanKillTime()",
+        "description": "Global\nreturn float \nGet the last time that Roshan was killed."
+    },
+    "Global_GetLaneFrontAmount": {
+        "prefix": "GetLaneFrontAmount",
+        "body": "GetLaneFrontAmount(${1:nTeam},${2:nLane},${3:bIgnoreTowers})",
+        "description": "Global\nreturn float \nReturn the lane front amount (0.0 - 1.0) of the specified team's creeps along the specified lane. Optionally can ignore towers."
+    },
+    "Global_GetLaneFrontLocation": {
+        "prefix": "GetLaneFrontLocation",
+        "body": "GetLaneFrontLocation(${1:nTeam},${2:nLane},${3:fDeltaFromFront})",
+        "description": "Global\nreturn vector \nReturns the location of the lane front for the specified team and lane. Always ignores towers. Has a third parameter for a distance delta from the front."
+    },
+    "Global_GetLocationAlongLane": {
+        "prefix": "GetLocationAlongLane",
+        "body": "GetLocationAlongLane(${1:nLane},${2:fAmount})",
+        "description": "Global\nreturn vector \nReturns the location the specified amount (0.0 - 1.0) along the specified lane."
+    },
+    "Global_GetAmountAlongLane": {
+        "prefix": "GetAmountAlongLane",
+        "body": "GetAmountAlongLane(${1:nLane},${2:vLocation})",
+        "description": "Global\nreturn {amount,distance} \nReturns the amount (0.0 - 1.0) along a lane,and distance from the lane of the specified location."
+    },
+    "Global_GetOpposingTeam": {
+        "prefix": "GetOpposingTeam",
+        "body": "GetOpposingTeam()",
+        "description": "Global\nreturn int \nReturns the opposing Team ID."
+    },
+    "Global_IsHeroAlive": {
+        "prefix": "IsHeroAlive",
+        "body": "IsHeroAlive(${1:nPlayerID})",
+        "description": "Global\nreturn bool \nReturns whether the specified PlayerID's hero is alive."
+    },
+    "Global_GetHeroLevel": {
+        "prefix": "GetHeroLevel",
+        "body": "GetHeroLevel(${1:nPlayerID})",
+        "description": "Global\nreturn int \nReturns the specified PlayerID's hero's level."
+    },
+    "Global_GetHeroKills": {
+        "prefix": "GetHeroKills",
+        "body": "GetHeroKills(${1:nPlayerID})",
+        "description": "Global\nreturn int \nReturns the specified PlayerID's hero's kill count."
+    },
+    "Global_GetHeroDeaths": {
+        "prefix": "GetHeroDeaths",
+        "body": "GetHeroDeaths(${1:nPlayerID})",
+        "description": "Global\nreturn int \nReturns the specified PlayerID's hero's death count."
+    },
+    "Global_GetHeroAssists": {
+        "prefix": "GetHeroAssists",
+        "body": "GetHeroAssists(${1:nPlayerID})",
+        "description": "Global\nreturn int \nReturns the specified PlayerID's hero's assists count."
+    },
+    "Global_GetHeroLastSeenInfo": {
+        "prefix": "GetHeroLastSeenInfo",
+        "body": "GetHeroLastSeenInfo(${1:nPlayerID})",
+        "description": "Global\nreturn {{location,time_since_seen},...} \nReturns a table containing a list of locations and time_since_seen members,each representing the last seen location of a hero that player controls."
+    },
+    "Global_GetLinearProjectiles": {
+        "prefix": "GetLinearProjectiles",
+        "body": "GetLinearProjectiles()",
+        "description": "Global\nreturn {{location,caster,player,ability,velocity,radius,handle},...} \nReturns a table containing info about all visible linear projectiles."
+    },
+    "Global_GetLinearProjectileByHandle": {
+        "prefix": "GetLinearProjectileByHandle",
+        "body": "GetLinearProjectileByHandle(${1:nProjectileHandle})",
+        "description": "Global\nreturn {location,caster,player,ability,velocity,radius} \nReturns a table containing info about the specified linear projectile."
+    },
+    "Global_GetAvoidanceZones": {
+        "prefix": "GetAvoidanceZones",
+        "body": "GetAvoidanceZones()",
+        "description": "Global\nreturn {{location,ability,caster,radius},...} \nReturns a table containing info about all visible avoidance zones."
+    },
+    "Global_GetRuneType": {
+        "prefix": "GetRuneType",
+        "body": "GetRuneType(${1:nRuneLoc})",
+        "description": "Global\nreturn int \nReturns the rune type of the rune at the specified location,if known."
+    },
+    "Global_GetRuneStatus": {
+        "prefix": "GetRuneStatus",
+        "body": "GetRuneStatus(${1:nRuneLoc})",
+        "description": "Global\nreturn int \nReturns the status of the rune at the specified location."
+    },
+    "Global_GetRuneTimeSinceSeen": {
+        "prefix": "GetRuneTimeSinceSeen",
+        "body": "GetRuneTimeSinceSeen(${1:nRuneLoc})",
+        "description": "Global\nreturn float \nReturns how long it's been since we've seen the rune at the specified location."
+    },
+    "Global_GetShrineCooldown": {
+        "prefix": "GetShrineCooldown",
+        "body": "GetShrineCooldown(${1:hShrine})",
+        "description": "Global\nreturn float \nReturns the current cooldown of the specified Shrine."
+    },
+    "Global_IsShrineHealing": {
+        "prefix": "IsShrineHealing",
+        "body": "IsShrineHealing(${1:hShrine})",
+        "description": "Global\nreturn bool \nReturns whether the specified shrine is currently healing."
+    },
+    "Global_AddAvoidanceZone": {
+        "prefix": "AddAvoidanceZone",
+        "body": "AddAvoidanceZone(${1:vLocationAndRadius})",
+        "description": "Global\nreturn int \nAdds an avoidance zone for use with GeneratePath. Takes a Vector with x and y as a 2D location, and z as as radius. Returns a handle to the avoidance zone."
+    },
+    "Global_RemoveAvoidanceZone": {
+        "prefix": "RemoveAvoidanceZone",
+        "body": "RemoveAvoidanceZone(${1:hAvoidanceZone})",
+        "description": "Global\nreturn nil \nRemoves the specified avoidance zone."
+    },
+    "Global_GeneratePath": {
+        "prefix": "GeneratePath",
+        "body": "GeneratePath(${1:vStart},${2:vEnd},${3:tAvoidanceZones},${4:funcCompletion})",
+        "description": "Global\nreturn nil \nPathfinds from vStar to vEnd,avoiding all the specified avoidance zones and the ones specified with AddAvoidanceZone. Will call funcCompltion when done,which is a that has two parameters: a distance of the path,and a table that contains all the waypoints of the path. If the pathfind fails,it will call that with a distance of 0 and an empty waypoint table."
+    },
+    "Global_DebugDrawLine": {
+        "prefix": "DebugDrawLine",
+        "body": "DebugDrawLine(${1:vStart},${2:vEnd},${3:nRed},${4:nGreen},${5:nBlue},${6:})",
+        "description": "Global\nreturn nil \nDraws a line from vStar to vEnd in the specified color for one frame."
+    },
+    "Global_DebugDrawCircle": {
+        "prefix": "DebugDrawCircle",
+        "body": "DebugDrawCircle(${1:vCenter},${2:fRadius},${3:nRed},${4:nGreen},${5:nBlue},${6:})",
+        "description": "Global\nreturn nil \nDraws a circle at vCenter with radius fRadius in the specified color for one frame."
+    },
+    "Global_DebugDrawText": {
+        "prefix": "DebugDrawText",
+        "body": "DebugDrawText(${1:fScreenX},${2:fScreenY},${3:sText},${4:nRed},${5:nGreen},${6:nBlue})",
+        "description": "Global\nreturn nil \nDraws the specified text at fScreenX,fScreenY on the screen in the specified color for one frame."
+    },
+	
+	
+    "CDOTA_Bot_Script_Action_ClearActions": {
+        "prefix": "Action_ClearActions",
+        "body": "Action_ClearActions(${1:bStop})",
+        "description": "CDOTA_Bot_Script:\nreturn nil \nClear action queue and return to idle and optionally stop in place with bStop true"
+    },
+    "CDOTA_Bot_Script_Action_MoveToLocation": {
+        "prefix": "Action_MoveToLocation",
+        "body": "Action_MoveToLocation(${1:vLocation})",
+        "description": "CDOTA_Bot_Script:\nreturn nil"
+    },
+    "CDOTA_Bot_Script_ActionPush_MoveToLocation": {
+        "prefix": "ActionPush_MoveToLocation",
+        "body": "ActionPush_MoveToLocation(${1:vLocation})",
+        "description": "CDOTA_Bot_Script:\nreturn nil"
+    },
+    "CDOTA_Bot_Script_ActionQueue_MoveToLocation": {
+        "prefix": "ActionQueue_MoveToLocation",
+        "body": "ActionQueue_MoveToLocation(${1:vLocation})",
+        "description": "CDOTA_Bot_Script:\nreturn nil \nCommand a bot to move to the specified location,this is not a precision move"
+    },
+    "CDOTA_Bot_Script_Action_MoveDirectly": {
+        "prefix": "Action_MoveDirectly",
+        "body": "Action_MoveDirectly(${1:vLocation})",
+        "description": "CDOTA_Bot_Script:\nreturn nil"
+    },
+    "CDOTA_Bot_Script_ActionPush_MoveDirectly": {
+        "prefix": "ActionPush_MoveDirectly",
+        "body": "ActionPush_MoveDirectly(${1:vLocation})",
+        "description": "CDOTA_Bot_Script:\nreturn nil"
+    },
+    "CDOTA_Bot_Script_ActionQueue_MoveDirectly": {
+        "prefix": "ActionQueue_MoveDirectly",
+        "body": "ActionQueue_MoveDirectly(${1:vLocation})",
+        "description": "CDOTA_Bot_Script:\nreturn nil \nCommand a bot to move to the specified location,bypassing the bot pathfinder. Identical to a user's right-click."
+    },
+    "CDOTA_Bot_Script_Action_MovePath": {
+        "prefix": "Action_MovePath",
+        "body": "Action_MovePath(${1:tWaypoints})",
+        "description": "CDOTA_Bot_Script:\nreturn nil"
+    },
+    "CDOTA_Bot_Script_ActionPush_MovePath": {
+        "prefix": "ActionPush_MovePath",
+        "body": "ActionPush_MovePath(${1:tWaypoints})",
+        "description": "CDOTA_Bot_Script:\nreturn nil"
+    },
+    "CDOTA_Bot_Script_ActionQueue_MovePath": {
+        "prefix": "ActionQueue_MovePath",
+        "body": "ActionQueue_MovePath(${1:tWaypoints})",
+        "description": "CDOTA_Bot_Script:\nreturn nil \nCommand a bot to move along the specified path."
+    },
+    "CDOTA_Bot_Script_Action_MoveToUnit": {
+        "prefix": "Action_MoveToUnit",
+        "body": "Action_MoveToUnit(${1:hUnit})",
+        "description": "CDOTA_Bot_Script:\nreturn nil"
+    },
+    "CDOTA_Bot_Script_ActionPush_MoveToUnit": {
+        "prefix": "ActionPush_MoveToUnit",
+        "body": "ActionPush_MoveToUnit(${1:hUnit})",
+        "description": "CDOTA_Bot_Script:\nreturn nil"
+    },
+    "CDOTA_Bot_Script_ActionQueue_MoveToUnit": {
+        "prefix": "ActionQueue_MoveToUnit",
+        "body": "ActionQueue_MoveToUnit(${1:hUnit})",
+        "description": "CDOTA_Bot_Script:\nreturn nil \nCommand a bot to move to the specified unit,this will continue to follow the unit"
+    },
+    "CDOTA_Bot_Script_Action_AttackUnit": {
+        "prefix": "Action_AttackUnit",
+        "body": "Action_AttackUnit(${1:hUnit},${2:bOnce})",
+        "description": "CDOTA_Bot_Script:\nreturn nil"
+    },
+    "CDOTA_Bot_Script_ActionPush_AttackUnit": {
+        "prefix": "ActionPush_AttackUnit",
+        "body": "ActionPush_AttackUnit(${1:hUnit},${2:bOnce})",
+        "description": "CDOTA_Bot_Script:\nreturn nil"
+    },
+    "CDOTA_Bot_Script_ActionQueue_AttackUnit": {
+        "prefix": "ActionQueue_AttackUnit",
+        "body": "ActionQueue_AttackUnit(${1:hUnit},${2:bOnce})",
+        "description": "CDOTA_Bot_Script:\nreturn nil \nTell a unit to attack a unit with an option bool to stop after one attack if true"
+    },
+    "CDOTA_Bot_Script_Action_AttackMove": {
+        "prefix": "Action_AttackMove",
+        "body": "Action_AttackMove(${1:vLocation})",
+        "description": "CDOTA_Bot_Script:\nreturn nil"
+    },
+    "CDOTA_Bot_Script_ActionPush_AttackMove": {
+        "prefix": "ActionPush_AttackMove",
+        "body": "ActionPush_AttackMove(${1:vLocation})",
+        "description": "CDOTA_Bot_Script:\nreturn nil"
+    },
+    "CDOTA_Bot_Script_ActionQueue_AttackMove": {
+        "prefix": "ActionQueue_AttackMove",
+        "body": "ActionQueue_AttackMove(${1:vLocation})",
+        "description": "CDOTA_Bot_Script:\nreturn nil \nTell a unit to attack-move a location."
+    },
+    "CDOTA_Bot_Script_Action_UseAbility": {
+        "prefix": "Action_UseAbility",
+        "body": "Action_UseAbility(${1:hAbility})",
+        "description": "CDOTA_Bot_Script:\nreturn nil"
+    },
+    "CDOTA_Bot_Script_ActionPush_UseAbility": {
+        "prefix": "ActionPush_UseAbility",
+        "body": "ActionPush_UseAbility(${1:hAbility})",
+        "description": "CDOTA_Bot_Script:\nreturn nil"
+    },
+    "CDOTA_Bot_Script_ActionQueue_UseAbility": {
+        "prefix": "ActionQueue_UseAbility",
+        "body": "ActionQueue_UseAbility(${1:hAbility})",
+        "description": "CDOTA_Bot_Script:\nreturn nil \nCommand a bot to use a non-targeted ability or item"
+    },
+    "CDOTA_Bot_Script_Action_UseAbilityOnEntity": {
+        "prefix": "Action_UseAbilityOnEntity",
+        "body": "Action_UseAbilityOnEntity(${1:hAbility},${2:hTarget})",
+        "description": "CDOTA_Bot_Script:\nreturn nil"
+    },
+    "CDOTA_Bot_Script_ActionPush_UseAbilityOnEntity": {
+        "prefix": "ActionPush_UseAbilityOnEntity",
+        "body": "ActionPush_UseAbilityOnEntity(${1:hAbility},${2:hTarget})",
+        "description": "CDOTA_Bot_Script:\nreturn nil"
+    },
+    "CDOTA_Bot_Script_ActionQueue_UseAbilityOnEntity": {
+        "prefix": "ActionQueue_UseAbilityOnEntity",
+        "body": "ActionQueue_UseAbilityOnEntity(${1:hAbility},${2:hTarget})",
+        "description": "CDOTA_Bot_Script:\nreturn nil \nCommand a bot to use a unit targeted ability or item on the specified target unit"
+    },
+    "CDOTA_Bot_Script_Action_UseAbilityOnLocation": {
+        "prefix": "Action_UseAbilityOnLocation",
+        "body": "Action_UseAbilityOnLocation(${1:hAbility},${2:vLocation})",
+        "description": "CDOTA_Bot_Script:\nreturn nil"
+    },
+    "CDOTA_Bot_Script_ActionPush_UseAbilityOnLocation": {
+        "prefix": "ActionPush_UseAbilityOnLocation",
+        "body": "ActionPush_UseAbilityOnLocation(${1:hAbility},${2:vLocation})",
+        "description": "CDOTA_Bot_Script:\nreturn nil"
+    },
+    "CDOTA_Bot_Script_ActionQueue_UseAbilityOnLocation": {
+        "prefix": "ActionQueue_UseAbilityOnLocation",
+        "body": "ActionQueue_UseAbilityOnLocation(${1:hAbility},${2:vLocation})",
+        "description": "CDOTA_Bot_Script:\nreturn nil \nCommand a bot to use a ground targeted ability or item on the specified location"
+    },
+    "CDOTA_Bot_Script_Action_UseAbilityOnTree": {
+        "prefix": "Action_UseAbilityOnTree",
+        "body": "Action_UseAbilityOnTree(${1:hAbility},${2:iTree})",
+        "description": "CDOTA_Bot_Script:\nreturn nil"
+    },
+    "CDOTA_Bot_Script_ActionPush_UseAbilityOnTree": {
+        "prefix": "ActionPush_UseAbilityOnTree",
+        "body": "ActionPush_UseAbilityOnTree(${1:hAbility},${2:iTree})",
+        "description": "CDOTA_Bot_Script:\nreturn nil"
+    },
+    "CDOTA_Bot_Script_ActionQueue_UseAbilityOnTree": {
+        "prefix": "ActionQueue_UseAbilityOnTree",
+        "body": "ActionQueue_UseAbilityOnTree(${1:hAbility},${2:iTree})",
+        "description": "CDOTA_Bot_Script:\nreturn nil \nCommand a bot to use a tree targeted ability or item on the specified tree"
+    },
+    "CDOTA_Bot_Script_Action_PickUpRune": {
+        "prefix": "Action_PickUpRune",
+        "body": "Action_PickUpRune(${1:nRune})",
+        "description": "CDOTA_Bot_Script:\nreturn nil"
+    },
+    "CDOTA_Bot_Script_ActionPush_PickUpRune": {
+        "prefix": "ActionPush_PickUpRune",
+        "body": "ActionPush_PickUpRune(${1:nRune})",
+        "description": "CDOTA_Bot_Script:\nreturn nil"
+    },
+    "CDOTA_Bot_Script_ActionQueue_PickUpRune": {
+        "prefix": "ActionQueue_PickUpRune",
+        "body": "ActionQueue_PickUpRune(${1:nRune})",
+        "description": "CDOTA_Bot_Script:\nreturn nil \nCommand a hero to pick up the rune at the specified rune location."
+    },
+    "CDOTA_Bot_Script_Action_PickUpItem": {
+        "prefix": "Action_PickUpItem",
+        "body": "Action_PickUpItem(${1:hItem})",
+        "description": "CDOTA_Bot_Script:\nreturn nil"
+    },
+    "CDOTA_Bot_Script_ActionPush_PickUpItem": {
+        "prefix": "ActionPush_PickUpItem",
+        "body": "ActionPush_PickUpItem(${1:hItem})",
+        "description": "CDOTA_Bot_Script:\nreturn nil"
+    },
+    "CDOTA_Bot_Script_ActionQueue_PickUpItem": {
+        "prefix": "ActionQueue_PickUpItem",
+        "body": "ActionQueue_PickUpItem(${1:hItem})",
+        "description": "CDOTA_Bot_Script:\nreturn nil \nCommand a bot to pick up the specified item"
+    },
+    "CDOTA_Bot_Script_Action_DropItem": {
+        "prefix": "Action_DropItem",
+        "body": "Action_DropItem(${1:hItem},${2:vLocation})",
+        "description": "CDOTA_Bot_Script:\nreturn nil"
+    },
+    "CDOTA_Bot_Script_ActionPush_DropItem": {
+        "prefix": "ActionPush_DropItem",
+        "body": "ActionPush_DropItem(${1:hItem},${2:vLocation})",
+        "description": "CDOTA_Bot_Script:\nreturn nil"
+    },
+    "CDOTA_Bot_Script_ActionQueue_DropItem": {
+        "prefix": "ActionQueue_DropItem",
+        "body": "ActionQueue_DropItem(${1:hItem},${2:vLocation})",
+        "description": "CDOTA_Bot_Script:\nreturn nil \nCommand a bot to drop the specified item and the provided location"
+    },
+    "CDOTA_Bot_Script_Action_UseShrine": {
+        "prefix": "Action_UseShrine",
+        "body": "Action_UseShrine(${1:hShrine})",
+        "description": "CDOTA_Bot_Script:\nreturn nil"
+    },
+    "CDOTA_Bot_Script_ActionPush_UseShrine": {
+        "prefix": "ActionPush_UseShrine",
+        "body": "ActionPush_UseShrine(${1:hShrine})",
+        "description": "CDOTA_Bot_Script:\nreturn nil"
+    },
+    "CDOTA_Bot_Script_ActionQueue_UseShrine": {
+        "prefix": "ActionQueue_UseShrine",
+        "body": "ActionQueue_UseShrine(${1:hShrine})",
+        "description": "CDOTA_Bot_Script:\nreturn nil \nCommand a bot to use the specified shrine"
+    },
+    "CDOTA_Bot_Script_Action_Delay": {
+        "prefix": "Action_Delay",
+        "body": "Action_Delay(${1:fDelay})",
+        "description": "CDOTA_Bot_Script:\nreturn nil"
+    },
+    "CDOTA_Bot_Script_ActionPush_Delay": {
+        "prefix": "ActionPush_Delay",
+        "body": "ActionPush_Delay(${1:fDelay})",
+        "description": "CDOTA_Bot_Script:\nreturn nil"
+    },
+    "CDOTA_Bot_Script_ActionQueue_Delay": {
+        "prefix": "ActionQueue_Delay",
+        "body": "ActionQueue_Delay(${1:fDelay})",
+        "description": "CDOTA_Bot_Script:\nreturn nil \nCommand a bot to delay for the specified amount of time."
+    },
+    "CDOTA_Bot_Script_ActionImmediate_PurchaseItem": {
+        "prefix": "ActionImmediate_PurchaseItem",
+        "body": "ActionImmediate_PurchaseItem(${1:sItemName})",
+        "description": "CDOTA_Bot_Script:\nreturn int \nCommand a bot to purchase the specified item. Item names can be found here."
+    },
+    "CDOTA_Bot_Script_ActionImmediate_SellItem": {
+        "prefix": "ActionImmediate_SellItem",
+        "body": "ActionImmediate_SellItem(${1:hItem})",
+        "description": "CDOTA_Bot_Script:\nreturn nil \nCommand a bot to sell the specified item"
+    },
+    "CDOTA_Bot_Script_ActionImmediate_DisassembleItem": {
+        "prefix": "ActionImmediate_DisassembleItem",
+        "body": "ActionImmediate_DisassembleItem(${1:hItem})",
+        "description": "CDOTA_Bot_Script:\nreturn nil \nCommand a bot to disassemble the specified item"
+    },
+    "CDOTA_Bot_Script_ActionImmediate_SetItemCombineLock": {
+        "prefix": "ActionImmediate_SetItemCombineLock",
+        "body": "ActionImmediate_SetItemCombineLock(${1:hItem},${2:bLocked})",
+        "description": "CDOTA_Bot_Script:\nreturn nil \nCommand a bot to lock or unlock combining of the specified item"
+    },
+    "CDOTA_Bot_Script_ActionImmediate_SwapItems": {
+        "prefix": "ActionImmediate_SwapItems",
+        "body": "ActionImmediate_SwapItems(${1:index1},${2:index2})",
+        "description": "CDOTA_Bot_Script:\nreturn nil \nCommand a bot to swap the items in index1 and index2 in their inventory. Indices are zero based with 0-5 corresponding to inventory,6-8 are backpack and 9-15 are stash"
+    },
+    "CDOTA_Bot_Script_ActionImmediate_Courier": {
+        "prefix": "ActionImmediate_Courier",
+        "body": "ActionImmediate_Courier(${1:hCourier},${2:nAction})",
+        "description": "CDOTA_Bot_Script:\nreturn nil \nCommand the courier specified by hCourier to perform one of the courier Actions."
+    },
+    "CDOTA_Bot_Script_ActionImmediate_Buyback": {
+        "prefix": "ActionImmediate_Buyback",
+        "body": "ActionImmediate_Buyback()",
+        "description": "CDOTA_Bot_Script:\nreturn nil \nTell a hero to buy back from ."
+    },
+    "CDOTA_Bot_Script_ActionImmediate_Glyph": {
+        "prefix": "ActionImmediate_Glyph",
+        "body": "ActionImmediate_Glyph()",
+        "description": "CDOTA_Bot_Script:\nreturn death. \nTell a hero to use Glyph."
+    },
+    "CDOTA_Bot_Script_ActionImmediate_LevelAbility": {
+        "prefix": "ActionImmediate_LevelAbility",
+        "body": "ActionImmediate_LevelAbility(${1:sAbilityName})",
+        "description": "CDOTA_Bot_Script:\nreturn nil \nCommand a bot to level an ability or a talent. Ability and talent names can be found here"
+    },
+    "CDOTA_Bot_Script_ActionImmediate_Chat": {
+        "prefix": "ActionImmediate_Chat",
+        "body": "ActionImmediate_Chat(${1:sMessage},${2:bAllChat})",
+        "description": "CDOTA_Bot_Script:\nreturn nil \nHave a bot say something in team chat,bAllChat true to say to all chat instead"
+    },
+    "CDOTA_Bot_Script_ActionImmedaite_Ping": {
+        "prefix": "ActionImmedaite_Ping",
+        "body": "ActionImmedaite_Ping(${1:fXCoord},${2:fYCoord},${3:bNormalPing})",
+        "description": "CDOTA_Bot_Script:\nreturn nil \nCommand a bot to ping the specified coordinates with bNormalPing setting the ping type"
+    },
+    "CDOTA_Bot_Script_GetCurrentActionType": {
+        "prefix": "GetCurrentActionType",
+        "body": "GetCurrentActionType()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGet the type of the currently active Action."
+    },
+    "CDOTA_Bot_Script_NumQueuedActions": {
+        "prefix": "NumQueuedActions",
+        "body": "NumQueuedActions()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGet number of actions in the action queue."
+    },
+    "CDOTA_Bot_Script_GetQueuedActionType": {
+        "prefix": "GetQueuedActionType",
+        "body": "GetQueuedActionType(${1:nAction})",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGet the type of the specified queued action."
+    },
+    "CDOTA_Bot_Script_IsBot": {
+        "prefix": "IsBot",
+        "body": "IsBot()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit is a bot (otherwise they are a human)."
+    },
+    "CDOTA_Bot_Script_GetDifficulty": {
+        "prefix": "GetDifficulty",
+        "body": "GetDifficulty()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the difficulty level of this bot."
+    },
+    "CDOTA_Bot_Script_GetUnitName": {
+        "prefix": "GetUnitName",
+        "body": "GetUnitName()",
+        "description": "CDOTA_Bot_Script:\nreturn string \nGets the name of the unit. Note that this is the under-the-hood name,not the normal (localized) name that you'd see for the unit."
+    },
+    "CDOTA_Bot_Script_GetPlayerID": {
+        "prefix": "GetPlayerID",
+        "body": "GetPlayerID()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the Player ID of the unit,used in functions that refer to a player rather than a specific unit."
+    },
+    "CDOTA_Bot_Script_IsHero": {
+        "prefix": "IsHero",
+        "body": "IsHero()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit is a hero."
+    },
+    "CDOTA_Bot_Script_IsIllusion": {
+        "prefix": "IsIllusion",
+        "body": "IsIllusion()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit is an illusion. Always returns false on enemies."
+    },
+    "CDOTA_Bot_Script_IsCreep": {
+        "prefix": "IsCreep",
+        "body": "IsCreep()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit is a creep."
+    },
+    "CDOTA_Bot_Script_IsAncientCreep": {
+        "prefix": "IsAncientCreep",
+        "body": "IsAncientCreep()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit is an ancient creep."
+    },
+    "CDOTA_Bot_Script_IsBuilding": {
+        "prefix": "IsBuilding",
+        "body": "IsBuilding()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit is a building. This includes towers,barracks,filler buildings,and the ancient."
+    },
+    "CDOTA_Bot_Script_IsTower": {
+        "prefix": "IsTower",
+        "body": "IsTower()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit is a tower."
+    },
+    "CDOTA_Bot_Script_IsFort": {
+        "prefix": "IsFort",
+        "body": "IsFort()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit is the ancient."
+    },
+    "CDOTA_Bot_Script_CanBeSeen": {
+        "prefix": "CanBeSeen",
+        "body": "CanBeSeen()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nCheck if a unit can currently be seen by your team."
+    },
+    "CDOTA_Bot_Script_GetActiveMode": {
+        "prefix": "GetActiveMode",
+        "body": "GetActiveMode()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGet the bots currently active mode. This may not track modes in complete takeover bots."
+    },
+    "CDOTA_Bot_Script_GetActiveModeDesire": {
+        "prefix": "GetActiveModeDesire",
+        "body": "GetActiveModeDesire()",
+        "description": "CDOTA_Bot_Script:\nreturn float \nGets the desire of the currently active mode."
+    },
+    "CDOTA_Bot_Script_GetHealth": {
+        "prefix": "GetHealth",
+        "body": "GetHealth()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the health of the unit."
+    },
+    "CDOTA_Bot_Script_GetMaxHealth": {
+        "prefix": "GetMaxHealth",
+        "body": "GetMaxHealth()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the maximum health of the specified unit."
+    },
+    "CDOTA_Bot_Script_GetHealthRegen": {
+        "prefix": "GetHealthRegen",
+        "body": "GetHealthRegen()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the current health regen per second of the unit."
+    },
+    "CDOTA_Bot_Script_GetMana": {
+        "prefix": "GetMana",
+        "body": "GetMana()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the current mana of the unit."
+    },
+    "CDOTA_Bot_Script_GetMaxMana": {
+        "prefix": "GetMaxMana",
+        "body": "GetMaxMana()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the maximum mana of the unit."
+    },
+    "CDOTA_Bot_Script_GetManaRegen": {
+        "prefix": "GetManaRegen",
+        "body": "GetManaRegen()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the current mana regen of the unit."
+    },
+    "CDOTA_Bot_Script_GetBaseMovementSpeed": {
+        "prefix": "GetBaseMovementSpeed",
+        "body": "GetBaseMovementSpeed()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the base movement speed of the unit."
+    },
+    "CDOTA_Bot_Script_GetCurrentMovementSpeed": {
+        "prefix": "GetCurrentMovementSpeed",
+        "body": "GetCurrentMovementSpeed()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the current movement speed (base + modifiers) of the unit."
+    },
+    "CDOTA_Bot_Script_IsAlive": {
+        "prefix": "IsAlive",
+        "body": "IsAlive()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns true if the unit is alive."
+    },
+    "CDOTA_Bot_Script_GetRespawnTime": {
+        "prefix": "GetRespawnTime",
+        "body": "GetRespawnTime()",
+        "description": "CDOTA_Bot_Script:\nreturn float \nReturns the number of seconds remaining for the unit to respawn. Returns -1.0 for non-heroes."
+    },
+    "CDOTA_Bot_Script_HasBuyback": {
+        "prefix": "HasBuyback",
+        "body": "HasBuyback()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns true if the unit has buyback available. Will return false for enemies or non-heroes."
+    },
+    "CDOTA_Bot_Script_GetBuybackCost": {
+        "prefix": "GetBuybackCost",
+        "body": "GetBuybackCost()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nReturns the current gold cost of buyback. Will return -1 for enemies or non-heroes."
+    },
+    "CDOTA_Bot_Script_GetBuybackCooldown": {
+        "prefix": "GetBuybackCooldown",
+        "body": "GetBuybackCooldown()",
+        "description": "CDOTA_Bot_Script:\nreturn float \nReturns the current cooldown for buyback. Will return -1.0 for enemies or non-heroes."
+    },
+    "CDOTA_Bot_Script_GetRemainingLifespan": {
+        "prefix": "GetRemainingLifespan",
+        "body": "GetRemainingLifespan()",
+        "description": "CDOTA_Bot_Script:\nreturn float \nReturns the remaining lifespan in seconds of units with limited lifespans."
+    },
+    "CDOTA_Bot_Script_GetBaseDamage": {
+        "prefix": "GetBaseDamage",
+        "body": "GetBaseDamage()",
+        "description": "CDOTA_Bot_Script:\nreturn float \nReturns the average base damage of the unit."
+    },
+    "CDOTA_Bot_Script_GetBaseDamageVariance": {
+        "prefix": "GetBaseDamageVariance",
+        "body": "GetBaseDamageVariance()",
+        "description": "CDOTA_Bot_Script:\nreturn float \nReturns the +/- variance in the base damage of the unit."
+    },
+    "CDOTA_Bot_Script_GetAttackDamage": {
+        "prefix": "GetAttackDamage",
+        "body": "GetAttackDamage()",
+        "description": "CDOTA_Bot_Script:\nreturn float \nReturns actual attack damage (with bonuses) of the unit."
+    },
+    "CDOTA_Bot_Script_GetAttackRange": {
+        "prefix": "GetAttackRange",
+        "body": "GetAttackRange()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nReturns the range at which the unit can attack another unit."
+    },
+    "CDOTA_Bot_Script_GetAttackSpeed": {
+        "prefix": "GetAttackSpeed",
+        "body": "GetAttackSpeed()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nReturns the attack speed value of the unit."
+    },
+    "CDOTA_Bot_Script_GetSecondsPerAttack": {
+        "prefix": "GetSecondsPerAttack",
+        "body": "GetSecondsPerAttack()",
+        "description": "CDOTA_Bot_Script:\nreturn float \nReturns the number of seconds per attack (including backswing) of the unit."
+    },
+    "CDOTA_Bot_Script_GetAttackPoint": {
+        "prefix": "GetAttackPoint",
+        "body": "GetAttackPoint()",
+        "description": "CDOTA_Bot_Script:\nreturn float \nReturns the point in the animation where a unit will execute the attack."
+    },
+    "CDOTA_Bot_Script_GetLastAttackTime": {
+        "prefix": "GetLastAttackTime",
+        "body": "GetLastAttackTime()",
+        "description": "CDOTA_Bot_Script:\nreturn float \nReturns the time that the unit last executed an attack."
+    },
+    "CDOTA_Bot_Script_GetAttackTarget": {
+        "prefix": "GetAttackTarget",
+        "body": "GetAttackTarget()",
+        "description": "CDOTA_Bot_Script:\nreturn hUnit \nReturns a the attack target of the unit."
+    },
+    "CDOTA_Bot_Script_GetAcquisitionRange": {
+        "prefix": "GetAcquisitionRange",
+        "body": "GetAcquisitionRange()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nReturns the range at which this unit will attack a target."
+    },
+    "CDOTA_Bot_Script_GetAttackProjectileSpeed": {
+        "prefix": "GetAttackProjectileSpeed",
+        "body": "GetAttackProjectileSpeed()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nReturns the speed of the unit's attack projectile."
+    },
+    "CDOTA_Bot_Script_GetActualIncomingDamage": {
+        "prefix": "GetActualIncomingDamage",
+        "body": "GetActualIncomingDamage(${1:nDamage},${2:nDamageType})",
+        "description": "CDOTA_Bot_Script:\nreturn float \nGets the incoming damage value after reductions deping on damage type."
+    },
+    "CDOTA_Bot_Script_GetAttackCombatProficiency": {
+        "prefix": "GetAttackCombatProficiency",
+        "body": "GetAttackCombatProficiency(${1:hTarget})",
+        "description": "CDOTA_Bot_Script:\nreturn float \nGets the damage multiplier when attacking the specified target."
+    },
+    "CDOTA_Bot_Script_GetDefCombatProficiency": {
+        "prefix": "GetDefCombatProficiency",
+        "body": "GetDefCombatProficiency(${1:hAttacker})",
+        "description": "CDOTA_Bot_Script:\nreturn float \nGets the damage multiplier when being attacked by the specified attacker."
+    },
+    "CDOTA_Bot_Script_GetSpellAmp": {
+        "prefix": "GetSpellAmp",
+        "body": "GetSpellAmp()",
+        "description": "CDOTA_Bot_Script:\nreturn float \nGets the spell amplification debuff percentage of this unit."
+    },
+    "CDOTA_Bot_Script_GetArmor": {
+        "prefix": "GetArmor",
+        "body": "GetArmor()",
+        "description": "CDOTA_Bot_Script:\nreturn float \nGets the armor of this unit."
+    },
+    "CDOTA_Bot_Script_GetMagicResist": {
+        "prefix": "GetMagicResist",
+        "body": "GetMagicResist()",
+        "description": "CDOTA_Bot_Script:\nreturn float \nGets the magic resist value of this unit."
+    },
+    "CDOTA_Bot_Script_GetEvasion": {
+        "prefix": "GetEvasion",
+        "body": "GetEvasion()",
+        "description": "CDOTA_Bot_Script:\nreturn float \nGets the evasion percentage of this unit."
+    },
+    "CDOTA_Bot_Script_GetPrimaryAttribute": {
+        "prefix": "GetPrimaryAttribute",
+        "body": "GetPrimaryAttribute()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the primary stat of this unit."
+    },
+    "CDOTA_Bot_Script_GetAttributeValue": {
+        "prefix": "GetAttributeValue",
+        "body": "GetAttributeValue(${1:nAttrib})",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the value of the specified stat. Returns -1 for non-heroes."
+    },
+    "CDOTA_Bot_Script_GetBountyXP": {
+        "prefix": "GetBountyXP",
+        "body": "GetBountyXP()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the XP bounty value for killing this unit. "
+    },
+    "CDOTA_Bot_Script_GetBountyGoldMin": {
+        "prefix": "GetBountyGoldMin",
+        "body": "GetBountyGoldMin()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the minimum gold bounty value for killing this unit."
+    },
+    "CDOTA_Bot_Script_GetBountyGoldMax": {
+        "prefix": "GetBountyGoldMax",
+        "body": "GetBountyGoldMax()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the maximum gold bounty value for killing this unit."
+    },
+    "CDOTA_Bot_Script_GetXPNeededToLevel": {
+        "prefix": "GetXPNeededToLevel",
+        "body": "GetXPNeededToLevel()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the amount of XP needed for this unit to gain a level. Returns -1 for non-heroes."
+    },
+    "CDOTA_Bot_Script_GetAbilityPoints": {
+        "prefix": "GetAbilityPoints",
+        "body": "GetAbilityPoints()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGet the number of ability points available to this bot."
+    },
+    "CDOTA_Bot_Script_GetLevel": {
+        "prefix": "GetLevel",
+        "body": "GetLevel()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the level of this unit."
+    },
+    "CDOTA_Bot_Script_GetGold": {
+        "prefix": "GetGold",
+        "body": "GetGold()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the current gold amount for this unit."
+    },
+    "CDOTA_Bot_Script_GetNetWorth": {
+        "prefix": "GetNetWorth",
+        "body": "GetNetWorth()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the current total net worth for this unit."
+    },
+    "CDOTA_Bot_Script_GetStashValue": {
+        "prefix": "GetStashValue",
+        "body": "GetStashValue()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the current value of all items in this unit's stash."
+    },
+    "CDOTA_Bot_Script_GetCourierValue": {
+        "prefix": "GetCourierValue",
+        "body": "GetCourierValue()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the current value of all items on couriers that this unit owns."
+    },
+    "CDOTA_Bot_Script_GetLastHits": {
+        "prefix": "GetLastHits",
+        "body": "GetLastHits()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the current last hit count for this unit."
+    },
+    "CDOTA_Bot_Script_GetDenies": {
+        "prefix": "GetDenies",
+        "body": "GetDenies()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the current deny count for this unit."
+    },
+    "CDOTA_Bot_Script_GetBoundingRadius": {
+        "prefix": "GetBoundingRadius",
+        "body": "GetBoundingRadius()",
+        "description": "CDOTA_Bot_Script:\nreturn float \nGets the bounding radius of this unit. Used for attack ranges and collision."
+    },
+    "CDOTA_Bot_Script_GetLocation": {
+        "prefix": "GetLocation",
+        "body": "GetLocation()",
+        "description": "CDOTA_Bot_Script:\nreturn vector \nGets the location of this unit. int"
+    },
+    "CDOTA_Bot_Script_GetFacing": {
+        "prefix": "GetFacing",
+        "body": "GetFacing()",
+        "description": "CDOTA_Bot_Script:\nreturn nil\nGets the facing of this unit on a 360 degree rotation. (0 - 359). Facing East is 0,North is 90,West is 180,South is 270."
+    },
+    "CDOTA_Bot_Script_IsFacingLocation": {
+        "prefix": "IsFacingLocation",
+        "body": "IsFacingLocation(${1:vLocation},${2:nDegrees})",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns if the unit is facing the specified location,within an nDegrees cone."
+    },
+    "CDOTA_Bot_Script_GetGroundHeight": {
+        "prefix": "GetGroundHeight",
+        "body": "GetGroundHeight()",
+        "description": "CDOTA_Bot_Script:\nreturn float \nGets ground height of the location of this unit. Note: This call can be very expensive! Use sparingly."
+    },
+    "CDOTA_Bot_Script_GetVelocity": {
+        "prefix": "GetVelocity",
+        "body": "GetVelocity()",
+        "description": "CDOTA_Bot_Script:\nreturn vector \nGets the unit's current velocity."
+    },
+    "CDOTA_Bot_Script_GetDayTimeVisionRange": {
+        "prefix": "GetDayTimeVisionRange",
+        "body": "GetDayTimeVisionRange()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the unit's vision range during the day."
+    },
+    "CDOTA_Bot_Script_GetNightTimeVisionRange": {
+        "prefix": "GetNightTimeVisionRange",
+        "body": "GetNightTimeVisionRange()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the unit's vision range during the night."
+    },
+    "CDOTA_Bot_Script_GetCurrentVisionRange": {
+        "prefix": "GetCurrentVisionRange",
+        "body": "GetCurrentVisionRange()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the unit's current vision range."
+    },
+    "CDOTA_Bot_Script_GetHealthRegenPerStr": {
+        "prefix": "GetHealthRegenPerStr",
+        "body": "GetHealthRegenPerStr()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nReturns the health regen per second per point in strength."
+    },
+    "CDOTA_Bot_Script_GetManaRegenPerInt": {
+        "prefix": "GetManaRegenPerInt",
+        "body": "GetManaRegenPerInt()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nReturns the mana regen per second per point in intellect."
+    },
+    "CDOTA_Bot_Script_GetAnimActivity": {
+        "prefix": "GetAnimActivity",
+        "body": "GetAnimActivity()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nReturns the current animation activity the unit is playing."
+    },
+    "CDOTA_Bot_Script_GetAnimCycle": {
+        "prefix": "GetAnimCycle",
+        "body": "GetAnimCycle()",
+        "description": "CDOTA_Bot_Script:\nreturn float \nReturns the amount through the current animation (0.0 - 1.0)"
+    },
+    "CDOTA_Bot_Script_GetAbilityByName": {
+        "prefix": "GetAbilityByName",
+        "body": "GetAbilityByName(${1:sAbilityName})",
+        "description": "CDOTA_Bot_Script:\nreturn hAbility \nGets a handle to the named ability. Ability names can be found in here"
+    },
+    "CDOTA_Bot_Script_GetAbilityInSlot": {
+        "prefix": "GetAbilityInSlot",
+        "body": "GetAbilityInSlot(${1:nAbilitySlot})",
+        "description": "CDOTA_Bot_Script:\nreturn hAbility \nGets a handle to ability in the specified slot. Slots range from 0 to 23."
+    },
+    "CDOTA_Bot_Script_GetItemInSlot": {
+        "prefix": "GetItemInSlot",
+        "body": "GetItemInSlot(${1:nIventorySlot})",
+        "description": "CDOTA_Bot_Script:\nreturn hItem \nGets a handle to item in the specified inventory slot. Slots range from 0 to 16."
+    },
+    "CDOTA_Bot_Script_FindItemSlot": {
+        "prefix": "FindItemSlot",
+        "body": "FindItemSlot(${1:sItemName})",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the inventory slot the named item is in. Item names can be found here."
+    },
+    "CDOTA_Bot_Script_GetItemSlotType": {
+        "prefix": "GetItemSlotType",
+        "body": "GetItemSlotType(${1:nIventorySlot})",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the type of the specified inventory slot."
+    },
+    "CDOTA_Bot_Script_IsChanneling": {
+        "prefix": "IsChanneling",
+        "body": "IsChanneling()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit is currently channeling an ability or item."
+    },
+    "CDOTA_Bot_Script_IsUsingAbility": {
+        "prefix": "IsUsingAbility",
+        "body": "IsUsingAbility()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit's active ability is a UseAbility action. Note that this will be true while a is currently using an ability or item."
+    },
+    "CDOTA_Bot_Script_IsCastingAbility": {
+        "prefix": "IsCastingAbility",
+        "body": "IsCastingAbility()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit is actively casting an ability or item. Does not include movement or backswing."
+    },
+    "CDOTA_Bot_Script_GetCurrentActiveAbility": {
+        "prefix": "GetCurrentActiveAbility",
+        "body": "GetCurrentActiveAbility()",
+        "description": "CDOTA_Bot_Script:\nreturn hAbility \nGets a handle to ability that's currently being used."
+    },
+    "CDOTA_Bot_Script_IsAttackImmune": {
+        "prefix": "IsAttackImmune",
+        "body": "IsAttackImmune()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit is immune to attacks."
+    },
+    "CDOTA_Bot_Script_IsBlind": {
+        "prefix": "IsBlind",
+        "body": "IsBlind()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit is blind and will miss all of its attacks."
+    },
+    "CDOTA_Bot_Script_IsBlockDisabled": {
+        "prefix": "IsBlockDisabled",
+        "body": "IsBlockDisabled()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit is disabled from blocking attacks."
+    },
+    "CDOTA_Bot_Script_IsDisarmed": {
+        "prefix": "IsDisarmed",
+        "body": "IsDisarmed()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit is disarmed and unable to attack."
+    },
+    "CDOTA_Bot_Script_IsDominated": {
+        "prefix": "IsDominated",
+        "body": "IsDominated()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit has been dominated."
+    },
+    "CDOTA_Bot_Script_IsEvadeDisabled": {
+        "prefix": "IsEvadeDisabled",
+        "body": "IsEvadeDisabled()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit is unable to evade attacks."
+    },
+    "CDOTA_Bot_Script_IsHexed": {
+        "prefix": "IsHexed",
+        "body": "IsHexed()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit is hexed into an adorable animal."
+    },
+    "CDOTA_Bot_Script_IsInvisible": {
+        "prefix": "IsInvisible",
+        "body": "IsInvisible()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit has an invisibility effect. Note that this does NOT guarantee invisibility to the other team \n if they have detection,they can see you even IsInvisible returns true"
+    },
+    "CDOTA_Bot_Script_IsInvulnerable": {
+        "prefix": "IsInvulnerable",
+        "body": "IsInvulnerable()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit is invulnerable to damage."
+    },
+    "CDOTA_Bot_Script_IsMagicImmune": {
+        "prefix": "IsMagicImmune",
+        "body": "IsMagicImmune()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit is magic immune."
+    },
+    "CDOTA_Bot_Script_IsMuted": {
+        "prefix": "IsMuted",
+        "body": "IsMuted()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit is item muted."
+    },
+    "CDOTA_Bot_Script_IsNightmared": {
+        "prefix": "IsNightmared",
+        "body": "IsNightmared()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit is having bad dreams."
+    },
+    "CDOTA_Bot_Script_IsRooted": {
+        "prefix": "IsRooted",
+        "body": "IsRooted()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit is rooted in place."
+    },
+    "CDOTA_Bot_Script_IsSilenced": {
+        "prefix": "IsSilenced",
+        "body": "IsSilenced()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit is silenced and unable to use abilities."
+    },
+    "CDOTA_Bot_Script_IsSpeciallyDeniable": {
+        "prefix": "IsSpeciallyDeniable",
+        "body": "IsSpeciallyDeniable()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit is deniable by allies due to a debuff."
+    },
+    "CDOTA_Bot_Script_IsStunned": {
+        "prefix": "IsStunned",
+        "body": "IsStunned()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit is stunned."
+    },
+    "CDOTA_Bot_Script_IsUnableToMiss": {
+        "prefix": "IsUnableToMiss",
+        "body": "IsUnableToMiss()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit will not miss due to evasion or attacking uphill."
+    },
+    "CDOTA_Bot_Script_HasScepter": {
+        "prefix": "HasScepter",
+        "body": "HasScepter()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit has ultimate scepter upgrades."
+    },
+    "CDOTA_Bot_Script_WasRecentlyDamagedByAnyHero": {
+        "prefix": "WasRecentlyDamagedByAnyHero",
+        "body": "WasRecentlyDamagedByAnyHero(${1:fInterval})",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit has been damaged by a hero in the specified interval."
+    },
+    "CDOTA_Bot_Script_TimeSinceDamagedByAnyHero": {
+        "prefix": "TimeSinceDamagedByAnyHero",
+        "body": "TimeSinceDamagedByAnyHero()",
+        "description": "CDOTA_Bot_Script:\nreturn float \nReturns whether the amount of time passed the unit has been damaged by a hero."
+    },
+    "CDOTA_Bot_Script_WasRecentlyDamagedByHero": {
+        "prefix": "WasRecentlyDamagedByHero",
+        "body": "WasRecentlyDamagedByHero(${1:hUnit},${2:fInterval})",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit has been damaged by the specified hero in the specified interval."
+    },
+    "CDOTA_Bot_Script_TimeSinceDamagedByHero": {
+        "prefix": "TimeSinceDamagedByHero",
+        "body": "TimeSinceDamagedByHero(${1:hUnit})",
+        "description": "CDOTA_Bot_Script:\nreturn float \nReturns whether the amount of time passed the unit has been damaged by the specified hero."
+    },
+    "CDOTA_Bot_Script_WasRecentlyDamagedByPlayer": {
+        "prefix": "WasRecentlyDamagedByPlayer",
+        "body": "WasRecentlyDamagedByPlayer(${1:nPlayerID},${2:fInterval})",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit has been damaged by the specified player in the specified interval."
+    },
+    "CDOTA_Bot_Script_TimeSinceDamagedByPlayer": {
+        "prefix": "TimeSinceDamagedByPlayer",
+        "body": "TimeSinceDamagedByPlayer(${1:nPlayerID})",
+        "description": "CDOTA_Bot_Script:\nreturn float \nReturns whether the amount of time passed the unit has been damaged by the specified hero."
+    },
+    "CDOTA_Bot_Script_WasRecentlyDamagedByCreep": {
+        "prefix": "WasRecentlyDamagedByCreep",
+        "body": "WasRecentlyDamagedByCreep(${1:fInterval})",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit has been damaged by a creep in the specified interval."
+    },
+    "CDOTA_Bot_Script_TimeSinceDamagedByCreep": {
+        "prefix": "TimeSinceDamagedByCreep",
+        "body": "TimeSinceDamagedByCreep()",
+        "description": "CDOTA_Bot_Script:\nreturn float \nReturns whether the amount of time passed the unit has been damaged by a creep."
+    },
+    "CDOTA_Bot_Script_WasRecentlyDamagedByTower": {
+        "prefix": "WasRecentlyDamagedByTower",
+        "body": "WasRecentlyDamagedByTower(${1:fInterval})",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit has been damaged by a tower in the specified interval."
+    },
+    "CDOTA_Bot_Script_TimeSinceDamagedByTower": {
+        "prefix": "TimeSinceDamagedByTower",
+        "body": "TimeSinceDamagedByTower()",
+        "description": "CDOTA_Bot_Script:\nreturn float \nReturns whether the amount of time passed the unit has been damaged by a tower."
+    },
+    "CDOTA_Bot_Script_DistanceFromFountain": {
+        "prefix": "DistanceFromFountain",
+        "body": "DistanceFromFountain()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the unit’s straight-line distance from the team’s fountain (0 is in the fountain)."
+    },
+    "CDOTA_Bot_Script_DistanceFromSecretShop": {
+        "prefix": "DistanceFromSecretShop",
+        "body": "DistanceFromSecretShop()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the unit’s straight-line distance from the closest secret shop (0 is in a secret shop)."
+    },
+    "CDOTA_Bot_Script_DistanceFromSideShop": {
+        "prefix": "DistanceFromSideShop",
+        "body": "DistanceFromSideShop()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the unit’s straight-line distance from the closest side shop (0 is in a side shop)."
+    },
+    "CDOTA_Bot_Script_SetTarget": {
+        "prefix": "SetTarget",
+        "body": "SetTarget(${1:hUnit})",
+        "description": "CDOTA_Bot_Script:\nreturn nil \nSets the target to be a specific unit. Doesn't actually execute anything,just potentially useful for communicating a target between modes/items."
+    },
+    "CDOTA_Bot_Script_GetTarget": {
+        "prefix": "GetTarget",
+        "body": "GetTarget()",
+        "description": "CDOTA_Bot_Script:\nreturn hUnit \nGets the target that's been set for a unit."
+    },
+    "CDOTA_Bot_Script_SetNextItemPurchaseValue": {
+        "prefix": "SetNextItemPurchaseValue",
+        "body": "SetNextItemPurchaseValue(${1:nGold})",
+        "description": "CDOTA_Bot_Script:\nreturn nil \nSets the value of the next item to purchase. Doesn't actually execute anything,just potentially useful for communicating a purchase target for modes like Farm."
+    },
+    "CDOTA_Bot_Script_GetNextItemPurchaseValue": {
+        "prefix": "GetNextItemPurchaseValue",
+        "body": "GetNextItemPurchaseValue()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the purchase value that's been set."
+    },
+    "CDOTA_Bot_Script_GetAssignedLane": {
+        "prefix": "GetAssignedLane",
+        "body": "GetAssignedLane()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nGets the assigned lane of this unit."
+    },
+    "CDOTA_Bot_Script_GetOffensivePower": {
+        "prefix": "GetOffensivePower",
+        "body": "GetOffensivePower()",
+        "description": "CDOTA_Bot_Script:\nreturn float \nGets an estimate of the current offensive power of a unit. Derived from the average amount of damage it can do to all enemy heroes."
+    },
+    "CDOTA_Bot_Script_GetRawOffensivePower": {
+        "prefix": "GetRawOffensivePower",
+        "body": "GetRawOffensivePower()",
+        "description": "CDOTA_Bot_Script:\nreturn float \nGets an estimate of the current offensive power of a unit. Derived from the average amount of damage it can do to all enemy heroes,ignoring cooldown and mana status."
+    },
+    "CDOTA_Bot_Script_GetEstimatedDamageToTarget": {
+        "prefix": "GetEstimatedDamageToTarget",
+        "body": "GetEstimatedDamageToTarget(${1:handlehTarget},${2:floatfDuration},${3:intnDamageTypes})",
+        "description": "CDOTA_Bot_Script:\nreturn int\nHowmuchdamagewouldthisabilitydotothespecifiedtargetoverthespecifiedduration?"
+    },
+    "CDOTA_Bot_Script_GetStunDuration": {
+        "prefix": "GetStunDuration",
+        "body": "GetStunDuration(${1:bCurrentlyAvailable})",
+        "description": "CDOTA_Bot_Script:\nreturn float \nGets an estimate of the duration of a stun that a unit can cast. If bCurrentlyAvailable is true,it takes into account mana and cooldown status."
+    },
+    "CDOTA_Bot_Script_GetSlowDuration": {
+        "prefix": "GetSlowDuration",
+        "body": "GetSlowDuration(${1:bCurrentlyAvailable})",
+        "description": "CDOTA_Bot_Script:\nreturn float \nGets an estimate of the duration of a slow that a unit can cast. If bCurrentlyAvailable is true,it takes into account mana and cooldown status."
+    },
+    "CDOTA_Bot_Script_HasBlink": {
+        "prefix": "HasBlink",
+        "body": "HasBlink(${1:bCurrentlyAvailable})",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit has a blink available to them."
+    },
+    "CDOTA_Bot_Script_HasMinistunOnAttack": {
+        "prefix": "HasMinistunOnAttack",
+        "body": "HasMinistunOnAttack()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit has a ministun when they attack."
+    },
+    "CDOTA_Bot_Script_HasSilence": {
+        "prefix": "HasSilence",
+        "body": "HasSilence(${1:bCurrentlyAvailable})",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit has a silence available to them."
+    },
+    "CDOTA_Bot_Script_HasInvisibility": {
+        "prefix": "HasInvisibility",
+        "body": "HasInvisibility(${1:bCurrentlyAvailable})",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit has an invisibility-causing item or ability available to them."
+    },
+    "CDOTA_Bot_Script_UsingItemBreaksInvisibility": {
+        "prefix": "UsingItemBreaksInvisibility",
+        "body": "UsingItemBreaksInvisibility()",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether using an item would break the unit's invisibility."
+    },
+    "CDOTA_Bot_Script_GetNearbyHeroes": {
+        "prefix": "GetNearbyHeroes",
+        "body": "GetNearbyHeroes(${1:nRadius},${2:bEnemies},${3:nMode})",
+        "description": "CDOTA_Bot_Script:\nreturn {hUnit,...} \nReturns a table of heroes,sorted closest-to-furthest,that are in the specified mode. If nMode is BOT_MODE_NONE,searches for all heroes. If bEnemies is true,nMode must be BOT_MODE_NONE. nRadius must be less than 1600."
+    },
+    "CDOTA_Bot_Script_GetNearbyCreeps": {
+        "prefix": "GetNearbyCreeps",
+        "body": "GetNearbyCreeps(${1:nRadius},${2:bEnemies})",
+        "description": "CDOTA_Bot_Script:\nreturn {hUnit,...} \nReturns a table of creeps,sorted closest-to-furthest. nRadius must be less than 1600."
+    },
+    "CDOTA_Bot_Script_GetNearbyLaneCreeps": {
+        "prefix": "GetNearbyLaneCreeps",
+        "body": "GetNearbyLaneCreeps(${1:nRadius},${2:bEnemies})",
+        "description": "CDOTA_Bot_Script:\nreturn {hUnit,...} \nReturns a table of lane creeps,sorted closest-to-furthest. nRadius must be less than 1600."
+    },
+    "CDOTA_Bot_Script_GetNearbyNeutralCreeps": {
+        "prefix": "GetNearbyNeutralCreeps",
+        "body": "GetNearbyNeutralCreeps(${1:nRadius})",
+        "description": "CDOTA_Bot_Script:\nreturn {hUnit,...} \nReturns a table of neutral creeps,sorted closest-to-furthest. nRadius must be less than 1600."
+    },
+    "CDOTA_Bot_Script_GetNearbyTowers": {
+        "prefix": "GetNearbyTowers",
+        "body": "GetNearbyTowers(${1:nRadius},${2:bEnemies})",
+        "description": "CDOTA_Bot_Script:\nreturn {hUnit,...} \nReturns a table of towers,sorted closest-to-furthest. nRadius must be less than 1600."
+    },
+    "CDOTA_Bot_Script_GetNearbyBarracks": {
+        "prefix": "GetNearbyBarracks",
+        "body": "GetNearbyBarracks(${1:nRadius},${2:bEnemies})",
+        "description": "CDOTA_Bot_Script:\nreturn {hUnit,...} \nReturns a table of barracks,sorted closest-to-furthest. nRadius must be less than 1600."
+    },
+    "CDOTA_Bot_Script_GetNearbyShrines": {
+        "prefix": "GetNearbyShrines",
+        "body": "GetNearbyShrines(${1:nRadius},${2:bEnemies})",
+        "description": "CDOTA_Bot_Script:\nreturn {hUnit,...} \nReturns a table of shrines,sorted closest-to-furthest. nRadius must be less than 1600."
+    },
+    "CDOTA_Bot_Script_GetNearbyTrees": {
+        "prefix": "GetNearbyTrees",
+        "body": "GetNearbyTrees(${1:nRadius})",
+        "description": "CDOTA_Bot_Script:\nreturn {int,...} \nReturns a table of Tree IDs,sorted closest-to-furthest. nRadius must be less than 1600."
+    },
+    "CDOTA_Bot_Script_FindAoELocation": {
+        "prefix": "FindAoELocation",
+        "body": "FindAoELocation(${1:bEnemies},${2:bHeroes},${3:vBaseLocation},${4:nMaxDistanceFromBase},${5:nRadius},${6:fTimeInFuture},${7:nMaxHealth})",
+        "description": "CDOTA_Bot_Script:\nreturn {int_count,vector_targetloc} \nGets the optimal location for AoE to hit the maximum number of units described by the parameters. Returns a table containing the values targetloc that is a vector for the center of the AoE and count that will be equal to the number of units within the AoE that mach the description."
+    },
+    "CDOTA_Bot_Script_GetExtrapolatedLocation": {
+        "prefix": "GetExtrapolatedLocation",
+        "body": "GetExtrapolatedLocation(${1:fTime})",
+        "description": "CDOTA_Bot_Script:\nreturn vector \nReturns the extrapolated location of the unit fTime seconds into the future,based on its current movement."
+    },
+    "CDOTA_Bot_Script_GetMovementDirectionStability": {
+        "prefix": "GetMovementDirectionStability",
+        "body": "GetMovementDirectionStability()",
+        "description": "CDOTA_Bot_Script:\nreturn float \nReturns how stable the direction of the unit's movement is a value of 1.0 means they've been moving in a straight line for a while,where 0.0 is completely random movement."
+    },
+    "CDOTA_Bot_Script_HasModifier": {
+        "prefix": "HasModifier",
+        "body": "HasModifier(${1:sModifierName})",
+        "description": "CDOTA_Bot_Script:\nreturn bool \nReturns whether the unit has the specified modifer."
+    },
+    "CDOTA_Bot_Script_GetModifierByName": {
+        "prefix": "GetModifierByName",
+        "body": "GetModifierByName(${1:sModifierName})",
+        "description": "CDOTA_Bot_Script:\nreturn int \nReturns the modifier index for the specified modifier."
+    },
+    "CDOTA_Bot_Script_NumModifiers": {
+        "prefix": "NumModifiers",
+        "body": "NumModifiers()",
+        "description": "CDOTA_Bot_Script:\nreturn int \nReturns the number of modifiers on the unit."
+    },
+    "CDOTA_Bot_Script_GetModifierName": {
+        "prefix": "GetModifierName",
+        "body": "GetModifierName(${1:nModifier})",
+        "description": "CDOTA_Bot_Script:\nreturn int \nReturns the name of the specified modifier."
+    },
+    "CDOTA_Bot_Script_GetModifierStackCount": {
+        "prefix": "GetModifierStackCount",
+        "body": "GetModifierStackCount(${1:nModifier})",
+        "description": "CDOTA_Bot_Script:\nreturn int \nReturns stack count of the specified modifier."
+    },
+    "CDOTA_Bot_Script_GetModifierRemainingDuration": {
+        "prefix": "GetModifierRemainingDuration",
+        "body": "GetModifierRemainingDuration(${1:nModifier})",
+        "description": "CDOTA_Bot_Script:\nreturn int \nReturns remaining duration of the specified modifier."
+    },
+    "CDOTA_Bot_Script_GetModifierAuxiliaryUnits": {
+        "prefix": "GetModifierAuxiliaryUnits",
+        "body": "GetModifierAuxiliaryUnits(${1:nModifier})",
+        "description": "CDOTA_Bot_Script:\nreturn int \nReturns a table containing handles to units that the modifier is responsible for,such as Ember Spirit remnants."
+    },
+    "CDOTA_Bot_Script_GetMostRecentPing": {
+        "prefix": "GetMostRecentPing",
+        "body": "GetMostRecentPing()",
+        "description": "CDOTA_Bot_Script:\nreturn {time,location,normal_ping} \nReturns a table containing the time and location of the unit's most recent ping,and whether it was a normal or danger ping."
+    },
+    "CDOTA_Bot_Script_GetIncomingTrackingProjectiles": {
+        "prefix": "GetIncomingTrackingProjectiles",
+        "body": "GetIncomingTrackingProjectiles()",
+        "description": "CDOTA_Bot_Script:\nreturn {{location,caster,player,ability,is_dodgeable,is_attack},...} \nReturns information about all projectiles incoming towards this unit."
+    },
+	
+	
+	
+	"CDOTABaseAbility_CanAbilityBeUpgraded": {
+        "prefix": "CanAbilityBeUpgraded",
+        "body": "CanAbilityBeUpgraded()",
+        "description": "CDOTABaseAbility:\nreturn bool\nCan this Ability be upgraded?"
+    },
+    "CDOTABaseAbility_CanBeDisassembled": {
+        "prefix": "CanBeDisassembled",
+        "body": "CanBeDisassembled()",
+        "description": "CDOTABaseAbility:\nreturn bool\nCan this item be disassembled?"
+    },
+    "CDOTABaseAbility_GetAOERadius": {
+        "prefix": "GetAOERadius",
+        "body": "GetAOERadius()",
+        "description": "CDOTABaseAbility:\nreturn int\nGets the AoE radius of this Ability."
+    },
+    "CDOTABaseAbility_GetAbilityDamage": {
+        "prefix": "GetAbilityDamage",
+        "body": "GetAbilityDamage()",
+        "description": "CDOTABaseAbility:\nreturn int\nGet the basic damage value of this Ability."
+    },
+    "CDOTABaseAbility_GetAutoCastState": {
+        "prefix": "GetAutoCastState",
+        "body": "GetAutoCastState()",
+        "description": "CDOTABaseAbility:\nreturn bool\nGet the auto cast state of this Ability."
+    },
+    "CDOTABaseAbility_GetBehavior": {
+        "prefix": "GetBehavior",
+        "body": "GetBehavior()",
+        "description": "CDOTABaseAbility:\nreturn int\nGet the behavior type of this Ability."
+    },
+    "CDOTABaseAbility_GetCastPoint": {
+        "prefix": "GetCastPoint",
+        "body": "GetCastPoint()",
+        "description": "CDOTABaseAbility:\nreturn float\nGets the castpoint of this Ability."
+    },
+    "CDOTABaseAbility_GetCastRange": {
+        "prefix": "GetCastRange",
+        "body": "GetCastRange()",
+        "description": "CDOTABaseAbility:\nreturn int\nGets the castrange of this Ability."
+    },
+    "CDOTABaseAbility_GetCaster": {
+        "prefix": "GetCaster",
+        "body": "GetCaster()",
+        "description": "CDOTABaseAbility:\nreturn handle\nGet the unit who owns this Ability."
+    },
+    "CDOTABaseAbility_GetChannelTime": {
+        "prefix": "GetChannelTime",
+        "body": "GetChannelTime()",
+        "description": "CDOTABaseAbility:\nreturn float\nHow long Does this Ability channel?"
+    },
+    "CDOTABaseAbility_GetChannelledManaCostPerSecond": {
+        "prefix": "GetChannelledManaCostPerSecond",
+        "body": "GetChannelledManaCostPerSecond()",
+        "description": "CDOTABaseAbility:\nreturn int\nGet the mana cost per second of this Ability while channeling it."
+    },
+    "CDOTABaseAbility_GetCooldown": {
+        "prefix": "GetCooldown",
+        "body": "GetCooldown()",
+        "description": "CDOTABaseAbility:\nreturn float\nGet the cooldown of this Abilty."
+    },
+    "CDOTABaseAbility_GetCooldownTimeRemaining": {
+        "prefix": "GetCooldownTimeRemaining",
+        "body": "GetCooldownTimeRemaining()",
+        "description": "CDOTABaseAbility:\nreturn float\nGet the cooldown time remaning for this Ability."
+    },
+    "CDOTABaseAbility_GetCurrentCharges": {
+        "prefix": "GetCurrentCharges",
+        "body": "GetCurrentCharges()",
+        "description": "CDOTABaseAbility:\nreturn int\nGet the current charges of this item."
+    },
+    "CDOTABaseAbility_GetDamageType": {
+        "prefix": "GetDamageType",
+        "body": "GetDamageType()",
+        "description": "CDOTABaseAbility:\nreturn int\nGet the damage type of this Ability."
+    },
+    "CDOTABaseAbility_GetDuration": {
+        "prefix": "GetDuration",
+        "body": "GetDuration()",
+        "description": "CDOTABaseAbility:\nreturn float\n How longDoes this Ability persist once cast?"
+    },
+    "CDOTABaseAbility_GetheroLevelRequiredToUpgrade": {
+        "prefix": "GetheroLevelRequiredToUpgrade",
+        "body": "GetheroLevelRequiredToUpgrade()",
+        "description": "CDOTABaseAbility:\nreturn int\nGet the Hero level required to upgrade this Ability."
+    },
+    "CDOTABaseAbility_GetInitialCharges": {
+        "prefix": "GetInitialCharges",
+        "body": "GetInitialCharges()",
+        "description": "CDOTABaseAbility:\nreturn int\nGet the initial charges of this item."
+    },
+    "CDOTABaseAbility_GetLevel": {
+        "prefix": "GetLevel",
+        "body": "GetLevel()",
+        "description": "CDOTABaseAbility:\nreturn int\nGet the current level of the Ability."
+    },
+    "CDOTABaseAbility_GetManaCost": {
+        "prefix": "GetManaCost",
+        "body": "GetManaCost()",
+        "description": "CDOTABaseAbility:\nreturn int\nGet the mana cost of this Ability."
+    },
+    "CDOTABaseAbility_GetMaxLevel": {
+        "prefix": "GetMaxLevel",
+        "body": "GetMaxLevel()",
+        "description": "CDOTABaseAbility:\nreturn int\nGet the max level of this Ability."
+    },
+    "CDOTABaseAbility_GetName": {
+        "prefix": "GetName",
+        "body": "GetName()",
+        "description": "CDOTABaseAbility:\nreturn cstring\nGet the name of this Ability."
+    },
+    "CDOTABaseAbility_GetPowerTreadsStat": {
+        "prefix": "GetPowerTreadsStat",
+        "body": "GetPowerTreadsStat()",
+        "description": "CDOTABaseAbility:\nreturn int\nGet the stat these power treads are set to."
+    },
+    "CDOTABaseAbility_GetSecondaryCharges": {
+        "prefix": "GetSecondaryCharges",
+        "body": "GetSecondaryCharges()",
+        "description": "CDOTABaseAbility:\nreturn int\nGet the secondary charges of this item."
+    },
+    "CDOTABaseAbility_GetSpecialValueFloat": {
+        "prefix": "GetSpecialValueFloat",
+        "body": "GetSpecialValueFloat(${1:cstringpszKey})",
+        "description": "CDOTABaseAbility:\nreturn float\nGet an int internal data parameter of this Abilty."
+    },
+    "CDOTABaseAbility_GetSpecialValueInt": {
+        "prefix": "GetSpecialValueInt",
+        "body": "GetSpecialValueInt(${1:cstringpszKey})",
+        "description": "CDOTABaseAbility:\nreturn int\nGet an int internal data parameter of this Abilty."
+    },
+    "CDOTABaseAbility_GetTargetFlags": {
+        "prefix": "GetTargetFlags",
+        "body": "GetTargetFlags()",
+        "description": "CDOTABaseAbility:\nreturn int\nGet the flags for this Ability."
+    },
+    "CDOTABaseAbility_GetTargetTeam": {
+        "prefix": "GetTargetTeam",
+        "body": "GetTargetTeam()",
+        "description": "CDOTABaseAbility:\nreturn int\nGet the target team of this Ability."
+    },
+    "CDOTABaseAbility_GetTargetType": {
+        "prefix": "GetTargetType",
+        "body": "GetTargetType()",
+        "description": "CDOTABaseAbility:\nreturn int\nGet the target type of this Ability."
+    },
+    "CDOTABaseAbility_GetToggleState": {
+        "prefix": "GetToggleState",
+        "body": "GetToggleState()",
+        "description": "CDOTABaseAbility:\nreturn bool\nGet the toggle state of this Ability."
+    },
+    "CDOTABaseAbility_IsActivated": {
+        "prefix": "IsActivated",
+        "body": "IsActivated()",
+        "description": "CDOTABaseAbility:\nreturn bool\nIs this Ability currently activated?"
+    },
+    "CDOTABaseAbility_IsChanneling": {
+        "prefix": "IsChanneling",
+        "body": "IsChanneling()",
+        "description": "CDOTABaseAbility:\nreturn bool\nIs this Ability being channelled?"
+    },
+    "CDOTABaseAbility_IsCombineLocked": {
+        "prefix": "IsCombineLocked",
+        "body": "IsCombineLocked()",
+        "description": "CDOTABaseAbility:\nreturn bool\nIs this item combine locked?"
+    },
+    "CDOTABaseAbility_IsCooldownReady": {
+        "prefix": "IsCooldownReady",
+        "body": "IsCooldownReady()",
+        "description": "CDOTABaseAbility:\nreturn bool\nIs this Ability off cooldown?"
+    },
+    "CDOTABaseAbility_IsFullyCastable": {
+        "prefix": "IsFullyCastable",
+        "body": "IsFullyCastable()",
+        "description": "CDOTABaseAbility:\nreturn bool\nDoes the caster have the mana to use this Ability, and is it off cooldown?"
+    },
+    "CDOTABaseAbility_IsHidden": {
+        "prefix": "IsHidden",
+        "body": "IsHidden()",
+        "description": "CDOTABaseAbility:\nreturn bool\nIs this Ability currently hidden?"
+    },
+    "CDOTABaseAbility_IsInAbilityPhase": {
+        "prefix": "IsInAbilityPhase",
+        "body": "IsInAbilityPhase()",
+        "description": "CDOTABaseAbility:\nreturn bool\nIs this Ability being cast?"
+    },
+    "CDOTABaseAbility_IsItem": {
+        "prefix": "IsItem",
+        "body": "IsItem()",
+        "description": "CDOTABaseAbility:\nreturn bool\nIs this an Item?"
+    },
+    "CDOTABaseAbility_IsOwnersManaEnough": {
+        "prefix": "IsOwnersManaEnough",
+        "body": "IsOwnersManaEnough()",
+        "description": "CDOTABaseAbility:\nreturn bool\nDoes the caster have the mana to use this Ability?"
+    },
+    "CDOTABaseAbility_IsPassive": {
+        "prefix": "IsPassive",
+        "body": "IsPassive()",
+        "description": "CDOTABaseAbility:\nreturn bool\nIs this a passive Ability?"
+    },
+    "CDOTABaseAbility_IsStealable": {
+        "prefix": "IsStealable",
+        "body": "IsStealable()",
+        "description": "CDOTABaseAbility:\nreturn bool\nCan this Ability be stolen?"
+    },
+    "CDOTABaseAbility_IsStolen": {
+        "prefix": "IsStolen",
+        "body": "IsStolen()",
+        "description": "CDOTABaseAbility:\nreturn bool\nIs this the stolen version of an Ability?"
+    },
+    "CDOTABaseAbility_IsTalent": {
+        "prefix": "IsTalent",
+        "body": "IsTalent()",
+        "description": "CDOTABaseAbility:\nreturn bool\nIs this a talent ability?"
+    },
+    "CDOTABaseAbility_IsToggle": {
+        "prefix": "IsToggle",
+        "body": "IsToggle()",
+        "description": "CDOTABaseAbility:\nreturn bool\nIs this a toggled Ability?"
+    },
+    "CDOTABaseAbility_IsTrained": {
+        "prefix": "IsTrained",
+        "body": "IsTrained()",
+        "description": "CDOTABaseAbility:\nreturn bool\nIs this Ability Trained at all?"
+    },
+    "CDOTABaseAbility_IsUltimate": {
+        "prefix": "IsUltimate",
+        "body": "IsUltimate()",
+        "description": "CDOTABaseAbility:\nreturn bool\nIs this an ultimate ability?"
+    },
+    "CDOTABaseAbility_ProcsMagicStick": {
+        "prefix": "ProcsMagicStick",
+        "body": "ProcsMagicStick()",
+        "description": "CDOTABaseAbility:\nreturn bool\nDoes this Ability proc Magic Stick"
+    },
+    "CDOTABaseAbility_ToggleAutoCast": {
+        "prefix": "ToggleAutoCast",
+        "body": "ToggleAutoCast()",
+        "description": "CDOTABaseAbility:\nreturn void\nToggle the auto cast state of this Ability."
+    }
+
+
+}

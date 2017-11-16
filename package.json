@@ -1,0 +1,45 @@
+{
+	"name": "dota2-bot-script-snippets",
+	"displayName": "Dota2 Bot Script Snippets",
+	"description": "Dota2 Bot Script coding assist in Lua language.",
+	"version": "1.0.0",
+	"publisher": "adamqqq",
+	"icon": "images/dota2.jpg",
+	"engines": {
+		"vscode": "^1.18.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"main": "./out/extension",
+	"contributes": {
+		"snippets": [
+			{
+				"language": "lua",
+				"path": "./snippets/lua_constant.json"
+			},
+			{
+				"language": "lua",
+				"path": "./snippets/lua_function.json"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "npm run compile && node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "^2.6.1",
+		"vscode": "^1.1.6",
+		"@types/node": "^7.0.43",
+		"@types/mocha": "^2.2.42"
+	},
+	"__metadata": {
+		"id": "a6e337c0-5706-43ea-b6fb-3bbf07568e35",
+		"publisherId": "17d7e954-bef4-42da-a879-4539f7860394",
+		"publisherDisplayName": "adamqqq"
+	}
+}

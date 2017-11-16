@@ -1,0 +1,1687 @@
+{
+    "Constance_BOT_MODE_NONE": {
+        "prefix": "BOT_MODE_NONE",
+        "body": "BOT_MODE_NONE",
+        "description": "Constance:Bot Modes"
+    },
+    "Constance_BOT_MODE_LANING": {
+        "prefix": "BOT_MODE_LANING",
+        "body": "BOT_MODE_LANING",
+        "description": "Constance:Bot Modes"
+    },
+    "Constance_BOT_MODE_ATTACK": {
+        "prefix": "BOT_MODE_ATTACK",
+        "body": "BOT_MODE_ATTACK",
+        "description": "Constance:Bot Modes"
+    },
+    "Constance_BOT_MODE_ROAM": {
+        "prefix": "BOT_MODE_ROAM",
+        "body": "BOT_MODE_ROAM",
+        "description": "Constance:Bot Modes"
+    },
+    "Constance_BOT_MODE_RETREAT": {
+        "prefix": "BOT_MODE_RETREAT",
+        "body": "BOT_MODE_RETREAT",
+        "description": "Constance:Bot Modes"
+    },
+    "Constance_BOT_MODE_SECRET_SHOP": {
+        "prefix": "BOT_MODE_SECRET_SHOP",
+        "body": "BOT_MODE_SECRET_SHOP",
+        "description": "Constance:Bot Modes"
+    },
+    "Constance_BOT_MODE_SIDE_SHOP": {
+        "prefix": "BOT_MODE_SIDE_SHOP",
+        "body": "BOT_MODE_SIDE_SHOP",
+        "description": "Constance:Bot Modes"
+    },
+    "Constance_BOT_MODE_PUSH_TOWER_TOP": {
+        "prefix": "BOT_MODE_PUSH_TOWER_TOP",
+        "body": "BOT_MODE_PUSH_TOWER_TOP",
+        "description": "Constance:Bot Modes"
+    },
+    "Constance_BOT_MODE_PUSH_TOWER_MID": {
+        "prefix": "BOT_MODE_PUSH_TOWER_MID",
+        "body": "BOT_MODE_PUSH_TOWER_MID",
+        "description": "Constance:Bot Modes"
+    },
+    "Constance_BOT_MODE_PUSH_TOWER_BOT": {
+        "prefix": "BOT_MODE_PUSH_TOWER_BOT",
+        "body": "BOT_MODE_PUSH_TOWER_BOT",
+        "description": "Constance:Bot Modes"
+    },
+    "Constance_BOT_MODE_DEFEND_TOWER_TOP": {
+        "prefix": "BOT_MODE_DEFEND_TOWER_TOP",
+        "body": "BOT_MODE_DEFEND_TOWER_TOP",
+        "description": "Constance:Bot Modes"
+    },
+    "Constance_BOT_MODE_DEFEND_TOWER_MID": {
+        "prefix": "BOT_MODE_DEFEND_TOWER_MID",
+        "body": "BOT_MODE_DEFEND_TOWER_MID",
+        "description": "Constance:Bot Modes"
+    },
+    "Constance_BOT_MODE_DEFEND_TOWER_BOT": {
+        "prefix": "BOT_MODE_DEFEND_TOWER_BOT",
+        "body": "BOT_MODE_DEFEND_TOWER_BOT",
+        "description": "Constance:Bot Modes"
+    },
+    "Constance_BOT_MODE_ASSEMBLE": {
+        "prefix": "BOT_MODE_ASSEMBLE",
+        "body": "BOT_MODE_ASSEMBLE",
+        "description": "Constance:Bot Modes"
+    },
+    "Constance_BOT_MODE_TEAM_ROAM": {
+        "prefix": "BOT_MODE_TEAM_ROAM",
+        "body": "BOT_MODE_TEAM_ROAM",
+        "description": "Constance:Bot Modes"
+    },
+    "Constance_BOT_MODE_FARM": {
+        "prefix": "BOT_MODE_FARM",
+        "body": "BOT_MODE_FARM",
+        "description": "Constance:Bot Modes"
+    },
+    "Constance_BOT_MODE_DEFEND_ALLY": {
+        "prefix": "BOT_MODE_DEFEND_ALLY",
+        "body": "BOT_MODE_DEFEND_ALLY",
+        "description": "Constance:Bot Modes"
+    },
+    "Constance_BOT_MODE_EVASIVE_MANEUVERS": {
+        "prefix": "BOT_MODE_EVASIVE_MANEUVERS",
+        "body": "BOT_MODE_EVASIVE_MANEUVERS",
+        "description": "Constance:Bot Modes"
+    },
+    "Constance_BOT_MODE_ROSHAN": {
+        "prefix": "BOT_MODE_ROSHAN",
+        "body": "BOT_MODE_ROSHAN",
+        "description": "Constance:Bot Modes"
+    },
+    "Constance_BOT_MODE_ITEM": {
+        "prefix": "BOT_MODE_ITEM",
+        "body": "BOT_MODE_ITEM",
+        "description": "Constance:Bot Modes"
+    },
+    "Constance_BOT_MODE_WARD": {
+        "prefix": "BOT_MODE_WARD",
+        "body": "BOT_MODE_WARD",
+        "description": "Constance:Bot Modes"
+    },
+    "Constance_BOT_ACTION_DESIRE_NONE": {
+        "prefix": "BOT_ACTION_DESIRE_NONE",
+        "body": "BOT_ACTION_DESIRE_NONE",
+        "description": "Constance:Action Desires\nThese can be useful for making sure all mode desires as using a common language for talking about their desire."
+    },
+    "Constance_BOT_ACTION_DESIRE_VERYLOW": {
+        "prefix": "BOT_ACTION_DESIRE_VERYLOW",
+        "body": "BOT_ACTION_DESIRE_VERYLOW",
+        "description": "Constance:Action Desires\nThese can be useful for making sure all mode desires as using a common language for talking about their desire."
+    },
+    "Constance_BOT_ACTION_DESIRE_LOW": {
+        "prefix": "BOT_ACTION_DESIRE_LOW",
+        "body": "BOT_ACTION_DESIRE_LOW",
+        "description": "Constance:Action Desires\nThese can be useful for making sure all mode desires as using a common language for talking about their desire."
+    },
+    "Constance_BOT_ACTION_DESIRE_MODERATE": {
+        "prefix": "BOT_ACTION_DESIRE_MODERATE",
+        "body": "BOT_ACTION_DESIRE_MODERATE",
+        "description": "Constance:Action Desires\nThese can be useful for making sure all mode desires as using a common language for talking about their desire."
+    },
+    "Constance_BOT_ACTION_DESIRE_HIGH": {
+        "prefix": "BOT_ACTION_DESIRE_HIGH",
+        "body": "BOT_ACTION_DESIRE_HIGH",
+        "description": "Constance:Action Desires\nThese can be useful for making sure all mode desires as using a common language for talking about their desire."
+    },
+    "Constance_BOT_ACTION_DESIRE_VERYHIGH": {
+        "prefix": "BOT_ACTION_DESIRE_VERYHIGH",
+        "body": "BOT_ACTION_DESIRE_VERYHIGH",
+        "description": "Constance:Action Desires\nThese can be useful for making sure all mode desires as using a common language for talking about their desire."
+    },
+    "Constance_BOT_ACTION_DESIRE_ABSOLUTE": {
+        "prefix": "BOT_ACTION_DESIRE_ABSOLUTE",
+        "body": "BOT_ACTION_DESIRE_ABSOLUTE",
+        "description": "Constance:Action Desires\nThese can be useful for making sure all mode desires as using a common language for talking about their desire."
+    },
+    "Constance_BOT_MODE_DESIRE_NONE": {
+        "prefix": "BOT_MODE_DESIRE_NONE",
+        "body": "BOT_MODE_DESIRE_NONE",
+        "description": "Constance:Mode Desires\nThese can be useful for making sure all mode desires as using a common language for talking about their desire."
+    },
+    "Constance_BOT_MODE_DESIRE_VERYLOW": {
+        "prefix": "BOT_MODE_DESIRE_VERYLOW",
+        "body": "BOT_MODE_DESIRE_VERYLOW",
+        "description": "Constance:Mode Desires\nThese can be useful for making sure all mode desires as using a common language for talking about their desire."
+    },
+    "Constance_BOT_MODE_DESIRE_LOW": {
+        "prefix": "BOT_MODE_DESIRE_LOW",
+        "body": "BOT_MODE_DESIRE_LOW",
+        "description": "Constance:Mode Desires\nThese can be useful for making sure all mode desires as using a common language for talking about their desire."
+    },
+    "Constance_BOT_MODE_DESIRE_MODERATE": {
+        "prefix": "BOT_MODE_DESIRE_MODERATE",
+        "body": "BOT_MODE_DESIRE_MODERATE",
+        "description": "Constance:Mode Desires\nThese can be useful for making sure all mode desires as using a common language for talking about their desire."
+    },
+    "Constance_BOT_MODE_DESIRE_HIGH": {
+        "prefix": "BOT_MODE_DESIRE_HIGH",
+        "body": "BOT_MODE_DESIRE_HIGH",
+        "description": "Constance:Mode Desires\nThese can be useful for making sure all mode desires as using a common language for talking about their desire."
+    },
+    "Constance_BOT_MODE_DESIRE_VERYHIGH": {
+        "prefix": "BOT_MODE_DESIRE_VERYHIGH",
+        "body": "BOT_MODE_DESIRE_VERYHIGH",
+        "description": "Constance:Mode Desires\nThese can be useful for making sure all mode desires as using a common language for talking about their desire."
+    },
+    "Constance_BOT_MODE_DESIRE_ABSOLUTE": {
+        "prefix": "BOT_MODE_DESIRE_ABSOLUTE",
+        "body": "BOT_MODE_DESIRE_ABSOLUTE",
+        "description": "Constance:Mode Desires\nThese can be useful for making sure all mode desires as using a common language for talking about their desire."
+    },
+    "Constance_DAMAGE_TYPE_PHYSICAL": {
+        "prefix": "DAMAGE_TYPE_PHYSICAL",
+        "body": "DAMAGE_TYPE_PHYSICAL",
+        "description": "Constance:Damage Types"
+    },
+    "Constance_DAMAGE_TYPE_MAGICAL": {
+        "prefix": "DAMAGE_TYPE_MAGICAL",
+        "body": "DAMAGE_TYPE_MAGICAL",
+        "description": "Constance:Damage Types"
+    },
+    "Constance_DAMAGE_TYPE_PURE": {
+        "prefix": "DAMAGE_TYPE_PURE",
+        "body": "DAMAGE_TYPE_PURE",
+        "description": "Constance:Damage Types"
+    },
+    "Constance_DAMAGE_TYPE_ALL": {
+        "prefix": "DAMAGE_TYPE_ALL",
+        "body": "DAMAGE_TYPE_ALL",
+        "description": "Constance:Damage Types"
+    },
+    "Constance_UNIT_LIST_ALL": {
+        "prefix": "UNIT_LIST_ALL",
+        "body": "UNIT_LIST_ALL",
+        "description": "Constance:Unit Types"
+    },
+    "Constance_UNIT_LIST_ALLIES": {
+        "prefix": "UNIT_LIST_ALLIES",
+        "body": "UNIT_LIST_ALLIES",
+        "description": "Constance:Unit Types"
+    },
+    "Constance_UNIT_LIST_ALLIED_HEROES": {
+        "prefix": "UNIT_LIST_ALLIED_HEROES",
+        "body": "UNIT_LIST_ALLIED_HEROES",
+        "description": "Constance:Unit Types"
+    },
+    "Constance_UNIT_LIST_ALLIED_CREEPS": {
+        "prefix": "UNIT_LIST_ALLIED_CREEPS",
+        "body": "UNIT_LIST_ALLIED_CREEPS",
+        "description": "Constance:Unit Types"
+    },
+    "Constance_UNIT_LIST_ALLIED_WARDS": {
+        "prefix": "UNIT_LIST_ALLIED_WARDS",
+        "body": "UNIT_LIST_ALLIED_WARDS",
+        "description": "Constance:Unit Types"
+    },
+    "Constance_UNIT_LIST_ALLIED_BUILDINGS": {
+        "prefix": "UNIT_LIST_ALLIED_BUILDINGS",
+        "body": "UNIT_LIST_ALLIED_BUILDINGS",
+        "description": "Constance:Unit Types"
+    },
+    "Constance_UNIT_LIST_ENEMIES": {
+        "prefix": "UNIT_LIST_ENEMIES",
+        "body": "UNIT_LIST_ENEMIES",
+        "description": "Constance:Unit Types"
+    },
+    "Constance_UNIT_LIST_ENEMY_HEROES": {
+        "prefix": "UNIT_LIST_ENEMY_HEROES",
+        "body": "UNIT_LIST_ENEMY_HEROES",
+        "description": "Constance:Unit Types"
+    },
+    "Constance_UNIT_LIST_ENEMY_CREEPS": {
+        "prefix": "UNIT_LIST_ENEMY_CREEPS",
+        "body": "UNIT_LIST_ENEMY_CREEPS",
+        "description": "Constance:Unit Types"
+    },
+    "Constance_UNIT_LIST_ENEMY_WARDS": {
+        "prefix": "UNIT_LIST_ENEMY_WARDS",
+        "body": "UNIT_LIST_ENEMY_WARDS",
+        "description": "Constance:Unit Types"
+    },
+    "Constance_UNIT_LIST_NEUTRAL_CREEPS": {
+        "prefix": "UNIT_LIST_NEUTRAL_CREEPS",
+        "body": "UNIT_LIST_NEUTRAL_CREEPS",
+        "description": "Constance:Unit Types"
+    },
+    "Constance_UNIT_LIST_ENEMY_BUILDINGS": {
+        "prefix": "UNIT_LIST_ENEMY_BUILDINGS",
+        "body": "UNIT_LIST_ENEMY_BUILDINGS",
+        "description": "Constance:Unit Types"
+    },
+    "Constance_DIFFICULTY_INVALID": {
+        "prefix": "DIFFICULTY_INVALID",
+        "body": "DIFFICULTY_INVALID",
+        "description": "Constance:Difficulties"
+    },
+    "Constance_DIFFICULTY_PASSIVE": {
+        "prefix": "DIFFICULTY_PASSIVE",
+        "body": "DIFFICULTY_PASSIVE",
+        "description": "Constance:Difficulties"
+    },
+    "Constance_DIFFICULTY_EASY": {
+        "prefix": "DIFFICULTY_EASY",
+        "body": "DIFFICULTY_EASY",
+        "description": "Constance:Difficulties"
+    },
+    "Constance_DIFFICULTY_MEDIUM": {
+        "prefix": "DIFFICULTY_MEDIUM",
+        "body": "DIFFICULTY_MEDIUM",
+        "description": "Constance:Difficulties"
+    },
+    "Constance_DIFFICULTY_HARD": {
+        "prefix": "DIFFICULTY_HARD",
+        "body": "DIFFICULTY_HARD",
+        "description": "Constance:Difficulties"
+    },
+    "Constance_DIFFICULTY_UNFAIR": {
+        "prefix": "DIFFICULTY_UNFAIR",
+        "body": "DIFFICULTY_UNFAIR",
+        "description": "Constance:Difficulties"
+    },
+    "Constance_ATTRIBUTE_INVALID": {
+        "prefix": "ATTRIBUTE_INVALID",
+        "body": "ATTRIBUTE_INVALID",
+        "description": "Constance:Attribute Types"
+    },
+    "Constance_ATTRIBUTE_STRENGTH": {
+        "prefix": "ATTRIBUTE_STRENGTH",
+        "body": "ATTRIBUTE_STRENGTH",
+        "description": "Constance:Attribute Types"
+    },
+    "Constance_ATTRIBUTE_AGILITY": {
+        "prefix": "ATTRIBUTE_AGILITY",
+        "body": "ATTRIBUTE_AGILITY",
+        "description": "Constance:Attribute Types"
+    },
+    "Constance_ATTRIBUTE_INTELLECT": {
+        "prefix": "ATTRIBUTE_INTELLECT",
+        "body": "ATTRIBUTE_INTELLECT",
+        "description": "Constance:Attribute Types"
+    },
+    "Constance_PURCHASE_ITEM_SUCCESS": {
+        "prefix": "PURCHASE_ITEM_SUCCESS",
+        "body": "PURCHASE_ITEM_SUCCESS",
+        "description": "Constance:Item Purchase Results"
+    },
+    "Constance_PURCHASE_ITEM_OUT_OF_STOCK": {
+        "prefix": "PURCHASE_ITEM_OUT_OF_STOCK",
+        "body": "PURCHASE_ITEM_OUT_OF_STOCK",
+        "description": "Constance:Item Purchase Results"
+    },
+    "Constance_PURCHASE_ITEM_DISALLOWED_ITEM": {
+        "prefix": "PURCHASE_ITEM_DISALLOWED_ITEM",
+        "body": "PURCHASE_ITEM_DISALLOWED_ITEM",
+        "description": "Constance:Item Purchase Results"
+    },
+    "Constance_PURCHASE_ITEM_INSUFFICIENT_GOLD": {
+        "prefix": "PURCHASE_ITEM_INSUFFICIENT_GOLD",
+        "body": "PURCHASE_ITEM_INSUFFICIENT_GOLD",
+        "description": "Constance:Item Purchase Results"
+    },
+    "Constance_PURCHASE_ITEM_NOT_AT_HOME_SHOP": {
+        "prefix": "PURCHASE_ITEM_NOT_AT_HOME_SHOP",
+        "body": "PURCHASE_ITEM_NOT_AT_HOME_SHOP",
+        "description": "Constance:Item Purchase Results"
+    },
+    "Constance_PURCHASE_ITEM_NOT_AT_SIDE_SHOP": {
+        "prefix": "PURCHASE_ITEM_NOT_AT_SIDE_SHOP",
+        "body": "PURCHASE_ITEM_NOT_AT_SIDE_SHOP",
+        "description": "Constance:Item Purchase Results"
+    },
+    "Constance_PURCHASE_ITEM_NOT_AT_SECRET_SHOP": {
+        "prefix": "PURCHASE_ITEM_NOT_AT_SECRET_SHOP",
+        "body": "PURCHASE_ITEM_NOT_AT_SECRET_SHOP",
+        "description": "Constance:Item Purchase Results"
+    },
+    "Constance_PURCHASE_ITEM_INVALID_ITEM_NAME": {
+        "prefix": "PURCHASE_ITEM_INVALID_ITEM_NAME",
+        "body": "PURCHASE_ITEM_INVALID_ITEM_NAME",
+        "description": "Constance:Item Purchase Results"
+    },
+    "Constance_GAMEMODE_NONE": {
+        "prefix": "GAMEMODE_NONE",
+        "body": "GAMEMODE_NONE",
+        "description": "Constance:Game Modes"
+    },
+    "Constance_GAMEMODE_AP": {
+        "prefix": "GAMEMODE_AP",
+        "body": "GAMEMODE_AP",
+        "description": "Constance:Game Modes"
+    },
+    "Constance_GAMEMODE_CM": {
+        "prefix": "GAMEMODE_CM",
+        "body": "GAMEMODE_CM",
+        "description": "Constance:Game Modes"
+    },
+    "Constance_GAMEMODE_RD": {
+        "prefix": "GAMEMODE_RD",
+        "body": "GAMEMODE_RD",
+        "description": "Constance:Game Modes"
+    },
+    "Constance_GAMEMODE_SD": {
+        "prefix": "GAMEMODE_SD",
+        "body": "GAMEMODE_SD",
+        "description": "Constance:Game Modes"
+    },
+    "Constance_GAMEMODE_AR": {
+        "prefix": "GAMEMODE_AR",
+        "body": "GAMEMODE_AR",
+        "description": "Constance:Game Modes"
+    },
+    "Constance_GAMEMODE_REVERSE_CM": {
+        "prefix": "GAMEMODE_REVERSE_CM",
+        "body": "GAMEMODE_REVERSE_CM",
+        "description": "Constance:Game Modes"
+    },
+    "Constance_GAMEMODE_MO": {
+        "prefix": "GAMEMODE_MO",
+        "body": "GAMEMODE_MO",
+        "description": "Constance:Game Modes"
+    },
+    "Constance_GAMEMODE_CD": {
+        "prefix": "GAMEMODE_CD",
+        "body": "GAMEMODE_CD",
+        "description": "Constance:Game Modes"
+    },
+    "Constance_GAMEMODE_ABILITY_DRAFT": {
+        "prefix": "GAMEMODE_ABILITY_DRAFT",
+        "body": "GAMEMODE_ABILITY_DRAFT",
+        "description": "Constance:Game Modes"
+    },
+    "Constance_GAMEMODE_ARDM": {
+        "prefix": "GAMEMODE_ARDM",
+        "body": "GAMEMODE_ARDM",
+        "description": "Constance:Game Modes"
+    },
+    "Constance_GAMEMODE_1V1MID": {
+        "prefix": "GAMEMODE_1V1MID",
+        "body": "GAMEMODE_1V1MID",
+        "description": "Constance:Game Modes"
+    },
+    "Constance_GAMEMODE_ALL_DRAFT": {
+        "prefix": "GAMEMODE_ALL_DRAFT",
+        "body": "GAMEMODE_ALL_DRAFT",
+        "description": "Constance:Game Modes\n(aka Ranked All Pick)"
+    },
+    "Constance_TEAM_RADIANT": {
+        "prefix": "TEAM_RADIANT",
+        "body": "TEAM_RADIANT",
+        "description": "Constance:Teams"
+    },
+    "Constance_TEAM_DIRE": {
+        "prefix": "TEAM_DIRE",
+        "body": "TEAM_DIRE",
+        "description": "Constance:Teams"
+    },
+    "Constance_TEAM_NEUTRAL": {
+        "prefix": "TEAM_NEUTRAL",
+        "body": "TEAM_NEUTRAL",
+        "description": "Constance:Teams"
+    },
+    "Constance_TEAM_NONE": {
+        "prefix": "TEAM_NONE",
+        "body": "TEAM_NONE",
+        "description": "Constance:Teams"
+    },
+    "Constance_LANE_NONE": {
+        "prefix": "LANE_NONE",
+        "body": "LANE_NONE",
+        "description": "Constance:Lanes"
+    },
+    "Constance_LANE_TOP": {
+        "prefix": "LANE_TOP",
+        "body": "LANE_TOP",
+        "description": "Constance:Lanes"
+    },
+    "Constance_LANE_MID": {
+        "prefix": "LANE_MID",
+        "body": "LANE_MID",
+        "description": "Constance:Lanes"
+    },
+    "Constance_LANE_BOT": {
+        "prefix": "LANE_BOT",
+        "body": "LANE_BOT",
+        "description": "Constance:Lanes"
+    },
+    "Constance_GAME_STATE_INIT": {
+        "prefix": "GAME_STATE_INIT",
+        "body": "GAME_STATE_INIT",
+        "description": "Constance:Game States"
+    },
+    "Constance_GAME_STATE_WAIT_FOR_PLAYERS_TO_LOAD": {
+        "prefix": "GAME_STATE_WAIT_FOR_PLAYERS_TO_LOAD",
+        "body": "GAME_STATE_WAIT_FOR_PLAYERS_TO_LOAD",
+        "description": "Constance:Game States"
+    },
+    "Constance_GAME_STATE_HERO_SELECTION": {
+        "prefix": "GAME_STATE_HERO_SELECTION",
+        "body": "GAME_STATE_HERO_SELECTION",
+        "description": "Constance:Game States"
+    },
+    "Constance_GAME_STATE_STRATEGY_TIME": {
+        "prefix": "GAME_STATE_STRATEGY_TIME",
+        "body": "GAME_STATE_STRATEGY_TIME",
+        "description": "Constance:Game States"
+    },
+    "Constance_GAME_STATE_PRE_GAME": {
+        "prefix": "GAME_STATE_PRE_GAME",
+        "body": "GAME_STATE_PRE_GAME",
+        "description": "Constance:Game States"
+    },
+    "Constance_GAME_STATE_GAME_IN_PROGRESS": {
+        "prefix": "GAME_STATE_GAME_IN_PROGRESS",
+        "body": "GAME_STATE_GAME_IN_PROGRESS",
+        "description": "Constance:Game States"
+    },
+    "Constance_GAME_STATE_POST_GAME": {
+        "prefix": "GAME_STATE_POST_GAME",
+        "body": "GAME_STATE_POST_GAME",
+        "description": "Constance:Game States"
+    },
+    "Constance_GAME_STATE_DISCONNECT": {
+        "prefix": "GAME_STATE_DISCONNECT",
+        "body": "GAME_STATE_DISCONNECT",
+        "description": "Constance:Game States"
+    },
+    "Constance_GAME_STATE_TEAM_SHOWCASE": {
+        "prefix": "GAME_STATE_TEAM_SHOWCASE",
+        "body": "GAME_STATE_TEAM_SHOWCASE",
+        "description": "Constance:Game States"
+    },
+    "Constance_GAME_STATE_CUSTOM_GAME_SETUP": {
+        "prefix": "GAME_STATE_CUSTOM_GAME_SETUP",
+        "body": "GAME_STATE_CUSTOM_GAME_SETUP",
+        "description": "Constance:Game States"
+    },
+    "Constance_GAME_STATE_WAIT_FOR_MAP_TO_LOAD": {
+        "prefix": "GAME_STATE_WAIT_FOR_MAP_TO_LOAD",
+        "body": "GAME_STATE_WAIT_FOR_MAP_TO_LOAD",
+        "description": "Constance:Game States"
+    },
+    "Constance_GAME_STATE_LAST": {
+        "prefix": "GAME_STATE_LAST",
+        "body": "GAME_STATE_LAST",
+        "description": "Constance:Game States"
+    },
+    "Constance_HEROPICK_STATE_NONE": {
+        "prefix": "HEROPICK_STATE_NONE",
+        "body": "HEROPICK_STATE_NONE",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_AP_SELECT": {
+        "prefix": "HEROPICK_STATE_AP_SELECT",
+        "body": "HEROPICK_STATE_AP_SELECT",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_SD_SELECT": {
+        "prefix": "HEROPICK_STATE_SD_SELECT",
+        "body": "HEROPICK_STATE_SD_SELECT",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CM_INTRO": {
+        "prefix": "HEROPICK_STATE_CM_INTRO",
+        "body": "HEROPICK_STATE_CM_INTRO",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CM_CAPTAINPICK": {
+        "prefix": "HEROPICK_STATE_CM_CAPTAINPICK",
+        "body": "HEROPICK_STATE_CM_CAPTAINPICK",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CM_BAN1": {
+        "prefix": "HEROPICK_STATE_CM_BAN1",
+        "body": "HEROPICK_STATE_CM_BAN1",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CM_BAN2": {
+        "prefix": "HEROPICK_STATE_CM_BAN2",
+        "body": "HEROPICK_STATE_CM_BAN2",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CM_BAN3": {
+        "prefix": "HEROPICK_STATE_CM_BAN3",
+        "body": "HEROPICK_STATE_CM_BAN3",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CM_BAN4": {
+        "prefix": "HEROPICK_STATE_CM_BAN4",
+        "body": "HEROPICK_STATE_CM_BAN4",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CM_BAN5": {
+        "prefix": "HEROPICK_STATE_CM_BAN5",
+        "body": "HEROPICK_STATE_CM_BAN5",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CM_BAN6": {
+        "prefix": "HEROPICK_STATE_CM_BAN6",
+        "body": "HEROPICK_STATE_CM_BAN6",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CM_BAN7": {
+        "prefix": "HEROPICK_STATE_CM_BAN7",
+        "body": "HEROPICK_STATE_CM_BAN7",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CM_BAN8": {
+        "prefix": "HEROPICK_STATE_CM_BAN8",
+        "body": "HEROPICK_STATE_CM_BAN8",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CM_BAN9": {
+        "prefix": "HEROPICK_STATE_CM_BAN9",
+        "body": "HEROPICK_STATE_CM_BAN9",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CM_BAN10": {
+        "prefix": "HEROPICK_STATE_CM_BAN10",
+        "body": "HEROPICK_STATE_CM_BAN10",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CM_SELECT1": {
+        "prefix": "HEROPICK_STATE_CM_SELECT1",
+        "body": "HEROPICK_STATE_CM_SELECT1",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CM_SELECT2": {
+        "prefix": "HEROPICK_STATE_CM_SELECT2",
+        "body": "HEROPICK_STATE_CM_SELECT2",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CM_SELECT3": {
+        "prefix": "HEROPICK_STATE_CM_SELECT3",
+        "body": "HEROPICK_STATE_CM_SELECT3",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CM_SELECT4": {
+        "prefix": "HEROPICK_STATE_CM_SELECT4",
+        "body": "HEROPICK_STATE_CM_SELECT4",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CM_SELECT5": {
+        "prefix": "HEROPICK_STATE_CM_SELECT5",
+        "body": "HEROPICK_STATE_CM_SELECT5",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CM_SELECT6": {
+        "prefix": "HEROPICK_STATE_CM_SELECT6",
+        "body": "HEROPICK_STATE_CM_SELECT6",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CM_SELECT7": {
+        "prefix": "HEROPICK_STATE_CM_SELECT7",
+        "body": "HEROPICK_STATE_CM_SELECT7",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CM_SELECT8": {
+        "prefix": "HEROPICK_STATE_CM_SELECT8",
+        "body": "HEROPICK_STATE_CM_SELECT8",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CM_SELECT9": {
+        "prefix": "HEROPICK_STATE_CM_SELECT9",
+        "body": "HEROPICK_STATE_CM_SELECT9",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CM_SELECT10": {
+        "prefix": "HEROPICK_STATE_CM_SELECT10",
+        "body": "HEROPICK_STATE_CM_SELECT10",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CM_PICK": {
+        "prefix": "HEROPICK_STATE_CM_PICK",
+        "body": "HEROPICK_STATE_CM_PICK",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_AR_SELECT": {
+        "prefix": "HEROPICK_STATE_AR_SELECT",
+        "body": "HEROPICK_STATE_AR_SELECT",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_MO_SELECT": {
+        "prefix": "HEROPICK_STATE_MO_SELECT",
+        "body": "HEROPICK_STATE_MO_SELECT",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_FH_SELECT": {
+        "prefix": "HEROPICK_STATE_FH_SELECT",
+        "body": "HEROPICK_STATE_FH_SELECT",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CD_INTRO": {
+        "prefix": "HEROPICK_STATE_CD_INTRO",
+        "body": "HEROPICK_STATE_CD_INTRO",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CD_CAPTAINPICK": {
+        "prefix": "HEROPICK_STATE_CD_CAPTAINPICK",
+        "body": "HEROPICK_STATE_CD_CAPTAINPICK",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CD_BAN1": {
+        "prefix": "HEROPICK_STATE_CD_BAN1",
+        "body": "HEROPICK_STATE_CD_BAN1",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CD_BAN2": {
+        "prefix": "HEROPICK_STATE_CD_BAN2",
+        "body": "HEROPICK_STATE_CD_BAN2",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CD_BAN3": {
+        "prefix": "HEROPICK_STATE_CD_BAN3",
+        "body": "HEROPICK_STATE_CD_BAN3",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CD_BAN4": {
+        "prefix": "HEROPICK_STATE_CD_BAN4",
+        "body": "HEROPICK_STATE_CD_BAN4",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CD_BAN5": {
+        "prefix": "HEROPICK_STATE_CD_BAN5",
+        "body": "HEROPICK_STATE_CD_BAN5",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CD_BAN6": {
+        "prefix": "HEROPICK_STATE_CD_BAN6",
+        "body": "HEROPICK_STATE_CD_BAN6",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CD_SELECT1": {
+        "prefix": "HEROPICK_STATE_CD_SELECT1",
+        "body": "HEROPICK_STATE_CD_SELECT1",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CD_SELECT2": {
+        "prefix": "HEROPICK_STATE_CD_SELECT2",
+        "body": "HEROPICK_STATE_CD_SELECT2",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CD_SELECT3": {
+        "prefix": "HEROPICK_STATE_CD_SELECT3",
+        "body": "HEROPICK_STATE_CD_SELECT3",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CD_SELECT4": {
+        "prefix": "HEROPICK_STATE_CD_SELECT4",
+        "body": "HEROPICK_STATE_CD_SELECT4",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CD_SELECT5": {
+        "prefix": "HEROPICK_STATE_CD_SELECT5",
+        "body": "HEROPICK_STATE_CD_SELECT5",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CD_SELECT6": {
+        "prefix": "HEROPICK_STATE_CD_SELECT6",
+        "body": "HEROPICK_STATE_CD_SELECT6",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CD_SELECT7": {
+        "prefix": "HEROPICK_STATE_CD_SELECT7",
+        "body": "HEROPICK_STATE_CD_SELECT7",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CD_SELECT8": {
+        "prefix": "HEROPICK_STATE_CD_SELECT8",
+        "body": "HEROPICK_STATE_CD_SELECT8",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CD_SELECT9": {
+        "prefix": "HEROPICK_STATE_CD_SELECT9",
+        "body": "HEROPICK_STATE_CD_SELECT9",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CD_SELECT10": {
+        "prefix": "HEROPICK_STATE_CD_SELECT10",
+        "body": "HEROPICK_STATE_CD_SELECT10",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_CD_PICK": {
+        "prefix": "HEROPICK_STATE_CD_PICK",
+        "body": "HEROPICK_STATE_CD_PICK",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_BD_SELECT": {
+        "prefix": "HEROPICK_STATE_BD_SELECT",
+        "body": "HEROPICK_STATE_BD_SELECT",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HERO_PICK_STATE_ABILITY_DRAFT_SELECT": {
+        "prefix": "HERO_PICK_STATE_ABILITY_DRAFT_SELECT",
+        "body": "HERO_PICK_STATE_ABILITY_DRAFT_SELECT",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HERO_PICK_STATE_ARDM_SELECT": {
+        "prefix": "HERO_PICK_STATE_ARDM_SELECT",
+        "body": "HERO_PICK_STATE_ARDM_SELECT",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_ALL_DRAFT_SELECT": {
+        "prefix": "HEROPICK_STATE_ALL_DRAFT_SELECT",
+        "body": "HEROPICK_STATE_ALL_DRAFT_SELECT",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HERO_PICK_STATE_CUSTOMGAME_SELECT": {
+        "prefix": "HERO_PICK_STATE_CUSTOMGAME_SELECT",
+        "body": "HERO_PICK_STATE_CUSTOMGAME_SELECT",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_HEROPICK_STATE_SELECT_PENALTY": {
+        "prefix": "HEROPICK_STATE_SELECT_PENALTY",
+        "body": "HEROPICK_STATE_SELECT_PENALTY",
+        "description": "Constance:Hero Pick States"
+    },
+    "Constance_RUNE_INVALID": {
+        "prefix": "RUNE_INVALID",
+        "body": "RUNE_INVALID",
+        "description": "Constance:Rune Types\n(used as return value)"
+    },
+    "Constance_RUNE_DOUBLEDAMAGE": {
+        "prefix": "RUNE_DOUBLEDAMAGE",
+        "body": "RUNE_DOUBLEDAMAGE",
+        "description": "Constance:Rune Types"
+    },
+    "Constance_RUNE_HASTE": {
+        "prefix": "RUNE_HASTE",
+        "body": "RUNE_HASTE",
+        "description": "Constance:Rune Types"
+    },
+    "Constance_RUNE_ILLUSION": {
+        "prefix": "RUNE_ILLUSION",
+        "body": "RUNE_ILLUSION",
+        "description": "Constance:Rune Types"
+    },
+    "Constance_RUNE_INVISIBILITY": {
+        "prefix": "RUNE_INVISIBILITY",
+        "body": "RUNE_INVISIBILITY",
+        "description": "Constance:Rune Types"
+    },
+    "Constance_RUNE_REGENERATION": {
+        "prefix": "RUNE_REGENERATION",
+        "body": "RUNE_REGENERATION",
+        "description": "Constance:Rune Types"
+    },
+    "Constance_RUNE_BOUNTY": {
+        "prefix": "RUNE_BOUNTY",
+        "body": "RUNE_BOUNTY",
+        "description": "Constance:Rune Types"
+    },
+    "Constance_RUNE_ARCANE": {
+        "prefix": "RUNE_ARCANE",
+        "body": "RUNE_ARCANE",
+        "description": "Constance:Rune Types"
+    },
+    "Constance_RUNE_STATUS_UNKNOWN": {
+        "prefix": "RUNE_STATUS_UNKNOWN",
+        "body": "RUNE_STATUS_UNKNOWN",
+        "description": "Constance:Rune Status"
+    },
+    "Constance_RUNE_STATUS_AVAILABLE": {
+        "prefix": "RUNE_STATUS_AVAILABLE",
+        "body": "RUNE_STATUS_AVAILABLE",
+        "description": "Constance:Rune Status"
+    },
+    "Constance_RUNE_STATUS_MISSING": {
+        "prefix": "RUNE_STATUS_MISSING",
+        "body": "RUNE_STATUS_MISSING",
+        "description": "Constance:Rune Status"
+    },
+    "Constance_RUNE_POWERUP_1": {
+        "prefix": "RUNE_POWERUP_1",
+        "body": "RUNE_POWERUP_1",
+        "description": "Constance:Rune Locations"
+    },
+    "Constance_RUNE_POWERUP_2": {
+        "prefix": "RUNE_POWERUP_2",
+        "body": "RUNE_POWERUP_2",
+        "description": "Constance:Rune Locations"
+    },
+    "Constance_RUNE_BOUNTY_1": {
+        "prefix": "RUNE_BOUNTY_1",
+        "body": "RUNE_BOUNTY_1",
+        "description": "Constance:Rune Locations"
+    },
+    "Constance_RUNE_BOUNTY_2": {
+        "prefix": "RUNE_BOUNTY_2",
+        "body": "RUNE_BOUNTY_2",
+        "description": "Constance:Rune Locations"
+    },
+    "Constance_RUNE_BOUNTY_3": {
+        "prefix": "RUNE_BOUNTY_3",
+        "body": "RUNE_BOUNTY_3",
+        "description": "Constance:Rune Locations"
+    },
+    "Constance_RUNE_BOUNTY_4": {
+        "prefix": "RUNE_BOUNTY_4",
+        "body": "RUNE_BOUNTY_4",
+        "description": "Constance:Rune Locations"
+    },
+    "Constance_ITEM_SLOT_TYPE_INVALID": {
+        "prefix": "ITEM_SLOT_TYPE_INVALID",
+        "body": "ITEM_SLOT_TYPE_INVALID",
+        "description": "Constance:Item Slot Types"
+    },
+    "Constance_ITEM_SLOT_TYPE_MAIN": {
+        "prefix": "ITEM_SLOT_TYPE_MAIN",
+        "body": "ITEM_SLOT_TYPE_MAIN",
+        "description": "Constance:Item Slot Types"
+    },
+    "Constance_ITEM_SLOT_TYPE_BACKPACK": {
+        "prefix": "ITEM_SLOT_TYPE_BACKPACK",
+        "body": "ITEM_SLOT_TYPE_BACKPACK",
+        "description": "Constance:Item Slot Types"
+    },
+    "Constance_ITEM_SLOT_TYPE_STASH": {
+        "prefix": "ITEM_SLOT_TYPE_STASH",
+        "body": "ITEM_SLOT_TYPE_STASH",
+        "description": "Constance:Item Slot Types"
+    },
+    "Constance_BOT_ACTION_TYPE_NONE": {
+        "prefix": "BOT_ACTION_TYPE_NONE",
+        "body": "BOT_ACTION_TYPE_NONE",
+        "description": "Constance:Action Types"
+    },
+    "Constance_BOT_ACTION_TYPE_IDLE": {
+        "prefix": "BOT_ACTION_TYPE_IDLE",
+        "body": "BOT_ACTION_TYPE_IDLE",
+        "description": "Constance:Action Types"
+    },
+    "Constance_BOT_ACTION_TYPE_MOVE_TO": {
+        "prefix": "BOT_ACTION_TYPE_MOVE_TO",
+        "body": "BOT_ACTION_TYPE_MOVE_TO",
+        "description": "Constance:Action Types"
+    },
+    "Constance_BOT_ACTION_TYPE_MOVE_TO_DIRECTLY": {
+        "prefix": "BOT_ACTION_TYPE_MOVE_TO_DIRECTLY",
+        "body": "BOT_ACTION_TYPE_MOVE_TO_DIRECTLY",
+        "description": "Constance:Action Types"
+    },
+    "Constance_BOT_ACTION_TYPE_ATTACK": {
+        "prefix": "BOT_ACTION_TYPE_ATTACK",
+        "body": "BOT_ACTION_TYPE_ATTACK",
+        "description": "Constance:Action Types"
+    },
+    "Constance_BOT_ACTION_TYPE_ATTACKMOVE": {
+        "prefix": "BOT_ACTION_TYPE_ATTACKMOVE",
+        "body": "BOT_ACTION_TYPE_ATTACKMOVE",
+        "description": "Constance:Action Types"
+    },
+    "Constance_BOT_ACTION_TYPE_USE_ABILITY": {
+        "prefix": "BOT_ACTION_TYPE_USE_ABILITY",
+        "body": "BOT_ACTION_TYPE_USE_ABILITY",
+        "description": "Constance:Action Types"
+    },
+    "Constance_BOT_ACTION_TYPE_PICK_UP_RUNE": {
+        "prefix": "BOT_ACTION_TYPE_PICK_UP_RUNE",
+        "body": "BOT_ACTION_TYPE_PICK_UP_RUNE",
+        "description": "Constance:Action Types"
+    },
+    "Constance_BOT_ACTION_TYPE_PICK_UP_ITEM": {
+        "prefix": "BOT_ACTION_TYPE_PICK_UP_ITEM",
+        "body": "BOT_ACTION_TYPE_PICK_UP_ITEM",
+        "description": "Constance:Action Types"
+    },
+    "Constance_BOT_ACTION_TYPE_DROP_ITEM": {
+        "prefix": "BOT_ACTION_TYPE_DROP_ITEM",
+        "body": "BOT_ACTION_TYPE_DROP_ITEM",
+        "description": "Constance:Action Types"
+    },
+    "Constance_BOT_ACTION_TYPE_SHRINE": {
+        "prefix": "BOT_ACTION_TYPE_SHRINE",
+        "body": "BOT_ACTION_TYPE_SHRINE",
+        "description": "Constance:Action Types"
+    },
+    "Constance_BOT_ACTION_TYPE_DELAY": {
+        "prefix": "BOT_ACTION_TYPE_DELAY",
+        "body": "BOT_ACTION_TYPE_DELAY",
+        "description": "Constance:Action Types"
+    },
+    "Constance_COURIER_ACTION_BURST": {
+        "prefix": "COURIER_ACTION_BURST",
+        "body": "COURIER_ACTION_BURST",
+        "description": "Constance:Courier Actions and States"
+    },
+    "Constance_COURIER_ACTION_ENEMY_SECRET_SHOP": {
+        "prefix": "COURIER_ACTION_ENEMY_SECRET_SHOP",
+        "body": "COURIER_ACTION_ENEMY_SECRET_SHOP",
+        "description": "Constance:Courier Actions and States"
+    },
+    "Constance_COURIER_ACTION_RETURN": {
+        "prefix": "COURIER_ACTION_RETURN",
+        "body": "COURIER_ACTION_RETURN",
+        "description": "Constance:Courier Actions and States"
+    },
+    "Constance_COURIER_ACTION_SECRET_SHOP": {
+        "prefix": "COURIER_ACTION_SECRET_SHOP",
+        "body": "COURIER_ACTION_SECRET_SHOP",
+        "description": "Constance:Courier Actions and States"
+    },
+    "Constance_COURIER_ACTION_SIDE_SHOP": {
+        "prefix": "COURIER_ACTION_SIDE_SHOP",
+        "body": "COURIER_ACTION_SIDE_SHOP",
+        "description": "Constance:Courier Actions and States"
+    },
+    "Constance_COURIER_ACTION_SIDE_SHOP2": {
+        "prefix": "COURIER_ACTION_SIDE_SHOP2",
+        "body": "COURIER_ACTION_SIDE_SHOP2",
+        "description": "Constance:Courier Actions and States"
+    },
+    "Constance_COURIER_ACTION_TAKE_STASH_ITEMS": {
+        "prefix": "COURIER_ACTION_TAKE_STASH_ITEMS",
+        "body": "COURIER_ACTION_TAKE_STASH_ITEMS",
+        "description": "Constance:Courier Actions and States"
+    },
+    "Constance_COURIER_ACTION_TAKE_AND_TRANSFER_ITEMS": {
+        "prefix": "COURIER_ACTION_TAKE_AND_TRANSFER_ITEMS",
+        "body": "COURIER_ACTION_TAKE_AND_TRANSFER_ITEMS",
+        "description": "Constance:Courier Actions and States"
+    },
+    "Constance_COURIER_ACTION_TRANSFER_ITEMS": {
+        "prefix": "COURIER_ACTION_TRANSFER_ITEMS",
+        "body": "COURIER_ACTION_TRANSFER_ITEMS",
+        "description": "Constance:Courier Actions and States"
+    },
+    "Constance_COURIER_STATE_IDLE": {
+        "prefix": "COURIER_STATE_IDLE",
+        "body": "COURIER_STATE_IDLE",
+        "description": "Constance:Courier Actions and States"
+    },
+    "Constance_COURIER_STATE_AT_BASE": {
+        "prefix": "COURIER_STATE_AT_BASE",
+        "body": "COURIER_STATE_AT_BASE",
+        "description": "Constance:Courier Actions and States"
+    },
+    "Constance_COURIER_STATE_MOVING": {
+        "prefix": "COURIER_STATE_MOVING",
+        "body": "COURIER_STATE_MOVING",
+        "description": "Constance:Courier Actions and States"
+    },
+    "Constance_COURIER_STATE_DELIVERING_ITEMS": {
+        "prefix": "COURIER_STATE_DELIVERING_ITEMS",
+        "body": "COURIER_STATE_DELIVERING_ITEMS",
+        "description": "Constance:Courier Actions and States"
+    },
+    "Constance_COURIER_STATE_RETURNING_TO_BASE": {
+        "prefix": "COURIER_STATE_RETURNING_TO_BASE",
+        "body": "COURIER_STATE_RETURNING_TO_BASE",
+        "description": "Constance:Courier Actions and States"
+    },
+    "Constance_COURIER_STATE_DEAD": {
+        "prefix": "COURIER_STATE_DEAD",
+        "body": "COURIER_STATE_DEAD",
+        "description": "Constance:Courier Actions and States"
+    },
+    "Constance_TOWER_TOP_1": {
+        "prefix": "TOWER_TOP_1",
+        "body": "TOWER_TOP_1",
+        "description": "Constance:Towers"
+    },
+    "Constance_TOWER_TOP_2": {
+        "prefix": "TOWER_TOP_2",
+        "body": "TOWER_TOP_2",
+        "description": "Constance:Towers"
+    },
+    "Constance_TOWER_TOP_3": {
+        "prefix": "TOWER_TOP_3",
+        "body": "TOWER_TOP_3",
+        "description": "Constance:Towers"
+    },
+    "Constance_TOWER_MID_1": {
+        "prefix": "TOWER_MID_1",
+        "body": "TOWER_MID_1",
+        "description": "Constance:Towers"
+    },
+    "Constance_TOWER_MID_2": {
+        "prefix": "TOWER_MID_2",
+        "body": "TOWER_MID_2",
+        "description": "Constance:Towers"
+    },
+    "Constance_TOWER_MID_3": {
+        "prefix": "TOWER_MID_3",
+        "body": "TOWER_MID_3",
+        "description": "Constance:Towers"
+    },
+    "Constance_TOWER_BOT_1": {
+        "prefix": "TOWER_BOT_1",
+        "body": "TOWER_BOT_1",
+        "description": "Constance:Towers"
+    },
+    "Constance_TOWER_BOT_2": {
+        "prefix": "TOWER_BOT_2",
+        "body": "TOWER_BOT_2",
+        "description": "Constance:Towers"
+    },
+    "Constance_TOWER_BOT_3": {
+        "prefix": "TOWER_BOT_3",
+        "body": "TOWER_BOT_3",
+        "description": "Constance:Towers"
+    },
+    "Constance_TOWER_BASE_1": {
+        "prefix": "TOWER_BASE_1",
+        "body": "TOWER_BASE_1",
+        "description": "Constance:Towers"
+    },
+    "Constance_TOWER_BASE_2": {
+        "prefix": "TOWER_BASE_2",
+        "body": "TOWER_BASE_2",
+        "description": "Constance:Towers"
+    },
+    "Constance_BARRACKS_TOP_MELEE": {
+        "prefix": "BARRACKS_TOP_MELEE",
+        "body": "BARRACKS_TOP_MELEE",
+        "description": "Constance:Barracks"
+    },
+    "Constance_BARRACKS_TOP_RANGED": {
+        "prefix": "BARRACKS_TOP_RANGED",
+        "body": "BARRACKS_TOP_RANGED",
+        "description": "Constance:Barracks"
+    },
+    "Constance_BARRACKS_MID_MELEE": {
+        "prefix": "BARRACKS_MID_MELEE",
+        "body": "BARRACKS_MID_MELEE",
+        "description": "Constance:Barracks"
+    },
+    "Constance_BARRACKS_MID_RANGED": {
+        "prefix": "BARRACKS_MID_RANGED",
+        "body": "BARRACKS_MID_RANGED",
+        "description": "Constance:Barracks"
+    },
+    "Constance_BARRACKS_BOT_MELEE": {
+        "prefix": "BARRACKS_BOT_MELEE",
+        "body": "BARRACKS_BOT_MELEE",
+        "description": "Constance:Barracks"
+    },
+    "Constance_BARRACKS_BOT_RANGED": {
+        "prefix": "BARRACKS_BOT_RANGED",
+        "body": "BARRACKS_BOT_RANGED",
+        "description": "Constance:Barracks"
+    },
+    "Constance_SHRINE_BASE_1": {
+        "prefix": "SHRINE_BASE_1",
+        "body": "SHRINE_BASE_1",
+        "description": "Constance:Shrines"
+    },
+    "Constance_SHRINE_BASE_2": {
+        "prefix": "SHRINE_BASE_2",
+        "body": "SHRINE_BASE_2",
+        "description": "Constance:Shrines"
+    },
+    "Constance_SHRINE_BASE_3": {
+        "prefix": "SHRINE_BASE_3",
+        "body": "SHRINE_BASE_3",
+        "description": "Constance:Shrines"
+    },
+    "Constance_SHRINE_BASE_4": {
+        "prefix": "SHRINE_BASE_4",
+        "body": "SHRINE_BASE_4",
+        "description": "Constance:Shrines"
+    },
+    "Constance_SHRINE_BASE_5": {
+        "prefix": "SHRINE_BASE_5",
+        "body": "SHRINE_BASE_5",
+        "description": "Constance:Shrines"
+    },
+    "Constance_SHRINE_JUNGLE_1": {
+        "prefix": "SHRINE_JUNGLE_1",
+        "body": "SHRINE_JUNGLE_1",
+        "description": "Constance:Shrines"
+    },
+    "Constance_SHRINE_JUNGLE_2": {
+        "prefix": "SHRINE_JUNGLE_2",
+        "body": "SHRINE_JUNGLE_2",
+        "description": "Constance:Shrines"
+    },
+    "Constance_SHOP_HOME": {
+        "prefix": "SHOP_HOME",
+        "body": "SHOP_HOME",
+        "description": "Constance:Shops"
+    },
+    "Constance_SHOP_SIDE": {
+        "prefix": "SHOP_SIDE",
+        "body": "SHOP_SIDE",
+        "description": "Constance:Shops"
+    },
+    "Constance_SHOP_SECRET": {
+        "prefix": "SHOP_SECRET",
+        "body": "SHOP_SECRET",
+        "description": "Constance:Shops"
+    },
+    "Constance_SHOP_SIDE2": {
+        "prefix": "SHOP_SIDE2",
+        "body": "SHOP_SIDE2",
+        "description": "Constance:Shops"
+    },
+    "Constance_SHOP_SECRET2": {
+        "prefix": "SHOP_SECRET2",
+        "body": "SHOP_SECRET2",
+        "description": "Constance:Shops"
+    },
+    "Constance_ABILITY_TARGET_TEAM_NONE": {
+        "prefix": "ABILITY_TARGET_TEAM_NONE",
+        "body": "ABILITY_TARGET_TEAM_NONE",
+        "description": "Constance:Ability Target Teams"
+    },
+    "Constance_ABILITY_TARGET_TEAM_FRIENDLY": {
+        "prefix": "ABILITY_TARGET_TEAM_FRIENDLY",
+        "body": "ABILITY_TARGET_TEAM_FRIENDLY",
+        "description": "Constance:Ability Target Teams"
+    },
+    "Constance_ABILITY_TARGET_TEAM_ENEMY": {
+        "prefix": "ABILITY_TARGET_TEAM_ENEMY",
+        "body": "ABILITY_TARGET_TEAM_ENEMY",
+        "description": "Constance:Ability Target Teams"
+    },
+    "Constance_ABILITY_TARGET_TYPE_NONE": {
+        "prefix": "ABILITY_TARGET_TYPE_NONE",
+        "body": "ABILITY_TARGET_TYPE_NONE",
+        "description": "Constance:Ability Target Types"
+    },
+    "Constance_ABILITY_TARGET_TYPE_HERO": {
+        "prefix": "ABILITY_TARGET_TYPE_HERO",
+        "body": "ABILITY_TARGET_TYPE_HERO",
+        "description": "Constance:Ability Target Types"
+    },
+    "Constance_ABILITY_TARGET_TYPE_CREEP": {
+        "prefix": "ABILITY_TARGET_TYPE_CREEP",
+        "body": "ABILITY_TARGET_TYPE_CREEP",
+        "description": "Constance:Ability Target Types"
+    },
+    "Constance_ABILITY_TARGET_TYPE_BUILDING": {
+        "prefix": "ABILITY_TARGET_TYPE_BUILDING",
+        "body": "ABILITY_TARGET_TYPE_BUILDING",
+        "description": "Constance:Ability Target Types"
+    },
+    "Constance_ABILITY_TARGET_TYPE_COURIER": {
+        "prefix": "ABILITY_TARGET_TYPE_COURIER",
+        "body": "ABILITY_TARGET_TYPE_COURIER",
+        "description": "Constance:Ability Target Types"
+    },
+    "Constance_ABILITY_TARGET_TYPE_OTHER": {
+        "prefix": "ABILITY_TARGET_TYPE_OTHER",
+        "body": "ABILITY_TARGET_TYPE_OTHER",
+        "description": "Constance:Ability Target Types"
+    },
+    "Constance_ABILITY_TARGET_TYPE_TREE": {
+        "prefix": "ABILITY_TARGET_TYPE_TREE",
+        "body": "ABILITY_TARGET_TYPE_TREE",
+        "description": "Constance:Ability Target Types"
+    },
+    "Constance_ABILITY_TARGET_TYPE_BASIC": {
+        "prefix": "ABILITY_TARGET_TYPE_BASIC",
+        "body": "ABILITY_TARGET_TYPE_BASIC",
+        "description": "Constance:Ability Target Types"
+    },
+    "Constance_ABILITY_TARGET_TYPE_ALL": {
+        "prefix": "ABILITY_TARGET_TYPE_ALL",
+        "body": "ABILITY_TARGET_TYPE_ALL",
+        "description": "Constance:Ability Target Types"
+    },
+    "Constance_ABILITY_TARGET_FLAG_NONE": {
+        "prefix": "ABILITY_TARGET_FLAG_NONE",
+        "body": "ABILITY_TARGET_FLAG_NONE",
+        "description": "Constance:Ability Target Flags"
+    },
+    "Constance_ABILITY_TARGET_FLAG_RANGED_ONLY": {
+        "prefix": "ABILITY_TARGET_FLAG_RANGED_ONLY",
+        "body": "ABILITY_TARGET_FLAG_RANGED_ONLY",
+        "description": "Constance:Ability Target Flags"
+    },
+    "Constance_ABILITY_TARGET_FLAG_MELEE_ONLY": {
+        "prefix": "ABILITY_TARGET_FLAG_MELEE_ONLY",
+        "body": "ABILITY_TARGET_FLAG_MELEE_ONLY",
+        "description": "Constance:Ability Target Flags"
+    },
+    "Constance_ABILITY_TARGET_FLAG_DEAD": {
+        "prefix": "ABILITY_TARGET_FLAG_DEAD",
+        "body": "ABILITY_TARGET_FLAG_DEAD",
+        "description": "Constance:Ability Target Flags"
+    },
+    "Constance_ABILITY_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES": {
+        "prefix": "ABILITY_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES",
+        "body": "ABILITY_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES",
+        "description": "Constance:Ability Target Flags"
+    },
+    "Constance_ABILITY_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES": {
+        "prefix": "ABILITY_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES",
+        "body": "ABILITY_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES",
+        "description": "Constance:Ability Target Flags"
+    },
+    "Constance_ABILITY_TARGET_FLAG_INVULNERABLE": {
+        "prefix": "ABILITY_TARGET_FLAG_INVULNERABLE",
+        "body": "ABILITY_TARGET_FLAG_INVULNERABLE",
+        "description": "Constance:Ability Target Flags"
+    },
+    "Constance_ABILITY_TARGET_FLAG_FOW_VISIBLE": {
+        "prefix": "ABILITY_TARGET_FLAG_FOW_VISIBLE",
+        "body": "ABILITY_TARGET_FLAG_FOW_VISIBLE",
+        "description": "Constance:Ability Target Flags"
+    },
+    "Constance_ABILITY_TARGET_FLAG_NO_INVIS": {
+        "prefix": "ABILITY_TARGET_FLAG_NO_INVIS",
+        "body": "ABILITY_TARGET_FLAG_NO_INVIS",
+        "description": "Constance:Ability Target Flags"
+    },
+    "Constance_ABILITY_TARGET_FLAG_NOT_ANCIENTS": {
+        "prefix": "ABILITY_TARGET_FLAG_NOT_ANCIENTS",
+        "body": "ABILITY_TARGET_FLAG_NOT_ANCIENTS",
+        "description": "Constance:Ability Target Flags"
+    },
+    "Constance_ABILITY_TARGET_FLAG_PLAYER_CONTROLLED": {
+        "prefix": "ABILITY_TARGET_FLAG_PLAYER_CONTROLLED",
+        "body": "ABILITY_TARGET_FLAG_PLAYER_CONTROLLED",
+        "description": "Constance:Ability Target Flags"
+    },
+    "Constance_ABILITY_TARGET_FLAG_NOT_DOMINATED": {
+        "prefix": "ABILITY_TARGET_FLAG_NOT_DOMINATED",
+        "body": "ABILITY_TARGET_FLAG_NOT_DOMINATED",
+        "description": "Constance:Ability Target Flags"
+    },
+    "Constance_ABILITY_TARGET_FLAG_NOT_SUMMONED": {
+        "prefix": "ABILITY_TARGET_FLAG_NOT_SUMMONED",
+        "body": "ABILITY_TARGET_FLAG_NOT_SUMMONED",
+        "description": "Constance:Ability Target Flags"
+    },
+    "Constance_ABILITY_TARGET_FLAG_NOT_ILLUSIONS": {
+        "prefix": "ABILITY_TARGET_FLAG_NOT_ILLUSIONS",
+        "body": "ABILITY_TARGET_FLAG_NOT_ILLUSIONS",
+        "description": "Constance:Ability Target Flags"
+    },
+    "Constance_ABILITY_TARGET_FLAG_NOT_ATTACK_IMMUNE": {
+        "prefix": "ABILITY_TARGET_FLAG_NOT_ATTACK_IMMUNE",
+        "body": "ABILITY_TARGET_FLAG_NOT_ATTACK_IMMUNE",
+        "description": "Constance:Ability Target Flags"
+    },
+    "Constance_ABILITY_TARGET_FLAG_MANA_ONLY": {
+        "prefix": "ABILITY_TARGET_FLAG_MANA_ONLY",
+        "body": "ABILITY_TARGET_FLAG_MANA_ONLY",
+        "description": "Constance:Ability Target Flags"
+    },
+    "Constance_ABILITY_TARGET_FLAG_CHECK_DISABLE_HELP": {
+        "prefix": "ABILITY_TARGET_FLAG_CHECK_DISABLE_HELP",
+        "body": "ABILITY_TARGET_FLAG_CHECK_DISABLE_HELP",
+        "description": "Constance:Ability Target Flags"
+    },
+    "Constance_ABILITY_TARGET_FLAG_NOT_CREEP_HERO": {
+        "prefix": "ABILITY_TARGET_FLAG_NOT_CREEP_HERO",
+        "body": "ABILITY_TARGET_FLAG_NOT_CREEP_HERO",
+        "description": "Constance:Ability Target Flags"
+    },
+    "Constance_ABILITY_TARGET_FLAG_OUT_OF_WORLD": {
+        "prefix": "ABILITY_TARGET_FLAG_OUT_OF_WORLD",
+        "body": "ABILITY_TARGET_FLAG_OUT_OF_WORLD",
+        "description": "Constance:Ability Target Flags"
+    },
+    "Constance_ABILITY_TARGET_FLAG_NOT_NIGHTMARED": {
+        "prefix": "ABILITY_TARGET_FLAG_NOT_NIGHTMARED",
+        "body": "ABILITY_TARGET_FLAG_NOT_NIGHTMARED",
+        "description": "Constance:Ability Target Flags"
+    },
+    "Constance_ABILITY_TARGET_FLAG_PREFER_ENEMIES": {
+        "prefix": "ABILITY_TARGET_FLAG_PREFER_ENEMIES",
+        "body": "ABILITY_TARGET_FLAG_PREFER_ENEMIES",
+        "description": "Constance:Ability Target Flags"
+    },
+    "Constance_ABILITY_BEHAVIOR_NONE": {
+        "prefix": "ABILITY_BEHAVIOR_NONE",
+        "body": "ABILITY_BEHAVIOR_NONE",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_HIDDEN": {
+        "prefix": "ABILITY_BEHAVIOR_HIDDEN",
+        "body": "ABILITY_BEHAVIOR_HIDDEN",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_PASSIVE": {
+        "prefix": "ABILITY_BEHAVIOR_PASSIVE",
+        "body": "ABILITY_BEHAVIOR_PASSIVE",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_NO_TARGET": {
+        "prefix": "ABILITY_BEHAVIOR_NO_TARGET",
+        "body": "ABILITY_BEHAVIOR_NO_TARGET",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_UNIT_TARGET": {
+        "prefix": "ABILITY_BEHAVIOR_UNIT_TARGET",
+        "body": "ABILITY_BEHAVIOR_UNIT_TARGET",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_POINT": {
+        "prefix": "ABILITY_BEHAVIOR_POINT",
+        "body": "ABILITY_BEHAVIOR_POINT",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_AOE": {
+        "prefix": "ABILITY_BEHAVIOR_AOE",
+        "body": "ABILITY_BEHAVIOR_AOE",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_NOT_LEARNABLE": {
+        "prefix": "ABILITY_BEHAVIOR_NOT_LEARNABLE",
+        "body": "ABILITY_BEHAVIOR_NOT_LEARNABLE",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_CHANNELLED": {
+        "prefix": "ABILITY_BEHAVIOR_CHANNELLED",
+        "body": "ABILITY_BEHAVIOR_CHANNELLED",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_ITEM": {
+        "prefix": "ABILITY_BEHAVIOR_ITEM",
+        "body": "ABILITY_BEHAVIOR_ITEM",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_TOGGLE": {
+        "prefix": "ABILITY_BEHAVIOR_TOGGLE",
+        "body": "ABILITY_BEHAVIOR_TOGGLE",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_DIRECTIONAL": {
+        "prefix": "ABILITY_BEHAVIOR_DIRECTIONAL",
+        "body": "ABILITY_BEHAVIOR_DIRECTIONAL",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_IMMEDIATE": {
+        "prefix": "ABILITY_BEHAVIOR_IMMEDIATE",
+        "body": "ABILITY_BEHAVIOR_IMMEDIATE",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_AUTOCAST": {
+        "prefix": "ABILITY_BEHAVIOR_AUTOCAST",
+        "body": "ABILITY_BEHAVIOR_AUTOCAST",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_OPTIONAL_UNIT_TARGET": {
+        "prefix": "ABILITY_BEHAVIOR_OPTIONAL_UNIT_TARGET",
+        "body": "ABILITY_BEHAVIOR_OPTIONAL_UNIT_TARGET",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_OPTIONAL_POINT": {
+        "prefix": "ABILITY_BEHAVIOR_OPTIONAL_POINT",
+        "body": "ABILITY_BEHAVIOR_OPTIONAL_POINT",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_OPTIONAL_NO_TARGET": {
+        "prefix": "ABILITY_BEHAVIOR_OPTIONAL_NO_TARGET",
+        "body": "ABILITY_BEHAVIOR_OPTIONAL_NO_TARGET",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_AURA": {
+        "prefix": "ABILITY_BEHAVIOR_AURA",
+        "body": "ABILITY_BEHAVIOR_AURA",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_ATTACK": {
+        "prefix": "ABILITY_BEHAVIOR_ATTACK",
+        "body": "ABILITY_BEHAVIOR_ATTACK",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT": {
+        "prefix": "ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT",
+        "body": "ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_ROOT_DISABLES": {
+        "prefix": "ABILITY_BEHAVIOR_ROOT_DISABLES",
+        "body": "ABILITY_BEHAVIOR_ROOT_DISABLES",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_UNRESTRICTED": {
+        "prefix": "ABILITY_BEHAVIOR_UNRESTRICTED",
+        "body": "ABILITY_BEHAVIOR_UNRESTRICTED",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE": {
+        "prefix": "ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE",
+        "body": "ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_IGNORE_CHANNEL": {
+        "prefix": "ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+        "body": "ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT": {
+        "prefix": "ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT",
+        "body": "ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_DONT_ALERT_TARGET": {
+        "prefix": "ABILITY_BEHAVIOR_DONT_ALERT_TARGET",
+        "body": "ABILITY_BEHAVIOR_DONT_ALERT_TARGET",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK": {
+        "prefix": "ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+        "body": "ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_NORMAL_WHEN_STOLEN": {
+        "prefix": "ABILITY_BEHAVIOR_NORMAL_WHEN_STOLEN",
+        "body": "ABILITY_BEHAVIOR_NORMAL_WHEN_STOLEN",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_IGNORE_BACKSWING": {
+        "prefix": "ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+        "body": "ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_RUNE_TARGET": {
+        "prefix": "ABILITY_BEHAVIOR_RUNE_TARGET",
+        "body": "ABILITY_BEHAVIOR_RUNE_TARGET",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_DONT_CANCEL_CHANNEL": {
+        "prefix": "ABILITY_BEHAVIOR_DONT_CANCEL_CHANNEL",
+        "body": "ABILITY_BEHAVIOR_DONT_CANCEL_CHANNEL",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_VECTOR_TARGETING": {
+        "prefix": "ABILITY_BEHAVIOR_VECTOR_TARGETING",
+        "body": "ABILITY_BEHAVIOR_VECTOR_TARGETING",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_ABILITY_BEHAVIOR_LAST_RESORT_POINT": {
+        "prefix": "ABILITY_BEHAVIOR_LAST_RESORT_POINT",
+        "body": "ABILITY_BEHAVIOR_LAST_RESORT_POINT",
+        "description": "Constance:Ability Behavior Bitfields"
+    },
+    "Constance_GLYPH_COOLDOWN": {
+        "prefix": "GLYPH_COOLDOWN",
+        "body": "GLYPH_COOLDOWN",
+        "description": "Constance:Misc Constants"
+    },
+    "Constance_ACTIVITY_IDLE": {
+        "prefix": "ACTIVITY_IDLE",
+        "body": "ACTIVITY_IDLE",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_IDLE_RARE": {
+        "prefix": "ACTIVITY_IDLE_RARE",
+        "body": "ACTIVITY_IDLE_RARE",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_RUN": {
+        "prefix": "ACTIVITY_RUN",
+        "body": "ACTIVITY_RUN",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_ATTACK": {
+        "prefix": "ACTIVITY_ATTACK",
+        "body": "ACTIVITY_ATTACK",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_ATTACK2": {
+        "prefix": "ACTIVITY_ATTACK2",
+        "body": "ACTIVITY_ATTACK2",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_ATTACK_EVENT": {
+        "prefix": "ACTIVITY_ATTACK_EVENT",
+        "body": "ACTIVITY_ATTACK_EVENT",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_DIE": {
+        "prefix": "ACTIVITY_DIE",
+        "body": "ACTIVITY_DIE",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_FLINCH": {
+        "prefix": "ACTIVITY_FLINCH",
+        "body": "ACTIVITY_FLINCH",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_FLAIL": {
+        "prefix": "ACTIVITY_FLAIL",
+        "body": "ACTIVITY_FLAIL",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_DISABLED": {
+        "prefix": "ACTIVITY_DISABLED",
+        "body": "ACTIVITY_DISABLED",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_CAST_ABILITY_1": {
+        "prefix": "ACTIVITY_CAST_ABILITY_1",
+        "body": "ACTIVITY_CAST_ABILITY_1",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_CAST_ABILITY_2": {
+        "prefix": "ACTIVITY_CAST_ABILITY_2",
+        "body": "ACTIVITY_CAST_ABILITY_2",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_CAST_ABILITY_3": {
+        "prefix": "ACTIVITY_CAST_ABILITY_3",
+        "body": "ACTIVITY_CAST_ABILITY_3",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_CAST_ABILITY_4": {
+        "prefix": "ACTIVITY_CAST_ABILITY_4",
+        "body": "ACTIVITY_CAST_ABILITY_4",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_CAST_ABILITY_5": {
+        "prefix": "ACTIVITY_CAST_ABILITY_5",
+        "body": "ACTIVITY_CAST_ABILITY_5",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_CAST_ABILITY_6": {
+        "prefix": "ACTIVITY_CAST_ABILITY_6",
+        "body": "ACTIVITY_CAST_ABILITY_6",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_OVERRIDE_ABILITY_1": {
+        "prefix": "ACTIVITY_OVERRIDE_ABILITY_1",
+        "body": "ACTIVITY_OVERRIDE_ABILITY_1",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_OVERRIDE_ABILITY_2": {
+        "prefix": "ACTIVITY_OVERRIDE_ABILITY_2",
+        "body": "ACTIVITY_OVERRIDE_ABILITY_2",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_OVERRIDE_ABILITY_3": {
+        "prefix": "ACTIVITY_OVERRIDE_ABILITY_3",
+        "body": "ACTIVITY_OVERRIDE_ABILITY_3",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_OVERRIDE_ABILITY_4": {
+        "prefix": "ACTIVITY_OVERRIDE_ABILITY_4",
+        "body": "ACTIVITY_OVERRIDE_ABILITY_4",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_CHANNEL_ABILITY_1": {
+        "prefix": "ACTIVITY_CHANNEL_ABILITY_1",
+        "body": "ACTIVITY_CHANNEL_ABILITY_1",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_CHANNEL_ABILITY_2": {
+        "prefix": "ACTIVITY_CHANNEL_ABILITY_2",
+        "body": "ACTIVITY_CHANNEL_ABILITY_2",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_CHANNEL_ABILITY_3": {
+        "prefix": "ACTIVITY_CHANNEL_ABILITY_3",
+        "body": "ACTIVITY_CHANNEL_ABILITY_3",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_CHANNEL_ABILITY_4": {
+        "prefix": "ACTIVITY_CHANNEL_ABILITY_4",
+        "body": "ACTIVITY_CHANNEL_ABILITY_4",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_CHANNEL_ABILITY_5": {
+        "prefix": "ACTIVITY_CHANNEL_ABILITY_5",
+        "body": "ACTIVITY_CHANNEL_ABILITY_5",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_CHANNEL_ABILITY_6": {
+        "prefix": "ACTIVITY_CHANNEL_ABILITY_6",
+        "body": "ACTIVITY_CHANNEL_ABILITY_6",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_CHANNEL_END_ABILITY_1": {
+        "prefix": "ACTIVITY_CHANNEL_END_ABILITY_1",
+        "body": "ACTIVITY_CHANNEL_END_ABILITY_1",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_CHANNEL_END_ABILITY_2": {
+        "prefix": "ACTIVITY_CHANNEL_END_ABILITY_2",
+        "body": "ACTIVITY_CHANNEL_END_ABILITY_2",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_CHANNEL_END_ABILITY_3": {
+        "prefix": "ACTIVITY_CHANNEL_END_ABILITY_3",
+        "body": "ACTIVITY_CHANNEL_END_ABILITY_3",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_CHANNEL_END_ABILITY_4": {
+        "prefix": "ACTIVITY_CHANNEL_END_ABILITY_4",
+        "body": "ACTIVITY_CHANNEL_END_ABILITY_4",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_CHANNEL_END_ABILITY_5": {
+        "prefix": "ACTIVITY_CHANNEL_END_ABILITY_5",
+        "body": "ACTIVITY_CHANNEL_END_ABILITY_5",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_CHANNEL_END_ABILITY_6": {
+        "prefix": "ACTIVITY_CHANNEL_END_ABILITY_6",
+        "body": "ACTIVITY_CHANNEL_END_ABILITY_6",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_CONSTANT_LAYER": {
+        "prefix": "ACTIVITY_CONSTANT_LAYER",
+        "body": "ACTIVITY_CONSTANT_LAYER",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_CAPTURE": {
+        "prefix": "ACTIVITY_CAPTURE",
+        "body": "ACTIVITY_CAPTURE",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_SPAWN": {
+        "prefix": "ACTIVITY_SPAWN",
+        "body": "ACTIVITY_SPAWN",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_KILLTAUNT": {
+        "prefix": "ACTIVITY_KILLTAUNT",
+        "body": "ACTIVITY_KILLTAUNT",
+        "description": "Constance:Animation Activities"
+    },
+    "Constance_ACTIVITY_TAUNT": {
+        "prefix": "ACTIVITY_TAUNT",
+        "body": "ACTIVITY_TAUNT",
+        "description": "Constance:Animation Activities"
+    }
+}
