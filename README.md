@@ -6,13 +6,13 @@ A snippet of Dota2 Bot Script in Lua language.
 
 Lua: 
 
-\!\[Function snippets\]\(images/feature-1.png\)
+![Function snippets](https://raw.githubusercontent.com/adamqqqplay/Vscode-dota2-bot-script-snippets/master/images/feature-1.png)
 
-\!\[Enum snippets\]\(images/feature-2.png\)
+![Enum snippets](https://raw.githubusercontent.com/adamqqqplay/Vscode-dota2-bot-script-snippets/master/images/feature-2.png)
 
-\!\[Automatically complete the parameters\]\(images/feature-3.png\)
+![Automatically complete the parameters](https://raw.githubusercontent.com/adamqqqplay/Vscode-dota2-bot-script-snippets/master/images/feature-3.png)
 
-\!\[Class Name Tips\]\(images/feature-4.png\)
+![Class Name Tips](https://raw.githubusercontent.com/adamqqqplay/Vscode-dota2-bot-script-snippets/master/images/feature-4.png)
 
 ## Changelog
 ### 1.0.0

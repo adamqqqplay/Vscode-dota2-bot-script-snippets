@@ -2,7 +2,7 @@
 	"name": "dota2-bot-script-snippets",
 	"displayName": "Dota2 Bot Script Snippets",
 	"description": "Dota2 Bot Script coding assist in Lua language.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"publisher": "adamqqq",
 	"icon": "images/dota2.jpg",
 	"engines": {
@@ -10,6 +10,9 @@
 	},
 	"categories": [
 		"Other"
+	],
+	"activationEvents": [
+		"onCommand:extension.sayHello"
 	],
 	"main": "./out/extension",
 	"contributes": {
