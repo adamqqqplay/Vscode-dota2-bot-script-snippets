@@ -1,48 +1,46 @@
 {
-	"name": "dota2-bot-script-snippets",
-	"displayName": "Dota2 Bot Script Snippets",
-	"description": "Dota2 Bot Script coding assist in Lua language.",
-	"version": "1.0.1",
-	"publisher": "adamqqq",
-	"icon": "images/dota2.jpg",
-	"engines": {
-		"vscode": "^1.18.0"
-	},
-	"categories": [
-		"Other"
-	],
-	"activationEvents": [
-		"onCommand:extension.sayHello"
-	],
-	"main": "./out/extension",
-	"contributes": {
-		"snippets": [
-			{
-				"language": "lua",
-				"path": "./snippets/lua_constant.json"
-			},
-			{
-				"language": "lua",
-				"path": "./snippets/lua_function.json"
-			}
-		]
-	},
-	"scripts": {
-		"vscode:prepublish": "npm run compile",
-		"compile": "tsc -p ./",
-		"watch": "tsc -watch -p ./",
-		"postinstall": "node ./node_modules/vscode/bin/install",
-		"test": "npm run compile && node ./node_modules/vscode/bin/test"
-	},
-	"devDependencies": {
-		"typescript": "^2.6.1",
-		"vscode": "^1.1.6",
-		"@types/node": "^7.0.43",
-		"@types/mocha": "^2.2.42"
-	},
-	"__metadata": {
-		"id": "a6e337c0-5706-43ea-b6fb-3bbf07568e35",
-		"publisherId": "17d7e954-bef4-42da-a879-4539f7860394",
-		"publisherDisplayName": "adamqqq"
-	}
+    "name": "dota2-bot-script-snippets",
+    "displayName": "Dota2 Bot Script Snippets",
+    "description": "Dota2 Bot Script coding assist in Lua language.",
+    "version": "1.0.2",
+    "publisher": "adamqqq",
+    "icon": "images/dota2.jpg",
+    "engines": {
+        "vscode": "^1.18.0"
+    },
+    "categories": [
+        "Snippets",
+        "Other"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/adamqqqplay/Vscode-dota2-bot-script-snippets"
+    },
+    "license": "MIT",
+    "keywords": [
+        "lua",
+        "dota2",
+        "dota2 bot",
+        "dota2-bot-snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "lua",
+                "path": "./snippets/lua_constant.json"
+            },
+            {
+                "language": "lua",
+                "path": "./snippets/lua_function.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6"
+    },
+    "bugs": {
+        "url": "https://github.com/adamqqqplay/Vscode-dota2-bot-script-snippets/issues"
+    },
+    "homepage": "https://github.com/adamqqqplay/Vscode-dota2-bot-script-snippets"
 }
