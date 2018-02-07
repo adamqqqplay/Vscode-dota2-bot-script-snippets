@@ -33,3 +33,6 @@ http://docs.moddota.com/lua_bots/
 
 ## GitHub Link
 https://github.com/adamqqqplay/Vscode-dota2-bot-script-snippets
+
+## Thanks
+Special thanks to project https://github.com/XavierCHN/Dota-Reborn-Code, without his great project, I can't know VSCode can do this thing!
