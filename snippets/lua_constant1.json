@@ -1,1687 +1,1687 @@
 {
     "Constant_BOT_MODE_NONE": {
         "prefix": "BOT_MODE_NONE",
-        "body": "BOT_MODE_NONE",
+        "body": "BOT_MODE_NONE = 0",
         "description": "Constant: Bot Modes"
     },
     "Constant_BOT_MODE_LANING": {
         "prefix": "BOT_MODE_LANING",
-        "body": "BOT_MODE_LANING",
+        "body": "BOT_MODE_LANING = 1",
         "description": "Constant: Bot Modes"
     },
     "Constant_BOT_MODE_ATTACK": {
         "prefix": "BOT_MODE_ATTACK",
-        "body": "BOT_MODE_ATTACK",
+        "body": "BOT_MODE_ATTACK = 2",
         "description": "Constant: Bot Modes"
     },
     "Constant_BOT_MODE_ROAM": {
         "prefix": "BOT_MODE_ROAM",
-        "body": "BOT_MODE_ROAM",
+        "body": "BOT_MODE_ROAM = 3",
         "description": "Constant: Bot Modes"
     },
     "Constant_BOT_MODE_RETREAT": {
         "prefix": "BOT_MODE_RETREAT",
-        "body": "BOT_MODE_RETREAT",
+        "body": "BOT_MODE_RETREAT = 4",
         "description": "Constant: Bot Modes"
     },
     "Constant_BOT_MODE_SECRET_SHOP": {
         "prefix": "BOT_MODE_SECRET_SHOP",
-        "body": "BOT_MODE_SECRET_SHOP",
+        "body": "BOT_MODE_SECRET_SHOP = 5",
         "description": "Constant: Bot Modes"
     },
     "Constant_BOT_MODE_SIDE_SHOP": {
         "prefix": "BOT_MODE_SIDE_SHOP",
-        "body": "BOT_MODE_SIDE_SHOP",
+        "body": "BOT_MODE_SIDE_SHOP = 6",
         "description": "Constant: Bot Modes"
     },
     "Constant_BOT_MODE_PUSH_TOWER_TOP": {
         "prefix": "BOT_MODE_PUSH_TOWER_TOP",
-        "body": "BOT_MODE_PUSH_TOWER_TOP",
+        "body": "BOT_MODE_PUSH_TOWER_TOP = 8",
         "description": "Constant: Bot Modes"
     },
     "Constant_BOT_MODE_PUSH_TOWER_MID": {
         "prefix": "BOT_MODE_PUSH_TOWER_MID",
-        "body": "BOT_MODE_PUSH_TOWER_MID",
+        "body": "BOT_MODE_PUSH_TOWER_MID = 9",
         "description": "Constant: Bot Modes"
     },
     "Constant_BOT_MODE_PUSH_TOWER_BOT": {
         "prefix": "BOT_MODE_PUSH_TOWER_BOT",
-        "body": "BOT_MODE_PUSH_TOWER_BOT",
+        "body": "BOT_MODE_PUSH_TOWER_BOT = 10",
         "description": "Constant: Bot Modes"
     },
     "Constant_BOT_MODE_DEFEND_TOWER_TOP": {
         "prefix": "BOT_MODE_DEFEND_TOWER_TOP",
-        "body": "BOT_MODE_DEFEND_TOWER_TOP",
+        "body": "BOT_MODE_DEFEND_TOWER_TOP = 11",
         "description": "Constant: Bot Modes"
     },
     "Constant_BOT_MODE_DEFEND_TOWER_MID": {
         "prefix": "BOT_MODE_DEFEND_TOWER_MID",
-        "body": "BOT_MODE_DEFEND_TOWER_MID",
+        "body": "BOT_MODE_DEFEND_TOWER_MID = 12",
         "description": "Constant: Bot Modes"
     },
     "Constant_BOT_MODE_DEFEND_TOWER_BOT": {
         "prefix": "BOT_MODE_DEFEND_TOWER_BOT",
-        "body": "BOT_MODE_DEFEND_TOWER_BOT",
+        "body": "BOT_MODE_DEFEND_TOWER_BOT = 13",
         "description": "Constant: Bot Modes"
     },
     "Constant_BOT_MODE_ASSEMBLE": {
         "prefix": "BOT_MODE_ASSEMBLE",
-        "body": "BOT_MODE_ASSEMBLE",
+        "body": "BOT_MODE_ASSEMBLE = 14",
         "description": "Constant: Bot Modes"
     },
     "Constant_BOT_MODE_TEAM_ROAM": {
         "prefix": "BOT_MODE_TEAM_ROAM",
-        "body": "BOT_MODE_TEAM_ROAM",
+        "body": "BOT_MODE_TEAM_ROAM = 16",
         "description": "Constant: Bot Modes"
     },
     "Constant_BOT_MODE_FARM": {
         "prefix": "BOT_MODE_FARM",
-        "body": "BOT_MODE_FARM",
+        "body": "BOT_MODE_FARM = 17",
         "description": "Constant: Bot Modes"
     },
     "Constant_BOT_MODE_DEFEND_ALLY": {
         "prefix": "BOT_MODE_DEFEND_ALLY",
-        "body": "BOT_MODE_DEFEND_ALLY",
+        "body": "BOT_MODE_DEFEND_ALLY = 18",
         "description": "Constant: Bot Modes"
     },
     "Constant_BOT_MODE_EVASIVE_MANEUVERS": {
         "prefix": "BOT_MODE_EVASIVE_MANEUVERS",
-        "body": "BOT_MODE_EVASIVE_MANEUVERS",
+        "body": "BOT_MODE_EVASIVE_MANEUVERS = 19",
         "description": "Constant: Bot Modes"
     },
     "Constant_BOT_MODE_ROSHAN": {
         "prefix": "BOT_MODE_ROSHAN",
-        "body": "BOT_MODE_ROSHAN",
+        "body": "BOT_MODE_ROSHAN = 20",
         "description": "Constant: Bot Modes"
     },
     "Constant_BOT_MODE_ITEM": {
         "prefix": "BOT_MODE_ITEM",
-        "body": "BOT_MODE_ITEM",
+        "body": "BOT_MODE_ITEM = 21",
         "description": "Constant: Bot Modes"
     },
     "Constant_BOT_MODE_WARD": {
         "prefix": "BOT_MODE_WARD",
-        "body": "BOT_MODE_WARD",
+        "body": "BOT_MODE_WARD = 22",
         "description": "Constant: Bot Modes"
     },
     "Constant_BOT_ACTION_DESIRE_NONE": {
         "prefix": "BOT_ACTION_DESIRE_NONE",
-        "body": "BOT_ACTION_DESIRE_NONE",
+        "body": "BOT_ACTION_DESIRE_NONE = 0",
         "description": "Constant: Action Desires\nThese can be useful for making sure all mode desires as using a common language for talking about their desire."
     },
     "Constant_BOT_ACTION_DESIRE_VERYLOW": {
         "prefix": "BOT_ACTION_DESIRE_VERYLOW",
-        "body": "BOT_ACTION_DESIRE_VERYLOW",
+        "body": "BOT_ACTION_DESIRE_VERYLOW = 0.10000000149012",
         "description": "Constant: Action Desires\nThese can be useful for making sure all mode desires as using a common language for talking about their desire."
     },
     "Constant_BOT_ACTION_DESIRE_LOW": {
         "prefix": "BOT_ACTION_DESIRE_LOW",
-        "body": "BOT_ACTION_DESIRE_LOW",
+        "body": "BOT_ACTION_DESIRE_LOW = 0.25",
         "description": "Constant: Action Desires\nThese can be useful for making sure all mode desires as using a common language for talking about their desire."
     },
     "Constant_BOT_ACTION_DESIRE_MODERATE": {
         "prefix": "BOT_ACTION_DESIRE_MODERATE",
-        "body": "BOT_ACTION_DESIRE_MODERATE",
+        "body": "BOT_ACTION_DESIRE_MODERATE = 0.5",
         "description": "Constant: Action Desires\nThese can be useful for making sure all mode desires as using a common language for talking about their desire."
     },
     "Constant_BOT_ACTION_DESIRE_HIGH": {
         "prefix": "BOT_ACTION_DESIRE_HIGH",
-        "body": "BOT_ACTION_DESIRE_HIGH",
+        "body": "BOT_ACTION_DESIRE_HIGH = 0.75",
         "description": "Constant: Action Desires\nThese can be useful for making sure all mode desires as using a common language for talking about their desire."
     },
     "Constant_BOT_ACTION_DESIRE_VERYHIGH": {
         "prefix": "BOT_ACTION_DESIRE_VERYHIGH",
-        "body": "BOT_ACTION_DESIRE_VERYHIGH",
+        "body": "BOT_ACTION_DESIRE_VERYHIGH = 0.89999997615814",
         "description": "Constant: Action Desires\nThese can be useful for making sure all mode desires as using a common language for talking about their desire."
     },
     "Constant_BOT_ACTION_DESIRE_ABSOLUTE": {
         "prefix": "BOT_ACTION_DESIRE_ABSOLUTE",
-        "body": "BOT_ACTION_DESIRE_ABSOLUTE",
+        "body": "BOT_ACTION_DESIRE_ABSOLUTE = 1",
         "description": "Constant: Action Desires\nThese can be useful for making sure all mode desires as using a common language for talking about their desire."
     },
     "Constant_BOT_MODE_DESIRE_NONE": {
         "prefix": "BOT_MODE_DESIRE_NONE",
-        "body": "BOT_MODE_DESIRE_NONE",
+        "body": "BOT_MODE_DESIRE_NONE = 0",
         "description": "Constant: Mode Desires\nThese can be useful for making sure all mode desires as using a common language for talking about their desire."
     },
     "Constant_BOT_MODE_DESIRE_VERYLOW": {
         "prefix": "BOT_MODE_DESIRE_VERYLOW",
-        "body": "BOT_MODE_DESIRE_VERYLOW",
+        "body": "BOT_MODE_DESIRE_VERYLOW = 0.10000000149012",
         "description": "Constant: Mode Desires\nThese can be useful for making sure all mode desires as using a common language for talking about their desire."
     },
     "Constant_BOT_MODE_DESIRE_LOW": {
         "prefix": "BOT_MODE_DESIRE_LOW",
-        "body": "BOT_MODE_DESIRE_LOW",
+        "body": "BOT_MODE_DESIRE_LOW = 0.25",
         "description": "Constant: Mode Desires\nThese can be useful for making sure all mode desires as using a common language for talking about their desire."
     },
     "Constant_BOT_MODE_DESIRE_MODERATE": {
         "prefix": "BOT_MODE_DESIRE_MODERATE",
-        "body": "BOT_MODE_DESIRE_MODERATE",
+        "body": "BOT_MODE_DESIRE_MODERATE = 0.5",
         "description": "Constant: Mode Desires\nThese can be useful for making sure all mode desires as using a common language for talking about their desire."
     },
     "Constant_BOT_MODE_DESIRE_HIGH": {
         "prefix": "BOT_MODE_DESIRE_HIGH",
-        "body": "BOT_MODE_DESIRE_HIGH",
+        "body": "BOT_MODE_DESIRE_HIGH = 0.75",
         "description": "Constant: Mode Desires\nThese can be useful for making sure all mode desires as using a common language for talking about their desire."
     },
     "Constant_BOT_MODE_DESIRE_VERYHIGH": {
         "prefix": "BOT_MODE_DESIRE_VERYHIGH",
-        "body": "BOT_MODE_DESIRE_VERYHIGH",
+        "body": "BOT_MODE_DESIRE_VERYHIGH = 0.89999997615814",
         "description": "Constant: Mode Desires\nThese can be useful for making sure all mode desires as using a common language for talking about their desire."
     },
     "Constant_BOT_MODE_DESIRE_ABSOLUTE": {
         "prefix": "BOT_MODE_DESIRE_ABSOLUTE",
-        "body": "BOT_MODE_DESIRE_ABSOLUTE",
+        "body": "BOT_MODE_DESIRE_ABSOLUTE = 1",
         "description": "Constant: Mode Desires\nThese can be useful for making sure all mode desires as using a common language for talking about their desire."
     },
     "Constant_DAMAGE_TYPE_PHYSICAL": {
         "prefix": "DAMAGE_TYPE_PHYSICAL",
-        "body": "DAMAGE_TYPE_PHYSICAL",
+        "body": "DAMAGE_TYPE_PHYSICAL = 1",
         "description": "Constant: Damage Types"
     },
     "Constant_DAMAGE_TYPE_MAGICAL": {
         "prefix": "DAMAGE_TYPE_MAGICAL",
-        "body": "DAMAGE_TYPE_MAGICAL",
+        "body": "DAMAGE_TYPE_MAGICAL = 2",
         "description": "Constant: Damage Types"
     },
     "Constant_DAMAGE_TYPE_PURE": {
         "prefix": "DAMAGE_TYPE_PURE",
-        "body": "DAMAGE_TYPE_PURE",
+        "body": "DAMAGE_TYPE_PURE = 4",
         "description": "Constant: Damage Types"
     },
     "Constant_DAMAGE_TYPE_ALL": {
         "prefix": "DAMAGE_TYPE_ALL",
-        "body": "DAMAGE_TYPE_ALL",
+        "body": "DAMAGE_TYPE_ALL = 7",
         "description": "Constant: Damage Types"
     },
     "Constant_UNIT_LIST_ALL": {
         "prefix": "UNIT_LIST_ALL",
-        "body": "UNIT_LIST_ALL",
+        "body": "UNIT_LIST_ALL = 0",
         "description": "Constant: Unit Types"
     },
     "Constant_UNIT_LIST_ALLIES": {
         "prefix": "UNIT_LIST_ALLIES",
-        "body": "UNIT_LIST_ALLIES",
+        "body": "UNIT_LIST_ALLIES = 1",
         "description": "Constant: Unit Types"
     },
     "Constant_UNIT_LIST_ALLIED_HEROES": {
         "prefix": "UNIT_LIST_ALLIED_HEROES",
-        "body": "UNIT_LIST_ALLIED_HEROES",
+        "body": "UNIT_LIST_ALLIED_HEROES = 2",
         "description": "Constant: Unit Types"
     },
     "Constant_UNIT_LIST_ALLIED_CREEPS": {
         "prefix": "UNIT_LIST_ALLIED_CREEPS",
-        "body": "UNIT_LIST_ALLIED_CREEPS",
+        "body": "UNIT_LIST_ALLIED_CREEPS = 3",
         "description": "Constant: Unit Types"
     },
     "Constant_UNIT_LIST_ALLIED_WARDS": {
         "prefix": "UNIT_LIST_ALLIED_WARDS",
-        "body": "UNIT_LIST_ALLIED_WARDS",
+        "body": "UNIT_LIST_ALLIED_WARDS = 4",
         "description": "Constant: Unit Types"
     },
     "Constant_UNIT_LIST_ALLIED_BUILDINGS": {
         "prefix": "UNIT_LIST_ALLIED_BUILDINGS",
-        "body": "UNIT_LIST_ALLIED_BUILDINGS",
+        "body": "UNIT_LIST_ALLIED_BUILDINGS = 5",
         "description": "Constant: Unit Types"
     },
     "Constant_UNIT_LIST_ENEMIES": {
         "prefix": "UNIT_LIST_ENEMIES",
-        "body": "UNIT_LIST_ENEMIES",
+        "body": "UNIT_LIST_ENEMIES = 7",
         "description": "Constant: Unit Types"
     },
     "Constant_UNIT_LIST_ENEMY_HEROES": {
         "prefix": "UNIT_LIST_ENEMY_HEROES",
-        "body": "UNIT_LIST_ENEMY_HEROES",
+        "body": "UNIT_LIST_ENEMY_HEROES = 8",
         "description": "Constant: Unit Types"
     },
     "Constant_UNIT_LIST_ENEMY_CREEPS": {
         "prefix": "UNIT_LIST_ENEMY_CREEPS",
-        "body": "UNIT_LIST_ENEMY_CREEPS",
+        "body": "UNIT_LIST_ENEMY_CREEPS = 9",
         "description": "Constant: Unit Types"
     },
     "Constant_UNIT_LIST_ENEMY_WARDS": {
         "prefix": "UNIT_LIST_ENEMY_WARDS",
-        "body": "UNIT_LIST_ENEMY_WARDS",
+        "body": "UNIT_LIST_ENEMY_WARDS = 10",
         "description": "Constant: Unit Types"
     },
     "Constant_UNIT_LIST_NEUTRAL_CREEPS": {
         "prefix": "UNIT_LIST_NEUTRAL_CREEPS",
-        "body": "UNIT_LIST_NEUTRAL_CREEPS",
+        "body": "UNIT_LIST_NEUTRAL_CREEPS = 13",
         "description": "Constant: Unit Types"
     },
     "Constant_UNIT_LIST_ENEMY_BUILDINGS": {
         "prefix": "UNIT_LIST_ENEMY_BUILDINGS",
-        "body": "UNIT_LIST_ENEMY_BUILDINGS",
+        "body": "UNIT_LIST_ENEMY_BUILDINGS = 11",
         "description": "Constant: Unit Types"
     },
     "Constant_DIFFICULTY_INVALID": {
         "prefix": "DIFFICULTY_INVALID",
-        "body": "DIFFICULTY_INVALID",
+        "body": "DIFFICULTY_INVALID = 5",
         "description": "Constant: Difficulties"
     },
     "Constant_DIFFICULTY_PASSIVE": {
         "prefix": "DIFFICULTY_PASSIVE",
-        "body": "DIFFICULTY_PASSIVE",
+        "body": "DIFFICULTY_PASSIVE = 0",
         "description": "Constant: Difficulties"
     },
     "Constant_DIFFICULTY_EASY": {
         "prefix": "DIFFICULTY_EASY",
-        "body": "DIFFICULTY_EASY",
+        "body": "DIFFICULTY_EASY = 1",
         "description": "Constant: Difficulties"
     },
     "Constant_DIFFICULTY_MEDIUM": {
         "prefix": "DIFFICULTY_MEDIUM",
-        "body": "DIFFICULTY_MEDIUM",
+        "body": "DIFFICULTY_MEDIUM = 2",
         "description": "Constant: Difficulties"
     },
     "Constant_DIFFICULTY_HARD": {
         "prefix": "DIFFICULTY_HARD",
-        "body": "DIFFICULTY_HARD",
+        "body": "DIFFICULTY_HARD = 3",
         "description": "Constant: Difficulties"
     },
     "Constant_DIFFICULTY_UNFAIR": {
         "prefix": "DIFFICULTY_UNFAIR",
-        "body": "DIFFICULTY_UNFAIR",
+        "body": "DIFFICULTY_UNFAIR = 4",
         "description": "Constant: Difficulties"
     },
     "Constant_ATTRIBUTE_INVALID": {
         "prefix": "ATTRIBUTE_INVALID",
-        "body": "ATTRIBUTE_INVALID",
+        "body": "ATTRIBUTE_INVALID = -1",
         "description": "Constant: Attribute Types"
     },
     "Constant_ATTRIBUTE_STRENGTH": {
         "prefix": "ATTRIBUTE_STRENGTH",
-        "body": "ATTRIBUTE_STRENGTH",
+        "body": "ATTRIBUTE_STRENGTH = 0",
         "description": "Constant: Attribute Types"
     },
     "Constant_ATTRIBUTE_AGILITY": {
         "prefix": "ATTRIBUTE_AGILITY",
-        "body": "ATTRIBUTE_AGILITY",
+        "body": "ATTRIBUTE_AGILITY = 1",
         "description": "Constant: Attribute Types"
     },
     "Constant_ATTRIBUTE_INTELLECT": {
         "prefix": "ATTRIBUTE_INTELLECT",
-        "body": "ATTRIBUTE_INTELLECT",
+        "body": "ATTRIBUTE_INTELLECT = 2",
         "description": "Constant: Attribute Types"
     },
     "Constant_PURCHASE_ITEM_SUCCESS": {
         "prefix": "PURCHASE_ITEM_SUCCESS",
-        "body": "PURCHASE_ITEM_SUCCESS",
+        "body": "PURCHASE_ITEM_SUCCESS = -1",
         "description": "Constant: Item Purchase Results"
     },
     "Constant_PURCHASE_ITEM_OUT_OF_STOCK": {
         "prefix": "PURCHASE_ITEM_OUT_OF_STOCK",
-        "body": "PURCHASE_ITEM_OUT_OF_STOCK",
+        "body": "PURCHASE_ITEM_OUT_OF_STOCK = 82",
         "description": "Constant: Item Purchase Results"
     },
     "Constant_PURCHASE_ITEM_DISALLOWED_ITEM": {
         "prefix": "PURCHASE_ITEM_DISALLOWED_ITEM",
-        "body": "PURCHASE_ITEM_DISALLOWED_ITEM",
+        "body": "PURCHASE_ITEM_DISALLOWED_ITEM = 78",
         "description": "Constant: Item Purchase Results"
     },
     "Constant_PURCHASE_ITEM_INSUFFICIENT_GOLD": {
         "prefix": "PURCHASE_ITEM_INSUFFICIENT_GOLD",
-        "body": "PURCHASE_ITEM_INSUFFICIENT_GOLD",
+        "body": "PURCHASE_ITEM_INSUFFICIENT_GOLD = 63",
         "description": "Constant: Item Purchase Results"
     },
     "Constant_PURCHASE_ITEM_NOT_AT_HOME_SHOP": {
         "prefix": "PURCHASE_ITEM_NOT_AT_HOME_SHOP",
-        "body": "PURCHASE_ITEM_NOT_AT_HOME_SHOP",
+        "body": "PURCHASE_ITEM_NOT_AT_HOME_SHOP = 67",
         "description": "Constant: Item Purchase Results"
     },
     "Constant_PURCHASE_ITEM_NOT_AT_SIDE_SHOP": {
         "prefix": "PURCHASE_ITEM_NOT_AT_SIDE_SHOP",
-        "body": "PURCHASE_ITEM_NOT_AT_SIDE_SHOP",
+        "body": "PURCHASE_ITEM_NOT_AT_SIDE_SHOP = 66",
         "description": "Constant: Item Purchase Results"
     },
     "Constant_PURCHASE_ITEM_NOT_AT_SECRET_SHOP": {
         "prefix": "PURCHASE_ITEM_NOT_AT_SECRET_SHOP",
-        "body": "PURCHASE_ITEM_NOT_AT_SECRET_SHOP",
+        "body": "PURCHASE_ITEM_NOT_AT_SECRET_SHOP = 62",
         "description": "Constant: Item Purchase Results"
     },
     "Constant_PURCHASE_ITEM_INVALID_ITEM_NAME": {
         "prefix": "PURCHASE_ITEM_INVALID_ITEM_NAME",
-        "body": "PURCHASE_ITEM_INVALID_ITEM_NAME",
+        "body": "PURCHASE_ITEM_INVALID_ITEM_NAME = 33",
         "description": "Constant: Item Purchase Results"
     },
     "Constant_GAMEMODE_NONE": {
         "prefix": "GAMEMODE_NONE",
-        "body": "GAMEMODE_NONE",
+        "body": "GAMEMODE_NONE = 0",
         "description": "Constant: Game Modes"
     },
     "Constant_GAMEMODE_AP": {
         "prefix": "GAMEMODE_AP",
-        "body": "GAMEMODE_AP",
+        "body": "GAMEMODE_AP = 1",
         "description": "Constant: Game Modes"
     },
     "Constant_GAMEMODE_CM": {
         "prefix": "GAMEMODE_CM",
-        "body": "GAMEMODE_CM",
+        "body": "GAMEMODE_CM = 2",
         "description": "Constant: Game Modes"
     },
     "Constant_GAMEMODE_RD": {
         "prefix": "GAMEMODE_RD",
-        "body": "GAMEMODE_RD",
+        "body": "GAMEMODE_RD = 3",
         "description": "Constant: Game Modes"
     },
     "Constant_GAMEMODE_SD": {
         "prefix": "GAMEMODE_SD",
-        "body": "GAMEMODE_SD",
+        "body": "GAMEMODE_SD = 4",
         "description": "Constant: Game Modes"
     },
     "Constant_GAMEMODE_AR": {
         "prefix": "GAMEMODE_AR",
-        "body": "GAMEMODE_AR",
+        "body": "GAMEMODE_AR = 5",
         "description": "Constant: Game Modes"
     },
     "Constant_GAMEMODE_REVERSE_CM": {
         "prefix": "GAMEMODE_REVERSE_CM",
-        "body": "GAMEMODE_REVERSE_CM",
+        "body": "GAMEMODE_REVERSE_CM = 8",
         "description": "Constant: Game Modes"
     },
     "Constant_GAMEMODE_MO": {
         "prefix": "GAMEMODE_MO",
-        "body": "GAMEMODE_MO",
+        "body": "GAMEMODE_MO = 11",
         "description": "Constant: Game Modes"
     },
     "Constant_GAMEMODE_CD": {
         "prefix": "GAMEMODE_CD",
-        "body": "GAMEMODE_CD",
+        "body": "GAMEMODE_CD = 16",
         "description": "Constant: Game Modes"
     },
     "Constant_GAMEMODE_ABILITY_DRAFT": {
         "prefix": "GAMEMODE_ABILITY_DRAFT",
-        "body": "GAMEMODE_ABILITY_DRAFT",
+        "body": "GAMEMODE_ABILITY_DRAFT = 18",
         "description": "Constant: Game Modes"
     },
     "Constant_GAMEMODE_ARDM": {
         "prefix": "GAMEMODE_ARDM",
-        "body": "GAMEMODE_ARDM",
+        "body": "GAMEMODE_ARDM = 20",
         "description": "Constant: Game Modes"
     },
     "Constant_GAMEMODE_1V1MID": {
         "prefix": "GAMEMODE_1V1MID",
-        "body": "GAMEMODE_1V1MID",
+        "body": "GAMEMODE_1V1MID = 21",
         "description": "Constant: Game Modes"
     },
     "Constant_GAMEMODE_ALL_DRAFT": {
         "prefix": "GAMEMODE_ALL_DRAFT",
-        "body": "GAMEMODE_ALL_DRAFT",
+        "body": "GAMEMODE_ALL_DRAFT = 22",
         "description": "Constant: Game Modes\n(aka Ranked All Pick)"
     },
     "Constant_TEAM_RADIANT": {
         "prefix": "TEAM_RADIANT",
-        "body": "TEAM_RADIANT",
+        "body": "TEAM_RADIANT = 2",
         "description": "Constant: Teams"
     },
     "Constant_TEAM_DIRE": {
         "prefix": "TEAM_DIRE",
-        "body": "TEAM_DIRE",
+        "body": "TEAM_DIRE = 3",
         "description": "Constant: Teams"
     },
     "Constant_TEAM_NEUTRAL": {
         "prefix": "TEAM_NEUTRAL",
-        "body": "TEAM_NEUTRAL",
+        "body": "TEAM_NEUTRAL = 4",
         "description": "Constant: Teams"
     },
     "Constant_TEAM_NONE": {
         "prefix": "TEAM_NONE",
-        "body": "TEAM_NONE",
+        "body": "TEAM_NONE = 5",
         "description": "Constant: Teams"
     },
     "Constant_LANE_NONE": {
         "prefix": "LANE_NONE",
-        "body": "LANE_NONE",
+        "body": "LANE_NONE = 0",
         "description": "Constant: Lanes"
     },
     "Constant_LANE_TOP": {
         "prefix": "LANE_TOP",
-        "body": "LANE_TOP",
+        "body": "LANE_TOP = 1",
         "description": "Constant: Lanes"
     },
     "Constant_LANE_MID": {
         "prefix": "LANE_MID",
-        "body": "LANE_MID",
+        "body": "LANE_MID = 2",
         "description": "Constant: Lanes"
     },
     "Constant_LANE_BOT": {
         "prefix": "LANE_BOT",
-        "body": "LANE_BOT",
+        "body": "LANE_BOT = 3",
         "description": "Constant: Lanes"
     },
     "Constant_GAME_STATE_INIT": {
         "prefix": "GAME_STATE_INIT",
-        "body": "GAME_STATE_INIT",
+        "body": "GAME_STATE_INIT = 0",
         "description": "Constant: Game States"
     },
     "Constant_GAME_STATE_WAIT_FOR_PLAYERS_TO_LOAD": {
         "prefix": "GAME_STATE_WAIT_FOR_PLAYERS_TO_LOAD",
-        "body": "GAME_STATE_WAIT_FOR_PLAYERS_TO_LOAD",
+        "body": "GAME_STATE_WAIT_FOR_PLAYERS_TO_LOAD = 1",
         "description": "Constant: Game States"
     },
     "Constant_GAME_STATE_HERO_SELECTION": {
         "prefix": "GAME_STATE_HERO_SELECTION",
-        "body": "GAME_STATE_HERO_SELECTION",
+        "body": "GAME_STATE_HERO_SELECTION = 2",
         "description": "Constant: Game States"
     },
     "Constant_GAME_STATE_STRATEGY_TIME": {
         "prefix": "GAME_STATE_STRATEGY_TIME",
-        "body": "GAME_STATE_STRATEGY_TIME",
+        "body": "GAME_STATE_STRATEGY_TIME = 3",
         "description": "Constant: Game States"
     },
     "Constant_GAME_STATE_PRE_GAME": {
         "prefix": "GAME_STATE_PRE_GAME",
-        "body": "GAME_STATE_PRE_GAME",
+        "body": "GAME_STATE_PRE_GAME = 4",
         "description": "Constant: Game States"
     },
     "Constant_GAME_STATE_GAME_IN_PROGRESS": {
         "prefix": "GAME_STATE_GAME_IN_PROGRESS",
-        "body": "GAME_STATE_GAME_IN_PROGRESS",
+        "body": "GAME_STATE_GAME_IN_PROGRESS = 5",
         "description": "Constant: Game States"
     },
     "Constant_GAME_STATE_POST_GAME": {
         "prefix": "GAME_STATE_POST_GAME",
-        "body": "GAME_STATE_POST_GAME",
+        "body": "GAME_STATE_POST_GAME = 6",
         "description": "Constant: Game States"
     },
     "Constant_GAME_STATE_DISCONNECT": {
         "prefix": "GAME_STATE_DISCONNECT",
-        "body": "GAME_STATE_DISCONNECT",
+        "body": "GAME_STATE_DISCONNECT = 7",
         "description": "Constant: Game States"
     },
     "Constant_GAME_STATE_TEAM_SHOWCASE": {
         "prefix": "GAME_STATE_TEAM_SHOWCASE",
-        "body": "GAME_STATE_TEAM_SHOWCASE",
+        "body": "GAME_STATE_TEAM_SHOWCASE = 8",
         "description": "Constant: Game States"
     },
     "Constant_GAME_STATE_CUSTOM_GAME_SETUP": {
         "prefix": "GAME_STATE_CUSTOM_GAME_SETUP",
-        "body": "GAME_STATE_CUSTOM_GAME_SETUP",
+        "body": "GAME_STATE_CUSTOM_GAME_SETUP = 9",
         "description": "Constant: Game States"
     },
     "Constant_GAME_STATE_WAIT_FOR_MAP_TO_LOAD": {
         "prefix": "GAME_STATE_WAIT_FOR_MAP_TO_LOAD",
-        "body": "GAME_STATE_WAIT_FOR_MAP_TO_LOAD",
+        "body": "GAME_STATE_WAIT_FOR_MAP_TO_LOAD = 10",
         "description": "Constant: Game States"
     },
     "Constant_GAME_STATE_LAST": {
         "prefix": "GAME_STATE_LAST",
-        "body": "GAME_STATE_LAST",
+        "body": "GAME_STATE_LAST = 11",
         "description": "Constant: Game States"
     },
     "Constant_HEROPICK_STATE_NONE": {
         "prefix": "HEROPICK_STATE_NONE",
-        "body": "HEROPICK_STATE_NONE",
+        "body": "HEROPICK_STATE_NONE = 0",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_AP_SELECT": {
         "prefix": "HEROPICK_STATE_AP_SELECT",
-        "body": "HEROPICK_STATE_AP_SELECT",
+        "body": "HEROPICK_STATE_AP_SELECT = 1",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_SD_SELECT": {
         "prefix": "HEROPICK_STATE_SD_SELECT",
-        "body": "HEROPICK_STATE_SD_SELECT",
+        "body": "HEROPICK_STATE_SD_SELECT = 2",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CM_INTRO": {
         "prefix": "HEROPICK_STATE_CM_INTRO",
-        "body": "HEROPICK_STATE_CM_INTRO",
+        "body": "HEROPICK_STATE_CM_INTRO = 5",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CM_CAPTAINPICK": {
         "prefix": "HEROPICK_STATE_CM_CAPTAINPICK",
-        "body": "HEROPICK_STATE_CM_CAPTAINPICK",
+        "body": "HEROPICK_STATE_CM_CAPTAINPICK = 6",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CM_BAN1": {
         "prefix": "HEROPICK_STATE_CM_BAN1",
-        "body": "HEROPICK_STATE_CM_BAN1",
+        "body": "HEROPICK_STATE_CM_BAN1 = 7",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CM_BAN2": {
         "prefix": "HEROPICK_STATE_CM_BAN2",
-        "body": "HEROPICK_STATE_CM_BAN2",
+        "body": "HEROPICK_STATE_CM_BAN2 = 8",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CM_BAN3": {
         "prefix": "HEROPICK_STATE_CM_BAN3",
-        "body": "HEROPICK_STATE_CM_BAN3",
+        "body": "HEROPICK_STATE_CM_BAN3 = 9",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CM_BAN4": {
         "prefix": "HEROPICK_STATE_CM_BAN4",
-        "body": "HEROPICK_STATE_CM_BAN4",
+        "body": "HEROPICK_STATE_CM_BAN4 = 10",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CM_BAN5": {
         "prefix": "HEROPICK_STATE_CM_BAN5",
-        "body": "HEROPICK_STATE_CM_BAN5",
+        "body": "HEROPICK_STATE_CM_BAN5 = 11",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CM_BAN6": {
         "prefix": "HEROPICK_STATE_CM_BAN6",
-        "body": "HEROPICK_STATE_CM_BAN6",
+        "body": "HEROPICK_STATE_CM_BAN6 = 12",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CM_BAN7": {
         "prefix": "HEROPICK_STATE_CM_BAN7",
-        "body": "HEROPICK_STATE_CM_BAN7",
+        "body": "HEROPICK_STATE_CM_BAN7 = 13",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CM_BAN8": {
         "prefix": "HEROPICK_STATE_CM_BAN8",
-        "body": "HEROPICK_STATE_CM_BAN8",
+        "body": "HEROPICK_STATE_CM_BAN8 = 14",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CM_BAN9": {
         "prefix": "HEROPICK_STATE_CM_BAN9",
-        "body": "HEROPICK_STATE_CM_BAN9",
+        "body": "HEROPICK_STATE_CM_BAN9 = 15",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CM_BAN10": {
         "prefix": "HEROPICK_STATE_CM_BAN10",
-        "body": "HEROPICK_STATE_CM_BAN10",
+        "body": "HEROPICK_STATE_CM_BAN10 = 16",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CM_SELECT1": {
         "prefix": "HEROPICK_STATE_CM_SELECT1",
-        "body": "HEROPICK_STATE_CM_SELECT1",
+        "body": "HEROPICK_STATE_CM_SELECT1 = 21",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CM_SELECT2": {
         "prefix": "HEROPICK_STATE_CM_SELECT2",
-        "body": "HEROPICK_STATE_CM_SELECT2",
+        "body": "HEROPICK_STATE_CM_SELECT2 = 22",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CM_SELECT3": {
         "prefix": "HEROPICK_STATE_CM_SELECT3",
-        "body": "HEROPICK_STATE_CM_SELECT3",
+        "body": "HEROPICK_STATE_CM_SELECT3 = 23",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CM_SELECT4": {
         "prefix": "HEROPICK_STATE_CM_SELECT4",
-        "body": "HEROPICK_STATE_CM_SELECT4",
+        "body": "HEROPICK_STATE_CM_SELECT4 = 24",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CM_SELECT5": {
         "prefix": "HEROPICK_STATE_CM_SELECT5",
-        "body": "HEROPICK_STATE_CM_SELECT5",
+        "body": "HEROPICK_STATE_CM_SELECT5 = 25",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CM_SELECT6": {
         "prefix": "HEROPICK_STATE_CM_SELECT6",
-        "body": "HEROPICK_STATE_CM_SELECT6",
+        "body": "HEROPICK_STATE_CM_SELECT6 = 26",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CM_SELECT7": {
         "prefix": "HEROPICK_STATE_CM_SELECT7",
-        "body": "HEROPICK_STATE_CM_SELECT7",
+        "body": "HEROPICK_STATE_CM_SELECT7 = 27",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CM_SELECT8": {
         "prefix": "HEROPICK_STATE_CM_SELECT8",
-        "body": "HEROPICK_STATE_CM_SELECT8",
+        "body": "HEROPICK_STATE_CM_SELECT8 = 28",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CM_SELECT9": {
         "prefix": "HEROPICK_STATE_CM_SELECT9",
-        "body": "HEROPICK_STATE_CM_SELECT9",
+        "body": "HEROPICK_STATE_CM_SELECT9 = 29",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CM_SELECT10": {
         "prefix": "HEROPICK_STATE_CM_SELECT10",
-        "body": "HEROPICK_STATE_CM_SELECT10",
+        "body": "HEROPICK_STATE_CM_SELECT10 = 30",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CM_PICK": {
         "prefix": "HEROPICK_STATE_CM_PICK",
-        "body": "HEROPICK_STATE_CM_PICK",
+        "body": "HEROPICK_STATE_CM_PICK = 31",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_AR_SELECT": {
         "prefix": "HEROPICK_STATE_AR_SELECT",
-        "body": "HEROPICK_STATE_AR_SELECT",
+        "body": "HEROPICK_STATE_AR_SELECT = 32",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_MO_SELECT": {
         "prefix": "HEROPICK_STATE_MO_SELECT",
-        "body": "HEROPICK_STATE_MO_SELECT",
+        "body": "HEROPICK_STATE_MO_SELECT = 33",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_FH_SELECT": {
         "prefix": "HEROPICK_STATE_FH_SELECT",
-        "body": "HEROPICK_STATE_FH_SELECT",
+        "body": "HEROPICK_STATE_FH_SELECT = 34",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CD_INTRO": {
         "prefix": "HEROPICK_STATE_CD_INTRO",
-        "body": "HEROPICK_STATE_CD_INTRO",
+        "body": "HEROPICK_STATE_CD_INTRO = 35",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CD_CAPTAINPICK": {
         "prefix": "HEROPICK_STATE_CD_CAPTAINPICK",
-        "body": "HEROPICK_STATE_CD_CAPTAINPICK",
+        "body": "HEROPICK_STATE_CD_CAPTAINPICK = 36",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CD_BAN1": {
         "prefix": "HEROPICK_STATE_CD_BAN1",
-        "body": "HEROPICK_STATE_CD_BAN1",
+        "body": "HEROPICK_STATE_CD_BAN1 = 37",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CD_BAN2": {
         "prefix": "HEROPICK_STATE_CD_BAN2",
-        "body": "HEROPICK_STATE_CD_BAN2",
+        "body": "HEROPICK_STATE_CD_BAN2 = 38",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CD_BAN3": {
         "prefix": "HEROPICK_STATE_CD_BAN3",
-        "body": "HEROPICK_STATE_CD_BAN3",
+        "body": "HEROPICK_STATE_CD_BAN3 = 39",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CD_BAN4": {
         "prefix": "HEROPICK_STATE_CD_BAN4",
-        "body": "HEROPICK_STATE_CD_BAN4",
+        "body": "HEROPICK_STATE_CD_BAN4 = 40",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CD_BAN5": {
         "prefix": "HEROPICK_STATE_CD_BAN5",
-        "body": "HEROPICK_STATE_CD_BAN5",
+        "body": "HEROPICK_STATE_CD_BAN5 = 41",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CD_BAN6": {
         "prefix": "HEROPICK_STATE_CD_BAN6",
-        "body": "HEROPICK_STATE_CD_BAN6",
+        "body": "HEROPICK_STATE_CD_BAN6 = 42",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CD_SELECT1": {
         "prefix": "HEROPICK_STATE_CD_SELECT1",
-        "body": "HEROPICK_STATE_CD_SELECT1",
+        "body": "HEROPICK_STATE_CD_SELECT1 = 43",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CD_SELECT2": {
         "prefix": "HEROPICK_STATE_CD_SELECT2",
-        "body": "HEROPICK_STATE_CD_SELECT2",
+        "body": "HEROPICK_STATE_CD_SELECT2 = 44",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CD_SELECT3": {
         "prefix": "HEROPICK_STATE_CD_SELECT3",
-        "body": "HEROPICK_STATE_CD_SELECT3",
+        "body": "HEROPICK_STATE_CD_SELECT3 = 45",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CD_SELECT4": {
         "prefix": "HEROPICK_STATE_CD_SELECT4",
-        "body": "HEROPICK_STATE_CD_SELECT4",
+        "body": "HEROPICK_STATE_CD_SELECT4 = 46",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CD_SELECT5": {
         "prefix": "HEROPICK_STATE_CD_SELECT5",
-        "body": "HEROPICK_STATE_CD_SELECT5",
+        "body": "HEROPICK_STATE_CD_SELECT5 = 47",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CD_SELECT6": {
         "prefix": "HEROPICK_STATE_CD_SELECT6",
-        "body": "HEROPICK_STATE_CD_SELECT6",
+        "body": "HEROPICK_STATE_CD_SELECT6 = 48",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CD_SELECT7": {
         "prefix": "HEROPICK_STATE_CD_SELECT7",
-        "body": "HEROPICK_STATE_CD_SELECT7",
+        "body": "HEROPICK_STATE_CD_SELECT7 = 49",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CD_SELECT8": {
         "prefix": "HEROPICK_STATE_CD_SELECT8",
-        "body": "HEROPICK_STATE_CD_SELECT8",
+        "body": "HEROPICK_STATE_CD_SELECT8 = 50",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CD_SELECT9": {
         "prefix": "HEROPICK_STATE_CD_SELECT9",
-        "body": "HEROPICK_STATE_CD_SELECT9",
+        "body": "HEROPICK_STATE_CD_SELECT9 = 51",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CD_SELECT10": {
         "prefix": "HEROPICK_STATE_CD_SELECT10",
-        "body": "HEROPICK_STATE_CD_SELECT10",
+        "body": "HEROPICK_STATE_CD_SELECT10 = 52",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_CD_PICK": {
         "prefix": "HEROPICK_STATE_CD_PICK",
-        "body": "HEROPICK_STATE_CD_PICK",
+        "body": "HEROPICK_STATE_CD_PICK = 53",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_BD_SELECT": {
         "prefix": "HEROPICK_STATE_BD_SELECT",
-        "body": "HEROPICK_STATE_BD_SELECT",
+        "body": "HEROPICK_STATE_BD_SELECT = 54",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HERO_PICK_STATE_ABILITY_DRAFT_SELECT": {
         "prefix": "HERO_PICK_STATE_ABILITY_DRAFT_SELECT",
-        "body": "HERO_PICK_STATE_ABILITY_DRAFT_SELECT",
+        "body": "HERO_PICK_STATE_ABILITY_DRAFT_SELECT = 55",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HERO_PICK_STATE_ARDM_SELECT": {
         "prefix": "HERO_PICK_STATE_ARDM_SELECT",
-        "body": "HERO_PICK_STATE_ARDM_SELECT",
+        "body": "HERO_PICK_STATE_ARDM_SELECT = 56",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_ALL_DRAFT_SELECT": {
         "prefix": "HEROPICK_STATE_ALL_DRAFT_SELECT",
-        "body": "HEROPICK_STATE_ALL_DRAFT_SELECT",
+        "body": "HEROPICK_STATE_ALL_DRAFT_SELECT = 57",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HERO_PICK_STATE_CUSTOMGAME_SELECT": {
         "prefix": "HERO_PICK_STATE_CUSTOMGAME_SELECT",
-        "body": "HERO_PICK_STATE_CUSTOMGAME_SELECT",
+        "body": "HERO_PICK_STATE_CUSTOMGAME_SELECT = nil",
         "description": "Constant: Hero Pick States"
     },
     "Constant_HEROPICK_STATE_SELECT_PENALTY": {
         "prefix": "HEROPICK_STATE_SELECT_PENALTY",
-        "body": "HEROPICK_STATE_SELECT_PENALTY",
+        "body": "HEROPICK_STATE_SELECT_PENALTY = 59",
         "description": "Constant: Hero Pick States"
     },
     "Constant_RUNE_INVALID": {
         "prefix": "RUNE_INVALID",
-        "body": "RUNE_INVALID",
+        "body": "RUNE_INVALID = -1",
         "description": "Constant: Rune Types\n(used as return value)"
     },
     "Constant_RUNE_DOUBLEDAMAGE": {
         "prefix": "RUNE_DOUBLEDAMAGE",
-        "body": "RUNE_DOUBLEDAMAGE",
+        "body": "RUNE_DOUBLEDAMAGE = 0",
         "description": "Constant: Rune Types"
     },
     "Constant_RUNE_HASTE": {
         "prefix": "RUNE_HASTE",
-        "body": "RUNE_HASTE",
+        "body": "RUNE_HASTE = 1",
         "description": "Constant: Rune Types"
     },
     "Constant_RUNE_ILLUSION": {
         "prefix": "RUNE_ILLUSION",
-        "body": "RUNE_ILLUSION",
+        "body": "RUNE_ILLUSION = 2",
         "description": "Constant: Rune Types"
     },
     "Constant_RUNE_INVISIBILITY": {
         "prefix": "RUNE_INVISIBILITY",
-        "body": "RUNE_INVISIBILITY",
+        "body": "RUNE_INVISIBILITY = 3",
         "description": "Constant: Rune Types"
     },
     "Constant_RUNE_REGENERATION": {
         "prefix": "RUNE_REGENERATION",
-        "body": "RUNE_REGENERATION",
+        "body": "RUNE_REGENERATION = 4",
         "description": "Constant: Rune Types"
     },
     "Constant_RUNE_BOUNTY": {
         "prefix": "RUNE_BOUNTY",
-        "body": "RUNE_BOUNTY",
+        "body": "RUNE_BOUNTY = 5",
         "description": "Constant: Rune Types"
     },
     "Constant_RUNE_ARCANE": {
         "prefix": "RUNE_ARCANE",
-        "body": "RUNE_ARCANE",
+        "body": "RUNE_ARCANE = 6",
         "description": "Constant: Rune Types"
     },
     "Constant_RUNE_STATUS_UNKNOWN": {
         "prefix": "RUNE_STATUS_UNKNOWN",
-        "body": "RUNE_STATUS_UNKNOWN",
+        "body": "RUNE_STATUS_UNKNOWN = 0",
         "description": "Constant: Rune Status"
     },
     "Constant_RUNE_STATUS_AVAILABLE": {
         "prefix": "RUNE_STATUS_AVAILABLE",
-        "body": "RUNE_STATUS_AVAILABLE",
+        "body": "RUNE_STATUS_AVAILABLE = 1",
         "description": "Constant: Rune Status"
     },
     "Constant_RUNE_STATUS_MISSING": {
         "prefix": "RUNE_STATUS_MISSING",
-        "body": "RUNE_STATUS_MISSING",
+        "body": "RUNE_STATUS_MISSING = 2",
         "description": "Constant: Rune Status"
     },
     "Constant_RUNE_POWERUP_1": {
         "prefix": "RUNE_POWERUP_1",
-        "body": "RUNE_POWERUP_1",
+        "body": "RUNE_POWERUP_1 = 0",
         "description": "Constant: Rune Locations"
     },
     "Constant_RUNE_POWERUP_2": {
         "prefix": "RUNE_POWERUP_2",
-        "body": "RUNE_POWERUP_2",
+        "body": "RUNE_POWERUP_2 = 1",
         "description": "Constant: Rune Locations"
     },
     "Constant_RUNE_BOUNTY_1": {
         "prefix": "RUNE_BOUNTY_1",
-        "body": "RUNE_BOUNTY_1",
+        "body": "RUNE_BOUNTY_1 = 2",
         "description": "Constant: Rune Locations"
     },
     "Constant_RUNE_BOUNTY_2": {
         "prefix": "RUNE_BOUNTY_2",
-        "body": "RUNE_BOUNTY_2",
+        "body": "RUNE_BOUNTY_2 = 3",
         "description": "Constant: Rune Locations"
     },
     "Constant_RUNE_BOUNTY_3": {
         "prefix": "RUNE_BOUNTY_3",
-        "body": "RUNE_BOUNTY_3",
+        "body": "RUNE_BOUNTY_3 = 4",
         "description": "Constant: Rune Locations"
     },
     "Constant_RUNE_BOUNTY_4": {
         "prefix": "RUNE_BOUNTY_4",
-        "body": "RUNE_BOUNTY_4",
+        "body": "RUNE_BOUNTY_4 = 5",
         "description": "Constant: Rune Locations"
     },
     "Constant_ITEM_SLOT_TYPE_INVALID": {
         "prefix": "ITEM_SLOT_TYPE_INVALID",
-        "body": "ITEM_SLOT_TYPE_INVALID",
+        "body": "ITEM_SLOT_TYPE_INVALID = -1",
         "description": "Constant: Item Slot Types"
     },
     "Constant_ITEM_SLOT_TYPE_MAIN": {
         "prefix": "ITEM_SLOT_TYPE_MAIN",
-        "body": "ITEM_SLOT_TYPE_MAIN",
+        "body": "ITEM_SLOT_TYPE_MAIN = 0",
         "description": "Constant: Item Slot Types"
     },
     "Constant_ITEM_SLOT_TYPE_BACKPACK": {
         "prefix": "ITEM_SLOT_TYPE_BACKPACK",
-        "body": "ITEM_SLOT_TYPE_BACKPACK",
+        "body": "ITEM_SLOT_TYPE_BACKPACK = 1",
         "description": "Constant: Item Slot Types"
     },
     "Constant_ITEM_SLOT_TYPE_STASH": {
         "prefix": "ITEM_SLOT_TYPE_STASH",
-        "body": "ITEM_SLOT_TYPE_STASH",
+        "body": "ITEM_SLOT_TYPE_STASH = 2",
         "description": "Constant: Item Slot Types"
     },
     "Constant_BOT_ACTION_TYPE_NONE": {
         "prefix": "BOT_ACTION_TYPE_NONE",
-        "body": "BOT_ACTION_TYPE_NONE",
+        "body": "BOT_ACTION_TYPE_NONE = 0",
         "description": "Constant: Action Types"
     },
     "Constant_BOT_ACTION_TYPE_IDLE": {
         "prefix": "BOT_ACTION_TYPE_IDLE",
-        "body": "BOT_ACTION_TYPE_IDLE",
+        "body": "BOT_ACTION_TYPE_IDLE = 1",
         "description": "Constant: Action Types"
     },
     "Constant_BOT_ACTION_TYPE_MOVE_TO": {
         "prefix": "BOT_ACTION_TYPE_MOVE_TO",
-        "body": "BOT_ACTION_TYPE_MOVE_TO",
+        "body": "BOT_ACTION_TYPE_MOVE_TO = 2",
         "description": "Constant: Action Types"
     },
     "Constant_BOT_ACTION_TYPE_MOVE_TO_DIRECTLY": {
         "prefix": "BOT_ACTION_TYPE_MOVE_TO_DIRECTLY",
-        "body": "BOT_ACTION_TYPE_MOVE_TO_DIRECTLY",
+        "body": "BOT_ACTION_TYPE_MOVE_TO_DIRECTLY = 3",
         "description": "Constant: Action Types"
     },
     "Constant_BOT_ACTION_TYPE_ATTACK": {
         "prefix": "BOT_ACTION_TYPE_ATTACK",
-        "body": "BOT_ACTION_TYPE_ATTACK",
+        "body": "BOT_ACTION_TYPE_ATTACK = 4",
         "description": "Constant: Action Types"
     },
     "Constant_BOT_ACTION_TYPE_ATTACKMOVE": {
         "prefix": "BOT_ACTION_TYPE_ATTACKMOVE",
-        "body": "BOT_ACTION_TYPE_ATTACKMOVE",
+        "body": "BOT_ACTION_TYPE_ATTACKMOVE = 5",
         "description": "Constant: Action Types"
     },
     "Constant_BOT_ACTION_TYPE_USE_ABILITY": {
         "prefix": "BOT_ACTION_TYPE_USE_ABILITY",
-        "body": "BOT_ACTION_TYPE_USE_ABILITY",
+        "body": "BOT_ACTION_TYPE_USE_ABILITY = 6",
         "description": "Constant: Action Types"
     },
     "Constant_BOT_ACTION_TYPE_PICK_UP_RUNE": {
         "prefix": "BOT_ACTION_TYPE_PICK_UP_RUNE",
-        "body": "BOT_ACTION_TYPE_PICK_UP_RUNE",
+        "body": "BOT_ACTION_TYPE_PICK_UP_RUNE = 7",
         "description": "Constant: Action Types"
     },
     "Constant_BOT_ACTION_TYPE_PICK_UP_ITEM": {
         "prefix": "BOT_ACTION_TYPE_PICK_UP_ITEM",
-        "body": "BOT_ACTION_TYPE_PICK_UP_ITEM",
+        "body": "BOT_ACTION_TYPE_PICK_UP_ITEM = 8",
         "description": "Constant: Action Types"
     },
     "Constant_BOT_ACTION_TYPE_DROP_ITEM": {
         "prefix": "BOT_ACTION_TYPE_DROP_ITEM",
-        "body": "BOT_ACTION_TYPE_DROP_ITEM",
+        "body": "BOT_ACTION_TYPE_DROP_ITEM = 9",
         "description": "Constant: Action Types"
     },
     "Constant_BOT_ACTION_TYPE_SHRINE": {
         "prefix": "BOT_ACTION_TYPE_SHRINE",
-        "body": "BOT_ACTION_TYPE_SHRINE",
+        "body": "BOT_ACTION_TYPE_SHRINE = 10",
         "description": "Constant: Action Types"
     },
     "Constant_BOT_ACTION_TYPE_DELAY": {
         "prefix": "BOT_ACTION_TYPE_DELAY",
-        "body": "BOT_ACTION_TYPE_DELAY",
+        "body": "BOT_ACTION_TYPE_DELAY = 11",
         "description": "Constant: Action Types"
     },
     "Constant_COURIER_ACTION_BURST": {
         "prefix": "COURIER_ACTION_BURST",
-        "body": "COURIER_ACTION_BURST",
+        "body": "COURIER_ACTION_BURST = 5",
         "description": "Constant: Courier Actions and States"
     },
     "Constant_COURIER_ACTION_ENEMY_SECRET_SHOP": {
         "prefix": "COURIER_ACTION_ENEMY_SECRET_SHOP",
-        "body": "COURIER_ACTION_ENEMY_SECRET_SHOP",
+        "body": "COURIER_ACTION_ENEMY_SECRET_SHOP = 7",
         "description": "Constant: Courier Actions and States"
     },
     "Constant_COURIER_ACTION_RETURN": {
         "prefix": "COURIER_ACTION_RETURN",
-        "body": "COURIER_ACTION_RETURN",
+        "body": "COURIER_ACTION_RETURN = 0",
         "description": "Constant: Courier Actions and States"
     },
     "Constant_COURIER_ACTION_SECRET_SHOP": {
         "prefix": "COURIER_ACTION_SECRET_SHOP",
-        "body": "COURIER_ACTION_SECRET_SHOP",
+        "body": "COURIER_ACTION_SECRET_SHOP = 1",
         "description": "Constant: Courier Actions and States"
     },
     "Constant_COURIER_ACTION_SIDE_SHOP": {
         "prefix": "COURIER_ACTION_SIDE_SHOP",
-        "body": "COURIER_ACTION_SIDE_SHOP",
+        "body": "COURIER_ACTION_SIDE_SHOP = 8",
         "description": "Constant: Courier Actions and States"
     },
     "Constant_COURIER_ACTION_SIDE_SHOP2": {
         "prefix": "COURIER_ACTION_SIDE_SHOP2",
-        "body": "COURIER_ACTION_SIDE_SHOP2",
+        "body": "COURIER_ACTION_SIDE_SHOP2 = 9",
         "description": "Constant: Courier Actions and States"
     },
     "Constant_COURIER_ACTION_TAKE_STASH_ITEMS": {
         "prefix": "COURIER_ACTION_TAKE_STASH_ITEMS",
-        "body": "COURIER_ACTION_TAKE_STASH_ITEMS",
+        "body": "COURIER_ACTION_TAKE_STASH_ITEMS = 3",
         "description": "Constant: Courier Actions and States"
     },
     "Constant_COURIER_ACTION_TAKE_AND_TRANSFER_ITEMS": {
         "prefix": "COURIER_ACTION_TAKE_AND_TRANSFER_ITEMS",
-        "body": "COURIER_ACTION_TAKE_AND_TRANSFER_ITEMS",
+        "body": "COURIER_ACTION_TAKE_AND_TRANSFER_ITEMS = 6",
         "description": "Constant: Courier Actions and States"
     },
     "Constant_COURIER_ACTION_TRANSFER_ITEMS": {
         "prefix": "COURIER_ACTION_TRANSFER_ITEMS",
-        "body": "COURIER_ACTION_TRANSFER_ITEMS",
+        "body": "COURIER_ACTION_TRANSFER_ITEMS = 4",
         "description": "Constant: Courier Actions and States"
     },
     "Constant_COURIER_STATE_IDLE": {
         "prefix": "COURIER_STATE_IDLE",
-        "body": "COURIER_STATE_IDLE",
+        "body": "COURIER_STATE_IDLE = 0",
         "description": "Constant: Courier Actions and States"
     },
     "Constant_COURIER_STATE_AT_BASE": {
         "prefix": "COURIER_STATE_AT_BASE",
-        "body": "COURIER_STATE_AT_BASE",
+        "body": "COURIER_STATE_AT_BASE = 1",
         "description": "Constant: Courier Actions and States"
     },
     "Constant_COURIER_STATE_MOVING": {
         "prefix": "COURIER_STATE_MOVING",
-        "body": "COURIER_STATE_MOVING",
+        "body": "COURIER_STATE_MOVING = 2",
         "description": "Constant: Courier Actions and States"
     },
     "Constant_COURIER_STATE_DELIVERING_ITEMS": {
         "prefix": "COURIER_STATE_DELIVERING_ITEMS",
-        "body": "COURIER_STATE_DELIVERING_ITEMS",
+        "body": "COURIER_STATE_DELIVERING_ITEMS = 3",
         "description": "Constant: Courier Actions and States"
     },
     "Constant_COURIER_STATE_RETURNING_TO_BASE": {
         "prefix": "COURIER_STATE_RETURNING_TO_BASE",
-        "body": "COURIER_STATE_RETURNING_TO_BASE",
+        "body": "COURIER_STATE_RETURNING_TO_BASE = 4",
         "description": "Constant: Courier Actions and States"
     },
     "Constant_COURIER_STATE_DEAD": {
         "prefix": "COURIER_STATE_DEAD",
-        "body": "COURIER_STATE_DEAD",
+        "body": "COURIER_STATE_DEAD = 5",
         "description": "Constant: Courier Actions and States"
     },
     "Constant_TOWER_TOP_1": {
         "prefix": "TOWER_TOP_1",
-        "body": "TOWER_TOP_1",
+        "body": "TOWER_TOP_1 = 0",
         "description": "Constant: Towers"
     },
     "Constant_TOWER_TOP_2": {
         "prefix": "TOWER_TOP_2",
-        "body": "TOWER_TOP_2",
+        "body": "TOWER_TOP_2 = 1",
         "description": "Constant: Towers"
     },
     "Constant_TOWER_TOP_3": {
         "prefix": "TOWER_TOP_3",
-        "body": "TOWER_TOP_3",
+        "body": "TOWER_TOP_3 = 2",
         "description": "Constant: Towers"
     },
     "Constant_TOWER_MID_1": {
         "prefix": "TOWER_MID_1",
-        "body": "TOWER_MID_1",
+        "body": "TOWER_MID_1 = 3",
         "description": "Constant: Towers"
     },
     "Constant_TOWER_MID_2": {
         "prefix": "TOWER_MID_2",
-        "body": "TOWER_MID_2",
+        "body": "TOWER_MID_2 = 4",
         "description": "Constant: Towers"
     },
     "Constant_TOWER_MID_3": {
         "prefix": "TOWER_MID_3",
-        "body": "TOWER_MID_3",
+        "body": "TOWER_MID_3 = 5",
         "description": "Constant: Towers"
     },
     "Constant_TOWER_BOT_1": {
         "prefix": "TOWER_BOT_1",
-        "body": "TOWER_BOT_1",
+        "body": "TOWER_BOT_1 = 6",
         "description": "Constant: Towers"
     },
     "Constant_TOWER_BOT_2": {
         "prefix": "TOWER_BOT_2",
-        "body": "TOWER_BOT_2",
+        "body": "TOWER_BOT_2 = 7",
         "description": "Constant: Towers"
     },
     "Constant_TOWER_BOT_3": {
         "prefix": "TOWER_BOT_3",
-        "body": "TOWER_BOT_3",
+        "body": "TOWER_BOT_3 = 8",
         "description": "Constant: Towers"
     },
     "Constant_TOWER_BASE_1": {
         "prefix": "TOWER_BASE_1",
-        "body": "TOWER_BASE_1",
+        "body": "TOWER_BASE_1 = 9",
         "description": "Constant: Towers"
     },
     "Constant_TOWER_BASE_2": {
         "prefix": "TOWER_BASE_2",
-        "body": "TOWER_BASE_2",
+        "body": "TOWER_BASE_2 = 10",
         "description": "Constant: Towers"
     },
     "Constant_BARRACKS_TOP_MELEE": {
         "prefix": "BARRACKS_TOP_MELEE",
-        "body": "BARRACKS_TOP_MELEE",
+        "body": "BARRACKS_TOP_MELEE = 0",
         "description": "Constant: Barracks"
     },
     "Constant_BARRACKS_TOP_RANGED": {
         "prefix": "BARRACKS_TOP_RANGED",
-        "body": "BARRACKS_TOP_RANGED",
+        "body": "BARRACKS_TOP_RANGED = 1",
         "description": "Constant: Barracks"
     },
     "Constant_BARRACKS_MID_MELEE": {
         "prefix": "BARRACKS_MID_MELEE",
-        "body": "BARRACKS_MID_MELEE",
+        "body": "BARRACKS_MID_MELEE = 2",
         "description": "Constant: Barracks"
     },
     "Constant_BARRACKS_MID_RANGED": {
         "prefix": "BARRACKS_MID_RANGED",
-        "body": "BARRACKS_MID_RANGED",
+        "body": "BARRACKS_MID_RANGED = 3",
         "description": "Constant: Barracks"
     },
     "Constant_BARRACKS_BOT_MELEE": {
         "prefix": "BARRACKS_BOT_MELEE",
-        "body": "BARRACKS_BOT_MELEE",
+        "body": "BARRACKS_BOT_MELEE = 4",
         "description": "Constant: Barracks"
     },
     "Constant_BARRACKS_BOT_RANGED": {
         "prefix": "BARRACKS_BOT_RANGED",
-        "body": "BARRACKS_BOT_RANGED",
+        "body": "BARRACKS_BOT_RANGED = 5",
         "description": "Constant: Barracks"
     },
     "Constant_SHRINE_BASE_1": {
         "prefix": "SHRINE_BASE_1",
-        "body": "SHRINE_BASE_1",
+        "body": "SHRINE_BASE_1 = 0",
         "description": "Constant: Shrines"
     },
     "Constant_SHRINE_BASE_2": {
         "prefix": "SHRINE_BASE_2",
-        "body": "SHRINE_BASE_2",
+        "body": "SHRINE_BASE_2 = 1",
         "description": "Constant: Shrines"
     },
     "Constant_SHRINE_BASE_3": {
         "prefix": "SHRINE_BASE_3",
-        "body": "SHRINE_BASE_3",
+        "body": "SHRINE_BASE_3 = 2",
         "description": "Constant: Shrines"
     },
     "Constant_SHRINE_BASE_4": {
         "prefix": "SHRINE_BASE_4",
-        "body": "SHRINE_BASE_4",
+        "body": "SHRINE_BASE_4 = nil",
         "description": "Constant: Shrines"
     },
     "Constant_SHRINE_BASE_5": {
         "prefix": "SHRINE_BASE_5",
-        "body": "SHRINE_BASE_5",
+        "body": "SHRINE_BASE_5 = nil",
         "description": "Constant: Shrines"
     },
     "Constant_SHRINE_JUNGLE_1": {
         "prefix": "SHRINE_JUNGLE_1",
-        "body": "SHRINE_JUNGLE_1",
+        "body": "SHRINE_JUNGLE_1 = 3",
         "description": "Constant: Shrines"
     },
     "Constant_SHRINE_JUNGLE_2": {
         "prefix": "SHRINE_JUNGLE_2",
-        "body": "SHRINE_JUNGLE_2",
+        "body": "SHRINE_JUNGLE_2 = 4",
         "description": "Constant: Shrines"
     },
     "Constant_SHOP_HOME": {
         "prefix": "SHOP_HOME",
-        "body": "SHOP_HOME",
+        "body": "SHOP_HOME = 0",
         "description": "Constant: Shops"
     },
     "Constant_SHOP_SIDE": {
         "prefix": "SHOP_SIDE",
-        "body": "SHOP_SIDE",
+        "body": "SHOP_SIDE = 1",
         "description": "Constant: Shops"
     },
     "Constant_SHOP_SECRET": {
         "prefix": "SHOP_SECRET",
-        "body": "SHOP_SECRET",
+        "body": "SHOP_SECRET = 2",
         "description": "Constant: Shops"
     },
     "Constant_SHOP_SIDE2": {
         "prefix": "SHOP_SIDE2",
-        "body": "SHOP_SIDE2",
+        "body": "SHOP_SIDE2 = 4",
         "description": "Constant: Shops"
     },
     "Constant_SHOP_SECRET2": {
         "prefix": "SHOP_SECRET2",
-        "body": "SHOP_SECRET2",
+        "body": "SHOP_SECRET2 = 5",
         "description": "Constant: Shops"
     },
     "Constant_ABILITY_TARGET_TEAM_NONE": {
         "prefix": "ABILITY_TARGET_TEAM_NONE",
-        "body": "ABILITY_TARGET_TEAM_NONE",
+        "body": "ABILITY_TARGET_TEAM_NONE = 0",
         "description": "Constant: Ability Target Teams"
     },
     "Constant_ABILITY_TARGET_TEAM_FRIENDLY": {
         "prefix": "ABILITY_TARGET_TEAM_FRIENDLY",
-        "body": "ABILITY_TARGET_TEAM_FRIENDLY",
+        "body": "ABILITY_TARGET_TEAM_FRIENDLY = 1",
         "description": "Constant: Ability Target Teams"
     },
     "Constant_ABILITY_TARGET_TEAM_ENEMY": {
         "prefix": "ABILITY_TARGET_TEAM_ENEMY",
-        "body": "ABILITY_TARGET_TEAM_ENEMY",
+        "body": "ABILITY_TARGET_TEAM_ENEMY = 2",
         "description": "Constant: Ability Target Teams"
     },
     "Constant_ABILITY_TARGET_TYPE_NONE": {
         "prefix": "ABILITY_TARGET_TYPE_NONE",
-        "body": "ABILITY_TARGET_TYPE_NONE",
+        "body": "ABILITY_TARGET_TYPE_NONE = 0",
         "description": "Constant: Ability Target Types"
     },
     "Constant_ABILITY_TARGET_TYPE_HERO": {
         "prefix": "ABILITY_TARGET_TYPE_HERO",
-        "body": "ABILITY_TARGET_TYPE_HERO",
+        "body": "ABILITY_TARGET_TYPE_HERO = 1",
         "description": "Constant: Ability Target Types"
     },
     "Constant_ABILITY_TARGET_TYPE_CREEP": {
         "prefix": "ABILITY_TARGET_TYPE_CREEP",
-        "body": "ABILITY_TARGET_TYPE_CREEP",
+        "body": "ABILITY_TARGET_TYPE_CREEP = 2",
         "description": "Constant: Ability Target Types"
     },
     "Constant_ABILITY_TARGET_TYPE_BUILDING": {
         "prefix": "ABILITY_TARGET_TYPE_BUILDING",
-        "body": "ABILITY_TARGET_TYPE_BUILDING",
+        "body": "ABILITY_TARGET_TYPE_BUILDING = 4",
         "description": "Constant: Ability Target Types"
     },
     "Constant_ABILITY_TARGET_TYPE_COURIER": {
         "prefix": "ABILITY_TARGET_TYPE_COURIER",
-        "body": "ABILITY_TARGET_TYPE_COURIER",
+        "body": "ABILITY_TARGET_TYPE_COURIER = 16",
         "description": "Constant: Ability Target Types"
     },
     "Constant_ABILITY_TARGET_TYPE_OTHER": {
         "prefix": "ABILITY_TARGET_TYPE_OTHER",
-        "body": "ABILITY_TARGET_TYPE_OTHER",
+        "body": "ABILITY_TARGET_TYPE_OTHER = 32",
         "description": "Constant: Ability Target Types"
     },
     "Constant_ABILITY_TARGET_TYPE_TREE": {
         "prefix": "ABILITY_TARGET_TYPE_TREE",
-        "body": "ABILITY_TARGET_TYPE_TREE",
+        "body": "ABILITY_TARGET_TYPE_TREE = 64",
         "description": "Constant: Ability Target Types"
     },
     "Constant_ABILITY_TARGET_TYPE_BASIC": {
         "prefix": "ABILITY_TARGET_TYPE_BASIC",
-        "body": "ABILITY_TARGET_TYPE_BASIC",
+        "body": "ABILITY_TARGET_TYPE_BASIC = 18",
         "description": "Constant: Ability Target Types"
     },
     "Constant_ABILITY_TARGET_TYPE_ALL": {
         "prefix": "ABILITY_TARGET_TYPE_ALL",
-        "body": "ABILITY_TARGET_TYPE_ALL",
+        "body": "ABILITY_TARGET_TYPE_ALL = 55",
         "description": "Constant: Ability Target Types"
     },
     "Constant_ABILITY_TARGET_FLAG_NONE": {
         "prefix": "ABILITY_TARGET_FLAG_NONE",
-        "body": "ABILITY_TARGET_FLAG_NONE",
+        "body": "ABILITY_TARGET_FLAG_NONE = 0",
         "description": "Constant: Ability Target Flags"
     },
     "Constant_ABILITY_TARGET_FLAG_RANGED_ONLY": {
         "prefix": "ABILITY_TARGET_FLAG_RANGED_ONLY",
-        "body": "ABILITY_TARGET_FLAG_RANGED_ONLY",
+        "body": "ABILITY_TARGET_FLAG_RANGED_ONLY = 2",
         "description": "Constant: Ability Target Flags"
     },
     "Constant_ABILITY_TARGET_FLAG_MELEE_ONLY": {
         "prefix": "ABILITY_TARGET_FLAG_MELEE_ONLY",
-        "body": "ABILITY_TARGET_FLAG_MELEE_ONLY",
+        "body": "ABILITY_TARGET_FLAG_MELEE_ONLY = 4",
         "description": "Constant: Ability Target Flags"
     },
     "Constant_ABILITY_TARGET_FLAG_DEAD": {
         "prefix": "ABILITY_TARGET_FLAG_DEAD",
-        "body": "ABILITY_TARGET_FLAG_DEAD",
+        "body": "ABILITY_TARGET_FLAG_DEAD = 8",
         "description": "Constant: Ability Target Flags"
     },
     "Constant_ABILITY_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES": {
         "prefix": "ABILITY_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES",
-        "body": "ABILITY_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES",
+        "body": "ABILITY_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES = 16",
         "description": "Constant: Ability Target Flags"
     },
     "Constant_ABILITY_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES": {
         "prefix": "ABILITY_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES",
-        "body": "ABILITY_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES",
+        "body": "ABILITY_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES = 32",
         "description": "Constant: Ability Target Flags"
     },
     "Constant_ABILITY_TARGET_FLAG_INVULNERABLE": {
         "prefix": "ABILITY_TARGET_FLAG_INVULNERABLE",
-        "body": "ABILITY_TARGET_FLAG_INVULNERABLE",
+        "body": "ABILITY_TARGET_FLAG_INVULNERABLE = 64",
         "description": "Constant: Ability Target Flags"
     },
     "Constant_ABILITY_TARGET_FLAG_FOW_VISIBLE": {
         "prefix": "ABILITY_TARGET_FLAG_FOW_VISIBLE",
-        "body": "ABILITY_TARGET_FLAG_FOW_VISIBLE",
+        "body": "ABILITY_TARGET_FLAG_FOW_VISIBLE = 128",
         "description": "Constant: Ability Target Flags"
     },
     "Constant_ABILITY_TARGET_FLAG_NO_INVIS": {
         "prefix": "ABILITY_TARGET_FLAG_NO_INVIS",
-        "body": "ABILITY_TARGET_FLAG_NO_INVIS",
+        "body": "ABILITY_TARGET_FLAG_NO_INVIS = 256",
         "description": "Constant: Ability Target Flags"
     },
     "Constant_ABILITY_TARGET_FLAG_NOT_ANCIENTS": {
         "prefix": "ABILITY_TARGET_FLAG_NOT_ANCIENTS",
-        "body": "ABILITY_TARGET_FLAG_NOT_ANCIENTS",
+        "body": "ABILITY_TARGET_FLAG_NOT_ANCIENTS = 512",
         "description": "Constant: Ability Target Flags"
     },
     "Constant_ABILITY_TARGET_FLAG_PLAYER_CONTROLLED": {
         "prefix": "ABILITY_TARGET_FLAG_PLAYER_CONTROLLED",
-        "body": "ABILITY_TARGET_FLAG_PLAYER_CONTROLLED",
+        "body": "ABILITY_TARGET_FLAG_PLAYER_CONTROLLED = 1024",
         "description": "Constant: Ability Target Flags"
     },
     "Constant_ABILITY_TARGET_FLAG_NOT_DOMINATED": {
         "prefix": "ABILITY_TARGET_FLAG_NOT_DOMINATED",
-        "body": "ABILITY_TARGET_FLAG_NOT_DOMINATED",
+        "body": "ABILITY_TARGET_FLAG_NOT_DOMINATED = 2048",
         "description": "Constant: Ability Target Flags"
     },
     "Constant_ABILITY_TARGET_FLAG_NOT_SUMMONED": {
         "prefix": "ABILITY_TARGET_FLAG_NOT_SUMMONED",
-        "body": "ABILITY_TARGET_FLAG_NOT_SUMMONED",
+        "body": "ABILITY_TARGET_FLAG_NOT_SUMMONED = 4096",
         "description": "Constant: Ability Target Flags"
     },
     "Constant_ABILITY_TARGET_FLAG_NOT_ILLUSIONS": {
         "prefix": "ABILITY_TARGET_FLAG_NOT_ILLUSIONS",
-        "body": "ABILITY_TARGET_FLAG_NOT_ILLUSIONS",
+        "body": "ABILITY_TARGET_FLAG_NOT_ILLUSIONS = 8192",
         "description": "Constant: Ability Target Flags"
     },
     "Constant_ABILITY_TARGET_FLAG_NOT_ATTACK_IMMUNE": {
         "prefix": "ABILITY_TARGET_FLAG_NOT_ATTACK_IMMUNE",
-        "body": "ABILITY_TARGET_FLAG_NOT_ATTACK_IMMUNE",
+        "body": "ABILITY_TARGET_FLAG_NOT_ATTACK_IMMUNE = 16384",
         "description": "Constant: Ability Target Flags"
     },
     "Constant_ABILITY_TARGET_FLAG_MANA_ONLY": {
         "prefix": "ABILITY_TARGET_FLAG_MANA_ONLY",
-        "body": "ABILITY_TARGET_FLAG_MANA_ONLY",
+        "body": "ABILITY_TARGET_FLAG_MANA_ONLY = 32768",
         "description": "Constant: Ability Target Flags"
     },
     "Constant_ABILITY_TARGET_FLAG_CHECK_DISABLE_HELP": {
         "prefix": "ABILITY_TARGET_FLAG_CHECK_DISABLE_HELP",
-        "body": "ABILITY_TARGET_FLAG_CHECK_DISABLE_HELP",
+        "body": "ABILITY_TARGET_FLAG_CHECK_DISABLE_HELP = 65536",
         "description": "Constant: Ability Target Flags"
     },
     "Constant_ABILITY_TARGET_FLAG_NOT_CREEP_HERO": {
         "prefix": "ABILITY_TARGET_FLAG_NOT_CREEP_HERO",
-        "body": "ABILITY_TARGET_FLAG_NOT_CREEP_HERO",
+        "body": "ABILITY_TARGET_FLAG_NOT_CREEP_HERO = 131072",
         "description": "Constant: Ability Target Flags"
     },
     "Constant_ABILITY_TARGET_FLAG_OUT_OF_WORLD": {
         "prefix": "ABILITY_TARGET_FLAG_OUT_OF_WORLD",
-        "body": "ABILITY_TARGET_FLAG_OUT_OF_WORLD",
+        "body": "ABILITY_TARGET_FLAG_OUT_OF_WORLD = 262144",
         "description": "Constant: Ability Target Flags"
     },
     "Constant_ABILITY_TARGET_FLAG_NOT_NIGHTMARED": {
         "prefix": "ABILITY_TARGET_FLAG_NOT_NIGHTMARED",
-        "body": "ABILITY_TARGET_FLAG_NOT_NIGHTMARED",
+        "body": "ABILITY_TARGET_FLAG_NOT_NIGHTMARED = 524288",
         "description": "Constant: Ability Target Flags"
     },
     "Constant_ABILITY_TARGET_FLAG_PREFER_ENEMIES": {
         "prefix": "ABILITY_TARGET_FLAG_PREFER_ENEMIES",
-        "body": "ABILITY_TARGET_FLAG_PREFER_ENEMIES",
+        "body": "ABILITY_TARGET_FLAG_PREFER_ENEMIES = 1048576",
         "description": "Constant: Ability Target Flags"
     },
     "Constant_ABILITY_BEHAVIOR_NONE": {
         "prefix": "ABILITY_BEHAVIOR_NONE",
-        "body": "ABILITY_BEHAVIOR_NONE",
+        "body": "ABILITY_BEHAVIOR_NONE = 0",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_HIDDEN": {
         "prefix": "ABILITY_BEHAVIOR_HIDDEN",
-        "body": "ABILITY_BEHAVIOR_HIDDEN",
+        "body": "ABILITY_BEHAVIOR_HIDDEN = 1",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_PASSIVE": {
         "prefix": "ABILITY_BEHAVIOR_PASSIVE",
-        "body": "ABILITY_BEHAVIOR_PASSIVE",
+        "body": "ABILITY_BEHAVIOR_PASSIVE = 2",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_NO_TARGET": {
         "prefix": "ABILITY_BEHAVIOR_NO_TARGET",
-        "body": "ABILITY_BEHAVIOR_NO_TARGET",
+        "body": "ABILITY_BEHAVIOR_NO_TARGET = 4",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_UNIT_TARGET": {
         "prefix": "ABILITY_BEHAVIOR_UNIT_TARGET",
-        "body": "ABILITY_BEHAVIOR_UNIT_TARGET",
+        "body": "ABILITY_BEHAVIOR_UNIT_TARGET = 8",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_POINT": {
         "prefix": "ABILITY_BEHAVIOR_POINT",
-        "body": "ABILITY_BEHAVIOR_POINT",
+        "body": "ABILITY_BEHAVIOR_POINT = 16",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_AOE": {
         "prefix": "ABILITY_BEHAVIOR_AOE",
-        "body": "ABILITY_BEHAVIOR_AOE",
+        "body": "ABILITY_BEHAVIOR_AOE = 32",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_NOT_LEARNABLE": {
         "prefix": "ABILITY_BEHAVIOR_NOT_LEARNABLE",
-        "body": "ABILITY_BEHAVIOR_NOT_LEARNABLE",
+        "body": "ABILITY_BEHAVIOR_NOT_LEARNABLE = 64",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_CHANNELLED": {
         "prefix": "ABILITY_BEHAVIOR_CHANNELLED",
-        "body": "ABILITY_BEHAVIOR_CHANNELLED",
+        "body": "ABILITY_BEHAVIOR_CHANNELLED = 128",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_ITEM": {
         "prefix": "ABILITY_BEHAVIOR_ITEM",
-        "body": "ABILITY_BEHAVIOR_ITEM",
+        "body": "ABILITY_BEHAVIOR_ITEM = 256",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_TOGGLE": {
         "prefix": "ABILITY_BEHAVIOR_TOGGLE",
-        "body": "ABILITY_BEHAVIOR_TOGGLE",
+        "body": "ABILITY_BEHAVIOR_TOGGLE = 512",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_DIRECTIONAL": {
         "prefix": "ABILITY_BEHAVIOR_DIRECTIONAL",
-        "body": "ABILITY_BEHAVIOR_DIRECTIONAL",
+        "body": "ABILITY_BEHAVIOR_DIRECTIONAL = 1024",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_IMMEDIATE": {
         "prefix": "ABILITY_BEHAVIOR_IMMEDIATE",
-        "body": "ABILITY_BEHAVIOR_IMMEDIATE",
+        "body": "ABILITY_BEHAVIOR_IMMEDIATE = 2048",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_AUTOCAST": {
         "prefix": "ABILITY_BEHAVIOR_AUTOCAST",
-        "body": "ABILITY_BEHAVIOR_AUTOCAST",
+        "body": "ABILITY_BEHAVIOR_AUTOCAST = 4096",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_OPTIONAL_UNIT_TARGET": {
         "prefix": "ABILITY_BEHAVIOR_OPTIONAL_UNIT_TARGET",
-        "body": "ABILITY_BEHAVIOR_OPTIONAL_UNIT_TARGET",
+        "body": "ABILITY_BEHAVIOR_OPTIONAL_UNIT_TARGET = 8192",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_OPTIONAL_POINT": {
         "prefix": "ABILITY_BEHAVIOR_OPTIONAL_POINT",
-        "body": "ABILITY_BEHAVIOR_OPTIONAL_POINT",
+        "body": "ABILITY_BEHAVIOR_OPTIONAL_POINT = 16384",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_OPTIONAL_NO_TARGET": {
         "prefix": "ABILITY_BEHAVIOR_OPTIONAL_NO_TARGET",
-        "body": "ABILITY_BEHAVIOR_OPTIONAL_NO_TARGET",
+        "body": "ABILITY_BEHAVIOR_OPTIONAL_NO_TARGET = 32768",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_AURA": {
         "prefix": "ABILITY_BEHAVIOR_AURA",
-        "body": "ABILITY_BEHAVIOR_AURA",
+        "body": "ABILITY_BEHAVIOR_AURA = 65536",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_ATTACK": {
         "prefix": "ABILITY_BEHAVIOR_ATTACK",
-        "body": "ABILITY_BEHAVIOR_ATTACK",
+        "body": "ABILITY_BEHAVIOR_ATTACK = 131072",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT": {
         "prefix": "ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT",
-        "body": "ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT",
+        "body": "ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT = 262144",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_ROOT_DISABLES": {
         "prefix": "ABILITY_BEHAVIOR_ROOT_DISABLES",
-        "body": "ABILITY_BEHAVIOR_ROOT_DISABLES",
+        "body": "ABILITY_BEHAVIOR_ROOT_DISABLES = 524288",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_UNRESTRICTED": {
         "prefix": "ABILITY_BEHAVIOR_UNRESTRICTED",
-        "body": "ABILITY_BEHAVIOR_UNRESTRICTED",
+        "body": "ABILITY_BEHAVIOR_UNRESTRICTED = 1048576",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE": {
         "prefix": "ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE",
-        "body": "ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE",
+        "body": "ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE = 2097152",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_IGNORE_CHANNEL": {
         "prefix": "ABILITY_BEHAVIOR_IGNORE_CHANNEL",
-        "body": "ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+        "body": "ABILITY_BEHAVIOR_IGNORE_CHANNEL = 4194304",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT": {
         "prefix": "ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT",
-        "body": "ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT",
+        "body": "ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT = 8388608",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_DONT_ALERT_TARGET": {
         "prefix": "ABILITY_BEHAVIOR_DONT_ALERT_TARGET",
-        "body": "ABILITY_BEHAVIOR_DONT_ALERT_TARGET",
+        "body": "ABILITY_BEHAVIOR_DONT_ALERT_TARGET = 16777216",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK": {
         "prefix": "ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
-        "body": "ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+        "body": "ABILITY_BEHAVIOR_DONT_RESUME_ATTACK = 33554432",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_NORMAL_WHEN_STOLEN": {
         "prefix": "ABILITY_BEHAVIOR_NORMAL_WHEN_STOLEN",
-        "body": "ABILITY_BEHAVIOR_NORMAL_WHEN_STOLEN",
+        "body": "ABILITY_BEHAVIOR_NORMAL_WHEN_STOLEN = 67108864",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_IGNORE_BACKSWING": {
         "prefix": "ABILITY_BEHAVIOR_IGNORE_BACKSWING",
-        "body": "ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+        "body": "ABILITY_BEHAVIOR_IGNORE_BACKSWING = 134217728",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_RUNE_TARGET": {
         "prefix": "ABILITY_BEHAVIOR_RUNE_TARGET",
-        "body": "ABILITY_BEHAVIOR_RUNE_TARGET",
+        "body": "ABILITY_BEHAVIOR_RUNE_TARGET = 268435456",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_DONT_CANCEL_CHANNEL": {
         "prefix": "ABILITY_BEHAVIOR_DONT_CANCEL_CHANNEL",
-        "body": "ABILITY_BEHAVIOR_DONT_CANCEL_CHANNEL",
+        "body": "ABILITY_BEHAVIOR_DONT_CANCEL_CHANNEL = 536870912",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_VECTOR_TARGETING": {
         "prefix": "ABILITY_BEHAVIOR_VECTOR_TARGETING",
-        "body": "ABILITY_BEHAVIOR_VECTOR_TARGETING",
+        "body": "ABILITY_BEHAVIOR_VECTOR_TARGETING = 1073741824",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_ABILITY_BEHAVIOR_LAST_RESORT_POINT": {
         "prefix": "ABILITY_BEHAVIOR_LAST_RESORT_POINT",
-        "body": "ABILITY_BEHAVIOR_LAST_RESORT_POINT",
+        "body": "ABILITY_BEHAVIOR_LAST_RESORT_POINT = -2147483648",
         "description": "Constant: Ability Behavior Bitfields"
     },
     "Constant_GLYPH_COOLDOWN": {
         "prefix": "GLYPH_COOLDOWN",
-        "body": "GLYPH_COOLDOWN",
+        "body": "GLYPH_COOLDOWN = 300",
         "description": "Constant: Misc Constants"
     },
     "Constant_ACTIVITY_IDLE": {
         "prefix": "ACTIVITY_IDLE",
-        "body": "ACTIVITY_IDLE",
+        "body": "ACTIVITY_IDLE = 1500",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_IDLE_RARE": {
         "prefix": "ACTIVITY_IDLE_RARE",
-        "body": "ACTIVITY_IDLE_RARE",
+        "body": "ACTIVITY_IDLE_RARE = 1501",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_RUN": {
         "prefix": "ACTIVITY_RUN",
-        "body": "ACTIVITY_RUN",
+        "body": "ACTIVITY_RUN = 1502",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_ATTACK": {
         "prefix": "ACTIVITY_ATTACK",
-        "body": "ACTIVITY_ATTACK",
+        "body": "ACTIVITY_ATTACK = 1503",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_ATTACK2": {
         "prefix": "ACTIVITY_ATTACK2",
-        "body": "ACTIVITY_ATTACK2",
+        "body": "ACTIVITY_ATTACK2 = 1504",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_ATTACK_EVENT": {
         "prefix": "ACTIVITY_ATTACK_EVENT",
-        "body": "ACTIVITY_ATTACK_EVENT",
+        "body": "ACTIVITY_ATTACK_EVENT = 1505",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_DIE": {
         "prefix": "ACTIVITY_DIE",
-        "body": "ACTIVITY_DIE",
+        "body": "ACTIVITY_DIE = 1506",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_FLINCH": {
         "prefix": "ACTIVITY_FLINCH",
-        "body": "ACTIVITY_FLINCH",
+        "body": "ACTIVITY_FLINCH = 1507",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_FLAIL": {
         "prefix": "ACTIVITY_FLAIL",
-        "body": "ACTIVITY_FLAIL",
+        "body": "ACTIVITY_FLAIL = 1508",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_DISABLED": {
         "prefix": "ACTIVITY_DISABLED",
-        "body": "ACTIVITY_DISABLED",
+        "body": "ACTIVITY_DISABLED = 1509",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_CAST_ABILITY_1": {
         "prefix": "ACTIVITY_CAST_ABILITY_1",
-        "body": "ACTIVITY_CAST_ABILITY_1",
+        "body": "ACTIVITY_CAST_ABILITY_1 = 1510",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_CAST_ABILITY_2": {
         "prefix": "ACTIVITY_CAST_ABILITY_2",
-        "body": "ACTIVITY_CAST_ABILITY_2",
+        "body": "ACTIVITY_CAST_ABILITY_2 = 1511",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_CAST_ABILITY_3": {
         "prefix": "ACTIVITY_CAST_ABILITY_3",
-        "body": "ACTIVITY_CAST_ABILITY_3",
+        "body": "ACTIVITY_CAST_ABILITY_3 = 1512",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_CAST_ABILITY_4": {
         "prefix": "ACTIVITY_CAST_ABILITY_4",
-        "body": "ACTIVITY_CAST_ABILITY_4",
+        "body": "ACTIVITY_CAST_ABILITY_4 = 1513",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_CAST_ABILITY_5": {
         "prefix": "ACTIVITY_CAST_ABILITY_5",
-        "body": "ACTIVITY_CAST_ABILITY_5",
+        "body": "ACTIVITY_CAST_ABILITY_5 = 1514",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_CAST_ABILITY_6": {
         "prefix": "ACTIVITY_CAST_ABILITY_6",
-        "body": "ACTIVITY_CAST_ABILITY_6",
+        "body": "ACTIVITY_CAST_ABILITY_6 = 1515",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_OVERRIDE_ABILITY_1": {
         "prefix": "ACTIVITY_OVERRIDE_ABILITY_1",
-        "body": "ACTIVITY_OVERRIDE_ABILITY_1",
+        "body": "ACTIVITY_OVERRIDE_ABILITY_1 = 1516",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_OVERRIDE_ABILITY_2": {
         "prefix": "ACTIVITY_OVERRIDE_ABILITY_2",
-        "body": "ACTIVITY_OVERRIDE_ABILITY_2",
+        "body": "ACTIVITY_OVERRIDE_ABILITY_2 = 1517",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_OVERRIDE_ABILITY_3": {
         "prefix": "ACTIVITY_OVERRIDE_ABILITY_3",
-        "body": "ACTIVITY_OVERRIDE_ABILITY_3",
+        "body": "ACTIVITY_OVERRIDE_ABILITY_3 = 1518",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_OVERRIDE_ABILITY_4": {
         "prefix": "ACTIVITY_OVERRIDE_ABILITY_4",
-        "body": "ACTIVITY_OVERRIDE_ABILITY_4",
+        "body": "ACTIVITY_OVERRIDE_ABILITY_4 = 1519",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_CHANNEL_ABILITY_1": {
         "prefix": "ACTIVITY_CHANNEL_ABILITY_1",
-        "body": "ACTIVITY_CHANNEL_ABILITY_1",
+        "body": "ACTIVITY_CHANNEL_ABILITY_1 = 1520",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_CHANNEL_ABILITY_2": {
         "prefix": "ACTIVITY_CHANNEL_ABILITY_2",
-        "body": "ACTIVITY_CHANNEL_ABILITY_2",
+        "body": "ACTIVITY_CHANNEL_ABILITY_2 = 1521",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_CHANNEL_ABILITY_3": {
         "prefix": "ACTIVITY_CHANNEL_ABILITY_3",
-        "body": "ACTIVITY_CHANNEL_ABILITY_3",
+        "body": "ACTIVITY_CHANNEL_ABILITY_3 = 1522",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_CHANNEL_ABILITY_4": {
         "prefix": "ACTIVITY_CHANNEL_ABILITY_4",
-        "body": "ACTIVITY_CHANNEL_ABILITY_4",
+        "body": "ACTIVITY_CHANNEL_ABILITY_4 = 1523",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_CHANNEL_ABILITY_5": {
         "prefix": "ACTIVITY_CHANNEL_ABILITY_5",
-        "body": "ACTIVITY_CHANNEL_ABILITY_5",
+        "body": "ACTIVITY_CHANNEL_ABILITY_5 = 1524",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_CHANNEL_ABILITY_6": {
         "prefix": "ACTIVITY_CHANNEL_ABILITY_6",
-        "body": "ACTIVITY_CHANNEL_ABILITY_6",
+        "body": "ACTIVITY_CHANNEL_ABILITY_6 = 1525",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_CHANNEL_END_ABILITY_1": {
         "prefix": "ACTIVITY_CHANNEL_END_ABILITY_1",
-        "body": "ACTIVITY_CHANNEL_END_ABILITY_1",
+        "body": "ACTIVITY_CHANNEL_END_ABILITY_1 = 1526",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_CHANNEL_END_ABILITY_2": {
         "prefix": "ACTIVITY_CHANNEL_END_ABILITY_2",
-        "body": "ACTIVITY_CHANNEL_END_ABILITY_2",
+        "body": "ACTIVITY_CHANNEL_END_ABILITY_2 = 1527",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_CHANNEL_END_ABILITY_3": {
         "prefix": "ACTIVITY_CHANNEL_END_ABILITY_3",
-        "body": "ACTIVITY_CHANNEL_END_ABILITY_3",
+        "body": "ACTIVITY_CHANNEL_END_ABILITY_3 = 1528",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_CHANNEL_END_ABILITY_4": {
         "prefix": "ACTIVITY_CHANNEL_END_ABILITY_4",
-        "body": "ACTIVITY_CHANNEL_END_ABILITY_4",
+        "body": "ACTIVITY_CHANNEL_END_ABILITY_4 = 1529",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_CHANNEL_END_ABILITY_5": {
         "prefix": "ACTIVITY_CHANNEL_END_ABILITY_5",
-        "body": "ACTIVITY_CHANNEL_END_ABILITY_5",
+        "body": "ACTIVITY_CHANNEL_END_ABILITY_5 = 1530",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_CHANNEL_END_ABILITY_6": {
         "prefix": "ACTIVITY_CHANNEL_END_ABILITY_6",
-        "body": "ACTIVITY_CHANNEL_END_ABILITY_6",
+        "body": "ACTIVITY_CHANNEL_END_ABILITY_6 = 1531",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_CONSTANT_LAYER": {
         "prefix": "ACTIVITY_CONSTANT_LAYER",
-        "body": "ACTIVITY_CONSTANT_LAYER",
+        "body": "ACTIVITY_CONSTANT_LAYER = 1532",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_CAPTURE": {
         "prefix": "ACTIVITY_CAPTURE",
-        "body": "ACTIVITY_CAPTURE",
+        "body": "ACTIVITY_CAPTURE = 1533",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_SPAWN": {
         "prefix": "ACTIVITY_SPAWN",
-        "body": "ACTIVITY_SPAWN",
+        "body": "ACTIVITY_SPAWN = 1534",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_KILLTAUNT": {
         "prefix": "ACTIVITY_KILLTAUNT",
-        "body": "ACTIVITY_KILLTAUNT",
+        "body": "ACTIVITY_KILLTAUNT = 1535",
         "description": "Constant: Animation Activities"
     },
     "Constant_ACTIVITY_TAUNT": {
         "prefix": "ACTIVITY_TAUNT",
-        "body": "ACTIVITY_TAUNT",
+        "body": "ACTIVITY_TAUNT = 1536",
         "description": "Constant: Animation Activities"
     }
 }
